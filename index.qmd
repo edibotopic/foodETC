@@ -32,7 +32,7 @@ Notes and slides are designed <u>as a framework only</u> and are developed in gr
 All notes and slides in this course are web-pages that can be easily accessed on phone, tablet or laptop.
 The slides associated with this first lecture can be accessed below:
 
-[📽️ Direct link to slides for this lecture](../slides/one/)
+[📽️ Direct link to slides for this lecture](slides/one/)
 
 📃 Pressing <kbd>e</kbd> on the slides will convert them into a printable format.
 Note: this does not always work well and `pdf` versions will be made available on Canvas where possible.

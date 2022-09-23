@@ -16,36 +16,36 @@ website:
           - index.qmd
       - section: "Ontology"
         # contents:
-        #   - notes/definingfood.qmd 
-        #   - notes/fourcauses.qmd
-        #   - notes/isandisnot.qmd
-        #   - notes/replacingfood.qmd
+        #   - drafts/definingfood.qmd 
+        #   - drafts/fourcauses.qmd
+        #   - drafts/isandisnot.qmd
+        #   - drafts/replacingfood.qmd
       - section: "Epistemology"
         # contents:
-        #   - notes/knowingfood.qmd
-        #   - notes/waysofknowing.qmd
-        #   - notes/scienceandtechnology.qmd
-        #   - notes/fooddisciplines.qmd
-        #   - notes/toolsforknowing.qmd
+        #   - drafts/knowingfood.qmd
+        #   - drafts/waysofknowing.qmd
+        #   - drafts/scienceandtechnology.qmd
+        #   - drafts/fooddisciplines.qmd
+        #   - drafts/toolsforknowing.qmd
       - section: "Semiotics"
         # contents:
-        #   - notes/talkingfood.qmd
-        #   - notes/foodsigns.qmd
-        #   - notes/foodrhetoric.qmd
-        #   - notes/marketingfood.qmd
+        #   - drafts/talkingfood.qmd
+        #   - drafts/foodsigns.qmd
+        #   - drafts/foodrhetoric.qmd
+        #   - drafts/marketingfood.qmd
       - section: "Technoscience"
         # contents:
-        #   - notes/foodstructure.qmd
-        #   - notes/imaginingfood.qmd
-        #   - notes/changingfood.qmd
-        #   - notes/foodprocesses.qmd
+        #   - drafts/foodstructure.qmd
+        #   - drafts/imaginingfood.qmd
+        #   - drafts/changingfood.qmd
+        #   - drafts/foodprocesses.qmd
       - section: "Appendix"
         contents:
-          - notes/slides.qmd
-          # - notes/reflections.qmd
-          # - notes/interactions.qmd
-          # - notes/syllabus.qmd
-      - notes/about.qmd
+          - drafts/slides.qmd
+          # - drafts/reflections.qmd
+          # - drafts/interactions.qmd
+          # - drafts/syllabus.qmd
+      - about.qmd
     tools:
       - icon: github
         menu:
