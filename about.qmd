@@ -2,7 +2,7 @@
 number-sections: false
 about:
  template: jolla
- image: ../img/about_pic.jpg
+ image: img/about_pic.jpg
  links:
   - icon: github
     text: github
