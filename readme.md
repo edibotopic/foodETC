@@ -10,3 +10,4 @@ To-do
 - [ ] Make an icon for the course
 - [ ] Check can't-exit-readermode bug on mobile
 - [ ] Complete draft notes/slides for S1
+- [ ] Check if /notes/ paths work with index in root
