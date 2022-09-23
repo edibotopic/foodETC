@@ -50,9 +50,10 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            url: https://github.com/edibotopic/foodProcessBusiness
+            url: https://github.com/edibotopic/foodETC
           - text: Report a Bug
-            url: https://bugs.com
+            url: https://github.com/edibotopic/foodETC/issues
+
 
 format:
   html:
