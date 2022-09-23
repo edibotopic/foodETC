@@ -13,7 +13,7 @@ website:
     contents:
       - section: "Introduction"
         contents:
-          - notes/index.qmd
+          - index.qmd
       - section: "Ontology"
         # contents:
         #   - notes/definingfood.qmd 

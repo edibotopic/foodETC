@@ -19,7 +19,7 @@ New notes and slides will be made available the before each weekly lecture.
 
 <div>
 ```{=html}
-<iframe class="slide-deck" src="../slides/one/"></iframe>
+<iframe class="slide-deck" src="slides/one/"></iframe>
 ```
 </div>
 
