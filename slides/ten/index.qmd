@@ -1,0 +1,15 @@
+---
+title: "Food ETC"
+author: "Dr Shane Crowley"
+subtitle: "Part 1: Wrap-Up"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: styles.css
+    footer: Food Technology, Culture & Ethics 
+---

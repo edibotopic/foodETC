@@ -1,0 +1,136 @@
+---
+title: "Replacing Food"
+author: "Dr Shane Crowley"
+subtitle: "Case Study: Soylent"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: true
+    buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: styles.css
+    footer: Food Technology, Culture & Ethics 
+---
+
+## {background-video="vids/bottled_food_c.mp4"}
+
+## {background-iframe="http://web.archive.org/web/20170316060410/http://robrhinehart.com/?p=298"}
+
+
+
+---
+
+![](img/soylent_end.png)
+
+---
+
+![](img/soylent_wired.png)
+
+---
+
+![](img/soylent_ft.png)
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+<iframe style="padding-top: 130px" title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" align="center" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000002907606"></iframe>
+:::
+
+::: {.column width="60%"}
+![](img/soylent_newproduct.png)
+
+:::
+
+::::
+
+---
+
+![](img/soylent_changes.png)
+
+## Web Search Trends
+
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3045_RC01/embed_loader.js"></script>
+<script type="text/javascript">
+trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"soylent","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"huel","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"meal replacement","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"slimfast","geo":"","time":"2010-07-25 2022-08-25"}],"category":0,"property":""}, {"exploreQuery":"date=2010-07-25%202022-08-25&q=soylent,huel,meal%20replacement,slimfast","guestPath":"https://trends.google.com:443/trends/embed/"});
+</script>
+
+## Interest by Region
+
+<script type="text/javascript">
+trends.embed.renderExploreWidget("GEO_MAP_0", {"comparisonItem":[{"keyword":"soylent","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"huel","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"meal replacement","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"slimfast","geo":"","time":"2010-07-25 2022-08-25"}],"category":0,"property":""}, {"exploreQuery":"date=2010-07-25%202022-08-25&q=soylent,huel,meal%20replacement,slimfast","guestPath":"https://trends.google.com:443/trends/embed/"});
+</script>
+
+---
+
+![](img/soylent_reddit.png)
+
+---
+
+![](img/soylent_diy.png)
+
+---
+
+::: {.fragment .fade-down}
+::: {.callout-important}
+
+## Universal Versus Niche Technologies
+
+Soylent was initially marketed as a complete meal-replacement.
+Much of its notoriety arises from the universality of this claim.
+For many, seeking efficiency by sacrificing food is undesirable.
+However, such technologies can be useful in specific cases.
+:::
+:::
+
+::: {.fragment .fade-right}
+::: {.callout-tip}
+
+## Techno-optimism Versus Romanticism
+
+In the Soylent future people have more time for other things, but many want still want time for food.
+Critics argued that Soylent was strange but these were arguments from nature, or because 
+the name was distasteful (not arguments of substance).
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.callout-note}
+
+## Legitimate Issues with the Technology
+
+It is arrogant to suggest that the full functionality of food can be replaced easily.
+Diets are diverse, nutritional science isn't finished, taste fatigue is a problem.
+:::
+:::
+
+---
+
+![](img/soylent_ensure.png)
+
+---
+
+<iframe width="100%" height="100%" class="slide-deck" src="soylent_bot.pdf"></iframe>
+
+---
+
+
+
+## Links {.smaller}
+
+- [New Yorker article on the "end of food"](https://www.newyorker.com/magazine/2014/05/12/the-end-of-food)
+- [NYT article on Soylent's shift in focus](https://www.nytimes.com/2019/04/18/style/soylent-squared-food-bars.html)
+- [NYT article on the taste of Soylent](https://www.nytimes.com/2014/05/29/technology/personaltech/the-soylent-revolution-will-not-be-pleasurable.html)
+- [Wired article describing use of Huel and Soylent](https://www.wired.co.uk/article/huel-soylent-meal-replacement-drinks)
+- [Food Navigator article on Soylent's rollercoaster business](https://www.foodnavigator-usa.com/Article/2021/07/28/Soylent-now-profitable-firing-on-all-cylinders-says-CEO-after-rollercoaster-year-We-had-to-make-dramatic-changes-or-we-would-have-run-out-of-cash)
+- [Forbes article on Soylent's business troubles](https://www.forbes.com/sites/christinatroitino/2020/02/18/is-soylent-down-to-its-last-drop/?sh=5f5fca1b6e23)
+- [Discover article on Soylent's nutritional claims](https://www.discovermagazine.com/health/can-we-move-beyond-food)
+- [FT article on Silicon Valley and meal repalcement](https://www.ft.com/content/14faf26a-2680-4c02-a3aa-acaf69e415f7)
+- [UCC study on nutritional supplements](https://www.itjfs.com/index.php/ijfs/article/view/1825)
+
+::: {.callout-warning}
+Many of the reports defending Soylent or attacking Soylent are based on anecdotal evidence or $n=1$ studies.
+:::

@@ -1,0 +1,158 @@
+---
+title: "Epistemology"
+subtitle: "Knowing Food"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: true
+    buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: ../styles.css
+    footer: Food Technology, Culture & Ethics 
+---
+
+## Omnivore's Dilemma
+
+![](img/koala.jpg){fig-align="center" width="70%" height="70%"}
+
+:::{.aside}
+Potential diversity of human diet creates tension between **neophilia** 🍍 and **neopobia** 💀.
+:::
+
+---
+
+## Omnivore's Dilemma
+
+![](img/supermarket.jpg){fig-align="center" width="70%" height="70%"}
+
+:::{.aside}
+Critics argue that this tension has been recreated in the modern supermarket
+:::
+
+---
+
+## Omnivore's Dilemma
+
+![](img/eye.jpg){ fig-align="center" width="60%" height="60%"}
+
+:::{.aside}
+They argue that people should be guided by intuition and their senses, but has this worked before?
+:::
+
+---
+
+## Efforts to Reduce Anxiety 
+
+![](img/chobini.png){ fig-align="center" width="40%" height="40%"}
+
+:::{.aside}
+Yoghurt company's effort to convince consumers no science was involved in their product
+:::
+
+---
+
+## Bread Fortification
+
+<div style="display: table; margin-right: auto; margin-left: auto"> <!-- TODO: add to CSS -->
+
+```{ojs}
+
+years = [
+  {deaths: 3250, year: "'38"},
+  {deaths: 2480, year: "'39"},
+  {deaths: 2250, year: "'40"},
+  {deaths: 1800, year: "'41"},
+  {deaths: 1510, year: "'42"},
+  {deaths: 1500, year: "'43"},
+  {deaths: 1490, year: "'44"},
+  {deaths: 1005, year: "'45"},
+  {deaths: 800, year: "'46"},
+  {deaths: 750, year: "'47"},
+  {deaths: 650, year: "'48"},
+  {deaths: 600, year: "'49"},
+  {deaths: 250, year: "'50"},
+  {deaths: 240, year: "'51"},
+  {deaths: 250, year: "'52"},
+  {deaths: 220, year: "'53"},
+  {deaths: 80, year: "'54"}
+]
+
+Plot.plot({
+  y: {domain: [0,3300], label: "deaths (%)"},
+  x: {label: "year (1900+)"},
+
+  marks: [
+    Plot.barY(years, {y: "deaths", x: "year", fill: d => d.deaths}),
+    Plot.ruleY([0])
+  ]
+
+})
+
+```
+</div>
+
+:::{.aside}
+It was not possible to "sense" the absence of nutrients bread.
+This needed to be measured and changed in a controlled way.
+:::
+
+---
+
+![](img/recipes.gif)
+
+:::{.aside}
+Recipes are a classic example of **procedural knowledge** (learn by doing)
+:::
+
+---
+
+:::{.r-stack}
+![](img/cautery.jpg)
+![](img/gaston.jpg)
+:::
+
+:::{.aside}
+Recipes often include vague instructions and rules-of-thumb that are flawed
+:::
+
+---
+
+:::{.r-stack}
+![](img/Maillard.jpg)
+![](img/maillard_health.png){.fragment width="30%" height="30%"}
+![](img/maillard_bread.jpg){.fragment width="25%"}
+:::
+
+:::{.aside}
+A feature of **declarative knowledge** is its generalisability
+:::
+
+---
+
+## Applying Knowledge
+
+<div class = "center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rhrQT_9OpC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Knowing true causes empowers decision-making
+
+---
+
+## Traditional Knowledge
+
+![](img/boneOrMoon.png){fig-align="center" width="65%" height="65%"}
+
+:::{.aside}
+This does not mean there is nothing to learn from tradition
+:::
+
+---
+
+## "New-trition"
+
+![](img/starch.png){fig-align="center"}
+
+## Next Lecture: Video Overview of Food Science

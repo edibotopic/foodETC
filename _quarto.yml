@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Food Technology, Culture & Ethics"
+  page-footer: "Copyright 2022, Shane Crowley" 
+  reader-mode: true
+  page-navigation: true
+  sidebar:
+    style: 'floating'
+    search: true
+    contents:
+      - section: "Introduction"
+        contents:
+          - notes/index.qmd
+      - section: "Ontology"
+        # contents:
+        #   - notes/definingfood.qmd 
+        #   - notes/fourcauses.qmd
+        #   - notes/isandisnot.qmd
+        #   - notes/replacingfood.qmd
+      - section: "Epistemology"
+        # contents:
+        #   - notes/knowingfood.qmd
+        #   - notes/waysofknowing.qmd
+        #   - notes/scienceandtechnology.qmd
+        #   - notes/fooddisciplines.qmd
+        #   - notes/toolsforknowing.qmd
+      - section: "Semiotics"
+        # contents:
+        #   - notes/talkingfood.qmd
+        #   - notes/foodsigns.qmd
+        #   - notes/foodrhetoric.qmd
+        #   - notes/marketingfood.qmd
+      - section: "Technoscience"
+        # contents:
+        #   - notes/foodstructure.qmd
+        #   - notes/imaginingfood.qmd
+        #   - notes/changingfood.qmd
+        #   - notes/foodprocesses.qmd
+      - section: "Appendix"
+        contents:
+          - notes/slides.qmd
+          # - notes/reflections.qmd
+          # - notes/interactions.qmd
+          # - notes/syllabus.qmd
+      - notes/about.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/edibotopic/foodProcessBusiness
+          - text: Report a Bug
+            url: https://bugs.com
+
+format:
+  html:
+    theme: 
+      light: [theme.scss]
+      dark: [cyborg]

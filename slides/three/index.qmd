@@ -1,0 +1,215 @@
+---
+title: "Food ETC"
+subtitle: "Four Causes"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: true
+    buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: ../anim.css
+    footer: Food Technology, Culture & Ethics 
+    transition: zoom
+    transition-speed: slow
+---
+
+## Giving Explanations {transition="zoom"}
+ 
+**Question:** what is a statue?
+
+**Answer**: ❓❓❓
+
+<div class="sketchfab-embed-wrapper"> <iframe width="60%" height="400px" title="Busto de Augusto" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen" execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d6e1c254eb99457bbf16b5e7c9f8ddd0/embed?autospin=1&autostart=1&ui_hint=0"> </iframe> </div>
+
+##  {background-image="img/museum_lobby.png" background-transition="zoom"}
+
+##  {background-image="img/museum_block.png" background-transition="fade" background-transition-speed="slow"}
+
+##  {background-image="img/museum_tool.png" background-transition="fade" background-transition-speed="slow"}
+
+##  {background-image="img/museum_head.png" background-transition="fade" background-transition-speed="slow"}
+
+##  {background-video="vids/museum_fetti.mp4" background-transition="fade" background-transition-speed="slow"}
+
+##  {background-color=black}
+
+![](vids/FourCauses.mp4){autoplay="autoplay"}
+
+---
+
+
+## Seeking Better Explanations {background-color="black"}
+
+<ul style="float: left;">
+    <li class="fragment fade-up">What is it made of. . ?</li>
+    <li class="fragment fade-up">How is it made. . ?</li>
+    <li class="fragment fade-up">What is its structure. . ?</li>
+    <li class="fragment fade-up">Which purpose does it have. . ?</li>
+</ul>
+
+```{=html}
+<div>
+<svg 
+xmlns="http://www.w3.org/2000/svg" 
+viewBox="0 0 40 50" width="300px" height="250px"
+style="float: right;">
+
+<polyline points="10,10 10,40" stroke="violet" stroke-width="1" fill="none">
+  <animate attributeName="points" dur="20s" fill="freeze" repeatCount="indefinite"
+    values="10,10 10,40; 10,10 10,40; 20,10 10,40; 20,10 10,40; 10,10 10,40;"
+    begin="5s"
+    />
+  <animate attributeName="stroke" dur="20s" fill="freeze" repeatCount="indefinite"
+    values="violet; white; violet"
+    begin="5s"/>
+</polyline>
+
+<polyline points="20,10 20,40" stroke="yellow" stroke-width="1" fill="none">
+  <animate attributeName="points" dur="20s" fill="freeze" repeatCount="indefinite"
+    values="20,10 20,40; 20,10 20,40; 10,40 30,40; 10,40 30,40; 20,10 20,40;"
+    begin="5s"/>
+  <animate attributeName="stroke" dur="20s" fill="freeze" repeatCount="indefinite"
+    values="yellow; white; yellow"
+    begin="5s"/>
+</polyline>
+
+<polyline points="30,10 30,40" stroke="aqua" stroke-width="1" fill="none">
+  <animate attributeName="points" dur="20" repeatCount="indefinite"
+    values="30,10 30,40; 30,10 30,40; 20,10 30,40; 20,10 30,40; 30,10 30,40;"
+    begin="5s"/>
+  <animate attributeName="stroke" dur="20s" fill="freeze" repeatCount="indefinite"
+    values="aqua; white; aqua"
+    begin="5s"/>
+</polyline>
+
+</svg>
+
+</div>
+```
+
+---
+
+## But, Is This Unscientific? 🤔 {background-color="black"}
+
+There is a strong tendency in science to focus on **matter** and **motion**.
+For example, temperature can be explained based on knowledge of the mass
+of molecules and their velocity.
+
+
+```{=html}
+<div>
+<svg data-=""
+xmlns="http://www.w3.org/2000/svg" 
+viewBox="0 0 300 300" width="300px" height="310px">
+
+<title>Materialism: if we know the matter that exists and how it moves we know everything that is to be known</title>
+
+<!-- racing bars -->
+<polyline stroke="white" stroke-width="5" fill="none">
+  <animate attributeName="points" dur="15s" repeatCount="indefinite"
+    values="100,100 100,100; 100,100 300,100; 100,100 100,100;"
+	  begin="2"
+  />
+</polyline>
+
+<polyline stroke="yellow" stroke-width="5" fill="none">
+  <animate attributeName="points" dur="10s" repeatCount="indefinite"
+	values="100,200 100,200; 100,200 300,200; 100,200 100,200; "
+	  begin="2"
+  />
+</polyline>
+
+<polyline stroke="green" stroke-width="5" fill="none">
+  <animate attributeName="points" dur="17s" repeatCount="indefinite"
+    values="100,300 100,300; 100,300 300,300; 100,300 100,300;"
+	  begin="2"
+  />
+</polyline>
+
+</svg>
+
+</div>
+```
+
+## Epistemic Reductionism
+
+> The idea that all explanations ultimately reduce to physics:
+> what is the nature of the matter and the extent of its motion?
+
+::: {.fragment .fade-up}
+::: {.callout-important}
+
+## Food Science & Technology
+
+The above concept is important for simple systems and also philosophically interesting.
+Practically speaking, however, we often must study properties at a macro-scale. 
+
+Food as a biological entity has a complex and varied structure. As a technology it is
+manufactured, stored, marketed, distributed, sold and consumed.
+
+:::
+:::
+
+---
+
+## Structure of Food Science ... {background-color=black}
+
+:::{.fragment .grow transition-speed="slow"}
+![](img/FS_CAUSES.jpg)
+:::
+
+## Biomimetics
+
+> The mimicking of natural biological structures in the design of functional materials
+
+
+:::{.r-fit-text}
+<div style="padding-left:130px">
+<div title="meat on bone" class="rotate" style="float:left; padding: 20px;">
+<span class="scale">🍖</span>
+</div>
+<div title="cut of meat" class="rotate" style="float: left; padding: 20px;">
+<span>🥩</span>					
+</div>
+<div title="bacon" class="rotate" style="float: left; padding: 20px;">
+<span>🥓</span>					
+</div>
+<div title="drumstick" class="rotate" style="float: left; padding: 20px;">
+<span>🍗</span>					
+</div>	
+<div title="burger" class="rotate" style="float: left; padding: 20px;">
+<span>🍔</span>					
+</div>	
+<div title="hotdog" class="rotate" style="float: left; padding: 20px;">
+<span>🌭</span>					
+</div>	
+</div>
+:::
+
+::: {.callout}
+There are specific reasons we might want to replace meat (see sustainability).
+By studying real meat closely we can determine how to replace it effectively.
+An important aspect is recreating the fibrous structure of meat.
+This is less important in products like burgers and nuggets,
+which have a a more uniform structure due to processing.
+
+**The solution is more complex than "just use protein".**
+:::
+
+## Biomimetics: Other Examples
+
+- Infant formula
+- Fat substitutes
+- Milk replacement
+
+::: {.callout-note}
+
+The idea is not simply that "nature is better".
+
+It is `there are cases when natural structures can inform design`.
+
+A vegan food designer has as much to learn from milk is a dairy scientist.
+
+:::

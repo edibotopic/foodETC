@@ -1,0 +1,84 @@
+---
+title: "Food ETC"
+author: "Dr Shane Crowley"
+subtitle: "Introduction"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: styles.css
+    footer: Food Technology, Culture & Ethics 
+---
+
+## Introduction
+
+::: {.incremental}
+- Who am I?
+- What will we cover?
+- How will the module work?
+:::
+
+## {background-video="vids/molecules_build_c.mp4"}
+
+<span style="color: white">
+What are the building blocks of food?
+</span>
+
+## {background-video="vids/molecules_build_col_c.mp4"}
+
+<span style="color: white">
+How should we design food for people?
+</span>
+
+## Main Topics in S1
+
+1. Food Ontology
+2. Food Epistemology
+3. Food Semiotics
+4. Food Structure
+
+::: {.fragment}
+:::{.callout-tip collapse="true"}
+## Don't Worry 😟
+
+The initial topics are selected based on the assumption that you
+do not have a huge `science background`. We want to first get a sense
+`how we understand and interact with food` in our daily lives.
+:::
+:::
+
+## Readings, Reflections & Videos
+
+> There is **one week** between each class
+
+> Some **exercises** will be assigned between classes
+
+> Part of **participation** grade and also good practice
+
+> Some weeks the lecture might be in **video form**
+
+## Next Week: What is Food?
+
+:::{.panel-tabset}
+
+### Image
+
+![](../../img/Veggie_Loaf_c.png "image of nutraloaf"){width="80%" height="80%"}
+
+### info
+
+<iframe height="350px" width="100%" src="https://www.chicagomag.com/chicago-magazine/september-2010/dining-critic-tries-nutraloaf-the-prison-food-for-misbehaving-inmates/"></iframe>
+
+Scroll to read or open to [full-screen](https://www.chicagomag.com/chicago-magazine/september-2010/dining-critic-tries-nutraloaf-the-prison-food-for-misbehaving-inmates/
+)
+
+:::
+
+---
+
+<iframe src="sozi/pre-cognition-1.sozi.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+<div class="footer"></div>

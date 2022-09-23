@@ -1,0 +1,194 @@
+---
+title: "Food ETC"
+author: "Dr Shane Crowley"
+subtitle: "What is Food?"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: true 
+    buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: styles.css
+    footer: Food Technology, Culture & Ethics 
+---
+
+> **noun**: material consisting essentially of protein, carbohydrate, 
+> and fat used in the body of an organism to sustain growth, 
+> repair, and vital processes and to furnish energy 
+
+:::{.fragment .fade-up .r-fit-text}
+🤔
+:::
+
+---
+
+## {background-video="vids/whiskey_glass_2_comp.mp4"}
+
+<span style="color: white">
+Would a food scientist work on something like this?
+</span>
+
+---
+
+What about medicinal drugs?
+
+![](../../img/kidney_pills.jpg){fig-align="center" width="70%" height="70%"}
+
+## Consider the Distinction
+
+
+|   |FOOD|DRUGS              |
+|:--------|:--------:|---------------------------------:|
+|Consumption   |Always    |When ill     |
+|Side effects  |Should not be |May happen |
+|Motivation  |Variable  |Cure/protect |
+|Availability      |Wide   |Prescription-only    |
+|Regulation|For safety|Safety & efficacy |
+
+<sub><sub><sub>Adapted from *Food Styles and the Future of Nutrigenomics* by Michiel Korthals (2009)<sub><sub><sub>
+
+## Utopian Food
+
+![](    img/menulator.gif){fig-align="center"}
+
+[The Jetsons](https://en.wikipedia.org/wiki/The_Jetsons)
+
+## Dystopian Food
+
+![](https://i.makeagif.com/media/9-26-2016/-3yf43.gif){fig-align="center" width="80%" height="80%"}
+
+[Snowpiercer](https://en.wikipedia.org/wiki/Snowpiercer)
+
+## Dystopian Food
+
+![](img/soylentgreen.gif){fig-align="center"}
+
+[Soylent Green](https://en.wikipedia.org/wiki/Soylent_Green)
+
+## Food Visions
+
+:::{.r-fit-text}
+
+- **Utopian**: in the future important food problems will be solved through science and technology
+
+- **Dystopian**: in the future our incorrect techno-scientific ideas and devestation of the environment will force us to eat terrible foods
+
+- **Romanticism**: in the past everything was better, presumably because of a lack of technology
+
+::: {.callout-note}
+These ideas are simply visions, imaginings of what the past was or future will be.
+There are no guarantees that technology (e.g., 3D printing) will be used for bad or good.
+There are also no guarantees that non-technology (natural things) will help or harm us.
+
+Ultimately, whatever is adopted will be chosen by people.
+These choices should be informed and not coerced.
+The insects in Snowpiercer, the people in Soylent Green and the nutraloaf in prisons is not freely chosen.
+:::
+
+:::
+
+## The Argument From Nature
+
+**P1.** All natural things are good for me
+
+**P2.** This thing is natural
+
+**C.** This thing is good for me 
+
+
+::: {.callout-warning}
+Logically, this argument is **valid** but not **sound**.
+
+The conclusions *follow* from the premisses but
+it is not clear how the statements in P1 and P2 are **true**.
+:::
+
+---
+
+What things are natural❓ Are all of those things good ⁉️
+
+<br>
+
+|Nature|Technology|
+|:------:|:---------:|
+|  💐  | 🚙     |
+|  🌋  | 🏘️     |
+|  🐕  | 🔫     |
+|  🦟  | 🔬     |
+|  🥑  | ☔     |
+
+
+:::{.fragment .fade-up .r-fit-text}
+We must be careful when using vague concepts, 
+but widely-used notions like 'natural' may still be useful.
+Consider the example of 'nature-inspired design'.
+:::
+
+---
+
+## Questions to Consider
+
+1. Is it ever useful to use the term 'natural'?
+2. Food preservation stops a natural process — is this bad?
+3. Are other vague terms like 'purity' important?
+4. Do you think insects are food?
+
+## Foods of the Future
+
+![](img/lobster.jpg){fig-align="center"}
+
+## Foods of the Future {auto-animate=true}
+
+```{.text code-line-numbers="1-5"}
+Programs intending to improve nutrition often fall short of expectations.
+
+One exception, however, occurred during the rationing years 
+of World War II when American citizens were encouraged to incorporate 
+protein-rich organ meats into their protein deficient diets.
+
+```
+
+
+## Foods of the Future {auto-animate=true}
+
+```{.text code-line-numbers="10-13"}
+Programs intending to improve nutrition often fall short of expectations.
+
+One exception, however, occurred during the rationing years 
+of World War II when American citizens were encouraged to incorporate 
+protein-rich organ meats into their protein deficient diets.
+
+Unfortunately, most of the insights resulting from these 
+efforts remained unpublished or in limited distribution.
+
+For the first time, selected studies from this era are 
+synthesized according to how they restructured social norms, 
+changed perceptions of taste, and helped assimilate variety 
+into their diets.
+```
+
+## Foods of the Future {auto-animate=true}
+
+```{.text code-line-numbers="17"}
+Programs intending to improve nutrition often fall short of expectations.
+
+One exception, however, occurred during the rationing years 
+of World War II when American citizens were encouraged to incorporate 
+protein-rich organ meats into their protein deficient diets.
+
+Unfortunately, most of the insights resulting from these 
+efforts remained unpublished or in limited distribution.
+
+For the first time, selected studies from this era are 
+synthesized according to how they restructured social norms, 
+changed perceptions of taste, and helped assimilate variety 
+into their diets.
+
+Behaviorally-driven implications from these “lost lessons” are
+discussed in the context of the empirical contributions they made in
+defining what makes an unfavorable food acceptable.
+```
+
+[Link to original paper](https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614)

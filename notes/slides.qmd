@@ -1,0 +1,11 @@
+---
+title: Slides 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+---
+
+This page will be populated with a list of all slides used during the course.
+
+[Introduction](../slides/one/)

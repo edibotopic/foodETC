@@ -1,0 +1,93 @@
+---
+title: "Food ETC"
+author: "Dr Shane Crowley"
+subtitle: "Structure"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: true
+    buttons: true
+    controls: true
+    preview-links: true
+    # logo: images/quarto.png
+    css: styles.css
+    footer: Food Technology, Culture & Ethics 
+---
+
+## Emulsion Structure
+
+> Click through animation on next page
+
+::: {.callout-tip}
+
+Take notes during the lecture to identify more details.
+
+:::
+
+## {background-iframe="sozi/emulsion.sozi.html" background-interactive="true"}
+
+<div class="footer"></div>
+
+## Meat Structure
+
+> Click through animation on next page
+
+::: {.callout-tip}
+
+Take notes during the lecture to identify more details.
+
+:::
+
+## {background-iframe="sozi/meat.sozi.html" background-interactive="true"}
+
+<div class="footer"></div>
+
+## Description of Food Structures
+
+- **Emulsion**: random dispersion of one liquid in another liquid
+
+- **Meat**: a repeating set of fibre containers
+
+::: {.callout-note}
+
+## Dispersed System Formalism (DSF)
+
+If just considering physical objects and their relations in space
+we can describe food structures using the Dispersed System formalism.
+
+DSF is like a simple algebra for describing topological structures.
+
+:::
+
+## Many Structures are Dispersions
+
+|   | G | L | S |
+|---|:---:|:---:|:---:|
+| G | Gas  | Aerosol   | Powder  |
+| L | Wet Foam  |  Emulsion | Wet Suspension  |
+| S | Dry Foam  | Gel  | Dry Suspension  |
+
+::: {.callout-note}
+
+## DSF Notation
+
+A formula in DSF relates two or more physical phases using operators.
+All of the examples above consist of one phase *dispersed in* another.
+The relation of *dispersed in* is written with the "$/$" symbol.
+
+Yoghurt, which is a gel, can be written $L/S$.
+What if you made yoghurt droplets and dispersed them in juice ($L_2$)?
+That would be: $(L_1/S)/L_2$.
+
+:::
+
+## Conclusion
+
+> A lot can be said about food just by talking about structure
+
+
+### For Next Week
+
+> Play around with the DSF formula generator.
+> Can you think of any interesting possibilities?
+
