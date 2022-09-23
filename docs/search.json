@@ -387,9 +387,37 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Food Technology, Culture & Ethics",
+    "title": "About",
     "section": "",
-    "text": "Shane is a food scientist and technologist from Cork, Ireland. He has worked full-time as an academic at UCC for six years.\n\n\nShane has a PhD in Food Science & Technology and a HDip in Philosophy, both from UCC. During his PhD he did research on nutritional ingredient development in UW-Madison, Wisconsin on a Fulbright scholarship.\n\n\n\nShane has taught food scientists, nutritional scientists and marketing students. He is interested in the application of technology in food and nutrition, as well as the exploration of how philosophy and programming can be applied to solving problems in food technology.\n\n\n\nShane’s PhD thesis focused on the development of protein and mineral ingredients for formulated nutritional products. More recently he has become interested in the broad areas of food design, food philosophy and food digitilisation.\n\n\n\nTBC…"
+    "text": "Shane is a food scientist and technologist from Cork, Ireland. He has worked full-time as an academic at UCC for six years."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nShane has a PhD in Food Science & Technology and a HDip in Philosophy, both from UCC. During his PhD he did research on nutritional ingredient development in UW-Madison, Wisconsin on a Fulbright scholarship."
+  },
+  {
+    "objectID": "about.html#teaching",
+    "href": "about.html#teaching",
+    "title": "About",
+    "section": "Teaching",
+    "text": "Teaching\nShane has taught food scientists, nutritional scientists and marketing students. He is interested in the application of technology in food and nutrition, as well as the exploration of how philosophy and programming can be applied to solving problems in food technology."
+  },
+  {
+    "objectID": "about.html#research",
+    "href": "about.html#research",
+    "title": "About",
+    "section": "Research",
+    "text": "Research\nShane’s PhD thesis focused on the development of protein and mineral ingredients for formulated nutritional products. More recently he has become interested in the broad areas of food design, food philosophy and food digitilisation."
+  },
+  {
+    "objectID": "about.html#office-hours",
+    "href": "about.html#office-hours",
+    "title": "About",
+    "section": "Office Hours",
+    "text": "Office Hours\nTBC…"
   },
   {
     "objectID": "index.html",
@@ -417,7 +445,7 @@
     "href": "readme.html",
     "title": "Food Technology, Culture & Ethics",
     "section": "",
-    "text": "Work in progress.\n\nTo-do\n\n\nFix text overlap in embedded slides on mobile\n\nMake an icon for the course\n\nCheck can’t-exit-readermode bug on mobile\n\nComplete draft notes/slides for S1"
+    "text": "Work in progress.\n\nTo-do\n\n\nFix text overlap in embedded slides on mobile\n\nMake an icon for the course\n\nCheck can’t-exit-readermode bug on mobile\n\nComplete draft notes/slides for S1\n\nCheck if /notes/ paths work with index in root"
   },
   {
     "objectID": "drafts/slides.html",
