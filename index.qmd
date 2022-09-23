@@ -41,7 +41,7 @@ Note: this does not always work well and `pdf` versions will be made available o
 The content of the course has the following general structure:
 
 - **Defining food**: establishing how we judge a thing to be food and what important properties food might be said to have
-**Knowing food**: discussing the different ways in which people have knowledge of food and the way scientists study food and diet
+- **Knowing food**: discussing the different ways in which people have knowledge of food and the way scientists study food and diet
 - **Talking food**: investigating theories of how food is perceived as a sensory or symbolic object and how this is influenced by technology 
 - **Changing food**: exploring how food is transformed by scientists and technologists, with a particular focus on structure
 - **Saving food**: facing the complex set of ethical, scientific and technological challenges necessary for sustainable food
