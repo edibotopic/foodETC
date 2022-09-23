@@ -1,4 +1,5 @@
 ---
+title: About
 number-sections: false
 about:
  template: jolla
@@ -13,8 +14,6 @@ about:
     href:
      https://edibotopic.com
 ---
-
-# About {.unnumbered}
 
 Shane is a food scientist and technologist from Cork, Ireland.
 He has worked full-time as an academic at UCC for six years.
