@@ -212,14 +212,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/slides.html" class="sidebar-item-text sidebar-link">Slides</a>
+  <a href="../drafts/slides.html" class="sidebar-item-text sidebar-link">Slides</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
-  notes/about.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../about.html" class="sidebar-item-text sidebar-link">About</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -444,7 +446,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 {"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\ntracery = require('https://unpkg.com/tracery-grammar@2.7.3/tracery.js').catch(() => window.tracery)\n\nmd`---`\n\nbutton, grammar.flatten('#origin#')\n\nviewof button = html`<button>Generate Product</button>`\n\nmd`---`\n\nimport {textarea} from \"@jashkenas/inputs\"\n\nmodifiers = grammar.addModifiers(tracery.baseEngModifiers)\n\nviewof nutrientsTextarea = textarea({\n  title: \"nutrients\", \n  value: 'soy protein, glucose, butter', \n  placeholder: \"Insert more nutritional ingredients here...\", \n  spellcheck: false \n})\n\nviewof flavoursTextarea = textarea({\n  title: \"flavours\", \n  value: 'lime, strawberry, green tea', \n  placeholder: \"Insert more flavour ingredients here...\", \n  spellcheck: false \n})\n\nviewof demographicsTextarea = textarea({\n  title: \"demographics\", \n  value: 'gen-Zers, millenials, athletes', \n  placeholder: \"Insert more demographics here...\", \n  spellcheck: false \n})\n\nviewof amountsTextarea = textarea({\n  title: \"amounts\", \n  value: 'added #nutrients#, flavoured with #flavours#, high in #nutrients#', \n  placeholder: \"Insert Amounts here...\", \n  spellcheck: false \n})\n\nviewof structure = textarea({title: \"Structure:\", value: '#amounts#, with some #flavours#, targeted at #demographics#', placeholder: \"Write your structure here...\", spellcheck: false })\n\nnutrients = nutrientsTextarea.split(',').map(function (a) { return a.trim() })\nflavours = flavoursTextarea.split(',').map(function (a) { return a.trim() })\ndemographics = demographicsTextarea.split(',').map(function (a) { return a.trim() })\n\namounts = amountsTextarea.split(',').map(function(b){return b.trim()})\n\norigin = \"Concept: #structure# 🤔\"\n\ngrammar = tracery.createGrammar({\n\t\"nutrients\": nutrients,\n\t\"flavours\": flavours,\n\t\"demographics\": demographics,\n    \"structure\": structure,\n    \"amounts\": amounts,\n\t\"origin\": origin\n})\n\n"},{"methodName":"interpretQuiet","source":"shinyInput('button')"},{"methodName":"interpretQuiet","source":"shinyInput('nutrientsTextarea')"},{"methodName":"interpretQuiet","source":"shinyInput('flavoursTextarea')"},{"methodName":"interpretQuiet","source":"shinyInput('demographicsTextarea')"},{"methodName":"interpretQuiet","source":"shinyInput('amountsTextarea')"},{"methodName":"interpretQuiet","source":"shinyInput('structure')"}]}
 </script>
 <script type="module">
-window._ojs.paths.runtimeToDoc = "../../notes";
+window._ojs.paths.runtimeToDoc = "../../drafts";
 window._ojs.paths.runtimeToRoot = "../..";
 window._ojs.paths.docToRoot = "..";
 window._ojs.selfContained = false;

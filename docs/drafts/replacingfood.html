@@ -213,14 +213,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/slides.html" class="sidebar-item-text sidebar-link">Slides</a>
+  <a href="../drafts/slides.html" class="sidebar-item-text sidebar-link">Slides</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
-  notes/about.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../about.html" class="sidebar-item-text sidebar-link">About</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -532,7 +534,7 @@ Preliminary answer
 {"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"// Atwater factors\nproFac = 4\nlipidFac = 9\nsugarFac = 4\n\n\nmd`---`\nviewof protein = Inputs.range([0,12], {label: \"protein (g)\", step: 1, value: randomNumber(1,10)})\nviewof lipids = Inputs.range([0,12], {label: \"lipids (g)\", step: 1, value: randomNumber(1,10)})\nviewof sugar = Inputs.range([0,12], {label: \"sugars (g)\", step: 1, value: randomNumber(1,10)})\n\nviewof servingSize = Inputs.range([100,500], {label: \"Serving (g)\", step: 50, value: 100})\n\ntotalCalories = servingSize * (protein/100*proFac + lipids/100*lipidFac + sugar/100*sugarFac)\nmd`---`\nmd`**Total calories** = ${totalCalories.toLocaleString(\"en\")}.`\n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"//utilities\n\nrandomNumber = (min, max) => {\n  return Math.floor((max - min + 1) * Math.random() + min)  \n}\n\nimport {slider} from '@jashkenas/inputs'\nimport {build_samples} from \"@mcmcclur/adaptive-plotter\"\n"},{"methodName":"interpretQuiet","source":"shinyInput('protein')"},{"methodName":"interpretQuiet","source":"shinyInput('lipids')"},{"methodName":"interpretQuiet","source":"shinyInput('sugar')"},{"methodName":"interpretQuiet","source":"shinyInput('servingSize')"}]}
 </script>
 <script type="module">
-window._ojs.paths.runtimeToDoc = "../../notes";
+window._ojs.paths.runtimeToDoc = "../../drafts";
 window._ojs.paths.runtimeToRoot = "../..";
 window._ojs.paths.docToRoot = "..";
 window._ojs.selfContained = false;
