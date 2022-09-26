@@ -5,8 +5,8 @@ subtitle: "Introduction"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: 
-      buttons: true
+    chalkboard: true
+    buttons: true
     controls: true
     preview-links: true
     # logo: images/quarto.png
@@ -25,21 +25,23 @@ format:
 ## {background-video="vids/molecules_build_c.mp4"}
 
 <span style="color: white">
-What are the building blocks of food?
+What are the **building blocks** of food?
 </span>
 
 ## {background-video="vids/molecules_build_col_c.mp4"}
 
 <span style="color: white">
-How should we design food for people?
+How should we **design food** for people?
 </span>
 
-## Main Topics in S1
+## Main Topics in Semester 1
 
-1. Food Ontology
-2. Food Epistemology
-3. Food Semiotics
-4. Food Structure
+::: {.incremental}
+1. Food **Ontology** (`what food is and could be`)
+2. Food **Epistemology** (`ways to know about food`)
+3. Food **Semiotics** (`how food communicates with us`)
+4. Food **Structure** (`why food is not just its parts`)
+:::
 
 ::: {.fragment}
 :::{.callout-tip collapse="true"}
@@ -47,19 +49,20 @@ How should we design food for people?
 
 The initial topics are selected based on the assumption that you
 do not have a huge `science background`. We want to first get a sense
-`how we understand and interact with food` in our daily lives.
+`how we understand and interact with food` in our daily lives, what our
+intuitions are and how they might be wrong in some cases.
 :::
 :::
 
 ## Readings, Reflections & Videos
 
-> There is **one week** between each class
+> There is **one week** between class (readings❗)
 
-> Some **exercises** will be assigned between classes
+> Some **exercises** will be assigned in class
 
-> Part of **participation** grade and also good practice
+> Note: there is a **participation** grade (10%)
 
-> Some weeks the lecture might be in **video form**
+> Assessments include **2 exams**, **1 presentation** and **1 essay**
 
 ## Next Week: What is Food?
 
@@ -67,7 +70,7 @@ do not have a huge `science background`. We want to first get a sense
 
 ### Image
 
-![](../../img/Veggie_Loaf_c.png "image of nutraloaf"){width="80%" height="80%"}
+![](../../img/Veggie_Loaf_c.png "image of nutraloaf"){fig-align="center" width="80%" height="80%"}
 
 ### info
 
@@ -80,5 +83,6 @@ Scroll to read or open to [full-screen](https://www.chicagomag.com/chicago-magaz
 
 ---
 
-<iframe src="sozi/pre-cognition-1.sozi.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+<iframe title="review: click or swipe to progress" src="sozi/pre-cognition-1.sozi.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+
 <div class="footer"></div>
