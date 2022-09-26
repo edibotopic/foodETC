@@ -5,7 +5,7 @@ project:
 website:
   title: "Food Technology, Culture & Ethics"
   page-footer: "Copyright 2022, Shane Crowley" 
-  reader-mode: true
+  reader-mode: false
   page-navigation: true
   sidebar:
     style: 'floating'
@@ -45,7 +45,7 @@ website:
           # - drafts/reflections.qmd
           # - drafts/interactions.qmd
           # - drafts/syllabus.qmd
-      - about.qmd
+      - notes/about.qmd
     tools:
       - icon: github
         menu:
