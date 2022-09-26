@@ -10,7 +10,6 @@ format:
     controls: true
     preview-links: true
     # logo: images/quarto.png
-    css: styles.css
     footer: Food Technology, Culture & Ethics 
 ---
 
