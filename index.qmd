@@ -11,11 +11,26 @@ They are associated with a module taught to BSc Food Science students at Univers
 The course is being developed and taught with the aim of providing a more *systematic* account of food to students that are otherwise focused on scientific studies.
 By design, the material does not assume a significant background in science, as most students will have not studied chemistry or physics when taking the course.
 
+## Lectures and Schedule
+
+This module is spread across _two semesters_.
+
+In **semester 1**, lectures will be at **4 pm each Wednesday**.
+
+The lectures will take place in **CONN-S2**.
+
+This building can be found on **Western Road**.
+
+<iframe title="3D image of classroom" src="https://kuula.co/share/7PLMc?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;alpha=0.02&amp;info=1&amp;logo=1" allowfullscreen="" width="100%" height="540"></iframe>
+
 ::: {.callout-note}
-New notes and slides will be made available the before each weekly lecture.
+New notes and slides will be made available before each weekly lecture.
 :::
 
 ## Notes and Slides
+
+The first set of slides are embedded below — you can interact with them easily on your phone, tablet or computer.
+Note that in the final slide clicking (computer) or swiping (phone) will zoom you into specific sections of the slide.
 
 <div>
 ```{=html}
@@ -59,6 +74,18 @@ These notes and slides do not provide full coverage of the course content.
 Enrolled students are expected to participate fully in the course and write their own notes.
 :::
 
+## List of Assessments
+
+The module involves 100% **Continuous Assessment**:
+
+- Lecture attendance and participation (10 marks)
+- Semester 1 class exam (20 marks)
+- Semester 2 class exam (20 marks)
+- Group presentation (20 marks)
+- Critical Essay (30 marks)
+
+Further details on these assessments will be provided during the year.
+
 ## Preface to the Module
 
 Food is both astonishingly complex and boringly familiar.
@@ -73,7 +100,7 @@ of food scientists will play a key role in answering them.
 Some of these questions are age-old – how can we feed a growing population? – 
 others more contemporary – do palatable alternatives to
 animal-based products exist that are less harmful to the environment? 
-and some quite controversial – should food choice be determined by 
+— and some quite controversial – should food choice be determined by 
 personalised data to prevent diet-related disease?
 A university education will not give you the answers to all of these questions, but it
 will prepare you to begin finding the answers (or better questions).
