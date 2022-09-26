@@ -33,7 +33,7 @@ website:
         #   - drafts/foodsigns.qmd
         #   - drafts/foodrhetoric.qmd
         #   - drafts/marketingfood.qmd
-      - section: "Technoscience"
+      - section: "Food Structure"
         # contents:
         #   - drafts/foodstructure.qmd
         #   - drafts/imaginingfood.qmd
