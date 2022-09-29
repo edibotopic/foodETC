@@ -1,0 +1,298 @@
+---
+title: Being Food 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+:::{.callout-note}
+## Main Concepts 
+
+- **Vagueness**: characteristic of a term that is imprecise or has multiple meanings. When using such a term you need to explain your intended meaning.
+- **Normative**: a kind of statement that relates to how we *ought* or *should* act. Distinct from a descriptive statement about how things are *(f)actually*. 
+- **Dualism**: a way of thinking that divides the world into pairs of opposing objects or concepts.
+:::
+
+There are several tricky topics that continue to influence popular debate around food.
+Most of the time they concern the following oppositions:
+
+- Natural and artificial
+- Pure (or "clean") and impure
+- Food and drug
+
+Many people — including students — use the terms but cannot explain what they mean by them.
+
+:::{.callout-note}
+## Vagueness
+
+A term is vague when it has an imprecise meaning or in some cases multiple meanings.
+
+Without proper qualification, the usage of vague terms leads to a failure of communication.
+:::
+
+A further problem arises when people move from **describing** foods using these terms to **evaluating** them due to their association with those terms.
+
+If the term is vague in the first place, how can we then judge it to be good or bad because of its association with that term?
+
+:::{.callout-note}
+## Descriptive and Normative 🍎
+There is a fundamental difference between explaining *what something is* (descriptive statements) and *how someone should act* (normative statements).
+
+Science is in the business of describing the world, not (typically) explaining how people should live.
+Technology is different, as it usually relates to the improvement of people's lives (we should choose the technologies that improve our lives).
+When scientists work on a technology (e.g., a consumer food product) there are usually explicit criteria by which the product can be judged to be good or bad (taste, nutrition, appearance).
+
+Observing that ripe apples are red is not in itself a justification for telling people to "eat red apples".
+We would need to supply a justification, such as:
+
+1. Ripe fruit tends to be easier to eat and digest due to biochemical changes in the composition of the apple that change its taste and structure
+2. If you are hungry for fruit and apples are available you should choose red apples
+
+The problem with vague descriptions is that it is impossible to provide such a justification due to abundance of alternative definitions and counter-examples. These conversations go nowhere.
+
+On the other hand, we can ask about the evidence relating to ripeness, but it is difficult to do so with naturalness because there is no accepted definition.
+:::
+
+## The Problem with Vagueness
+
+Consider the following case:
+
+:::{.callout-warning}
+A student is asked to evaluate whether a formulated consumer product is good or not.
+
+The student writes:
+
+> I believe the product is bad because it is not natural and artifical things are bad for people
+
+The lecturer writes a large red ❌ and writes:
+
+> Volcanoes are natural and bad for people.
+> Tables are artificial and good for people.
+> Your reasoning here is totally unclear
+:::
+
+There are many ways the student could improve their answer.
+Here is one (scroll right to read more):
+
+```diff
+- I believe the product is bad because it is not natural and artifical things are bad for people
++ Formulation is the combination of different ingredients to serve a certain function. To judge whether this food is good or bad we would need to establish whether the combination satisfies the function. A distinction is sometimes made between natural and artificial ingredients. Natural ingredients often undergo less processing and closely resemble how they exist in nature. This sometimes means that natural natural ingredients contain higher concentrations of components like fibre. If fibre is important in this specific product, then selecting natural ingredients might be important. Otherwise fibre may need to be added.
+```
+
+Yes, the answer takes more words.
+The reason it takes more words is that when using terms like "natural" we have to be as clear as possible about what we intend to communicate.
+You cannot assume that the person who is reading your answer or listening to you speak understand what you mean.
+
+So you have two options:
+
+1. Do not use vague words like "natural"
+2. Explain clearly what you mean by such terms
+
+## Thinking About Concepts
+
+In science we mostly study concrete things like organisms and chemicals.
+Other fields, like philosophy and mathematics, sometimes study concepts or ideas directly. In science we might *use* a concept when studying a chemical. For example, a mathematical concept like *symmetry* can help us understand how two chemical isomers are related. In philosophical areas like conceptual analysis and conceptual engineering it is concepts themselves that are the object of study.
+
+If you wish to use a concept like "natural", or if you have an intuition that it is important, then you need to ensure you are thinking clearly about what that concept means. Typically this involves careful consideration of how it is used and the logic of sentences where it appears. In what follows we will do this with some common **dichotomies**.
+
+:::{.callout-important}
+## Dichotomies
+
+A dichotomy consists of two concepts that are assumed to oppose each other in some way. Common examples include:
+
+- Good and evil
+- Right and wrong
+- Natural and artificial
+
+The kind of thinking that is characterised by such dichotomies is sometimes referred to as "dualistic". Dualistic thinking is rigid in that it often denies that there are "gray areas" between the two concepts (when in reality there often is).
+:::
+
+The human mind is drawn to dichotomies.
+Unfortunately, they are nearly always untestable.
+They are also typically normative and relate to values.
+For this reasons they do not typically guide science directly.
+
+However, they may guide design choices during the development of a comemrcial product.
+This is one reason why it can be useful to clarify our thinking over the terms involved.
+
+### Natural and Artifical
+
+A great deal of dietary advice seems to center on the following notion:
+
+> There are natural foods and these are the foods we should try to eat
+
+As food scientists then it would seem that our job should involve first-and-foremost the design of natural foods. However, if we think about the meaning of natural foods we soon find that this is difficult or impossible.
+
+Here are some of the ways we can think about naturalness:
+
+1. A thing is natural when it has not been interfered with by humans
+2. A thing is natural when it does not contain any chemicals
+3. A thing is natural when it has existed for a long time
+4. A thing is natural when it is legally defined as "natural"
+
+We could go on and list more definitions (perhaps you can think of your own) but each of these has their own problems, especially when the definitions are linked with the following judgement:
+
+> Unnatural things should be avoided
+
+Take **1**. By this definition things like clothes, houses and classrooms are also unnatural.
+Does this mean they should be avoided also?
+What would it mean to have natural versions of these things?
+Is there some **specific** reason why these unnatural things are OK but unnatural foods are not?
+
+For **2**, we simply have a misunderstanding.
+Water can be considered a natural substance (it exists without human interference) but also given the chemical definition $H_2O$.
+To add water to food is to add a chemical.
+Now, to be **charitable** to people who make this claim, what they are typically referring to is *unfamiliar chemicals* like citric acid.
+This chemical is added to achieve a specific acidity in some foods but is not known to "the average person" even though it is present in everyday items like lemons.
+As the average person can be unfamiliar with a great deal of things, it is not realistic to only create things that are familiar. 
+For example, smart phones have not always been familiar but someone still introduced them.
+
+**3** is an argument from tradition.
+It acknowledges that some things that are human-made, like houses and clothes, are important despite being artificial.
+However, it is argued that because people have lived in houses and worn clothes for many years then it is OK to continue to use them.
+What this kind of argument fails to consider is that at any point in time in the past there have been cases where a tradition was soon found to be unacceptable to the majority of people.
+There have been changes in norms around women's rights and human slavery because we learned that some traditional practices were immoral.
+On the other hand, there have been moments in history before great discoveries — like vaccines — where it could not be said that a vaccine was traditional.
+So, arguments from tradition seem to allow us to defend bad (old) things and reject good (new) things.
+This should be cause for concern when using tradition to justify claims around found.
+
+**4** is a common view among scientists, who think that we should wait until a legal definition has been supplied.
+Currently, however, there has been no adequate legal definition.
+Despite this the term is still used by scientists and marketers.
+It is unclear why someone would not seek to understand a term while they continue to use it.
+Furthermore, when such a definition is being explored *experts* are usually consulted, and in this case the experts might include representatives from food science and the food industry.
+Lastly, like the previous example, there are examples where people opt to disagree with a legal definition even if they follow the law.
+For example, I spend some time each year in the USA where the death penalty is legal.
+While I am in the USA I continue to disagree and oppose the law that permits execution.
+Even if a solid, legal definition for "natural" existed it is still within our power to disagree and seek a better definition.
+
+::: {.callout-tip}
+
+## Thomas Theorem --- Concept from Sociology
+
+> If people define situations or concepts as real,
+> they are real in their consequences
+
+When a person or group decides something is real we can argue whether their ontology is correct.
+However, whether or not we agree, the decision can have real-world conseqeunces.
+For example, if consumers consider a processing technique to be dangerous it might be necessary
+for a company to stop using it, even if the consumers are factually incorrect.
+Of course, this is not the only option the company has: they could --- alternatively --- educate the consumers.
+:::
+
+### Pure and Dirty
+
+A famous definition of "dirt" attributed to the philosopher and psychologist William James is:
+
+> Matter out of place
+
+This suggests that when it comes to *dirt* context is important.
+When red wine is in a glass it is *not dirt* but when it is on a piece of clothing it *is dirt*.
+What is important is that a material seems to have crossed some boundary from its right place to a wrong place.
+Putting together a meal then involves combining ingredients so that they taste good, but these combinations must follow certain cultural rules that do not permit some combinations.
+Mary Douglas, who popularised Jame's definition, wrote extensively about the complex dietary rules that exist in some religions.
+For example, in the Jewish faith it is not permitted to eat pork, but it is also not permitted to mix beef and milk while cooking.
+
+A pure or "clean" food then is one that only contains matter in its right place.
+The rules that determine what the "right place" is are determined by culture and psychology.
+This creates issues for food companies who often find ingredients that are useful but that have an unclear origin to most people.
+Ingredients like xanthan gum and potassium sorbate are safe but are perceived as threatening the purity of foods.
+In other words, they are assumed to be in the wrong place.
+The food industry then needs to either educate the consumer about the origin and function of the ingredient or replace the ingredient with a more familiar material that provides a similar function.Even when a decision to include an ingredient is based on sound science it can fail if it does not align with cultural expectations.
+
+For the scientist or engineer the definition of purity is often a more precise idea.
+Sugar, for example, will have a certain purity value.
+An imaginary $100%$ pure sugar would have it purity (P) calculated as follows:
+
+$$
+P \ (\%) = \frac{mass \ of \ sugar \ (g)}{total \ mass \ (g)} \times 100
+$$
+
+In truth, very few food ingredients reach these levels of purity.
+Foods and food ingredients are complex systems containing multiple components that often tightly interact.
+The expectation for purity is lower in the food industry relative to similar industries like pharmaceuticals.
+
+:::{.callout-important}
+## Food Purity Laws
+
+Questions over the purity of food have been ongoing for centuries.
+
+The introduction of purity laws in 1906 in the USA was a recognition that consumers needed to be protected from manufacturers who would **adulterate** foods.
+
+To cut costs some manufacturers would use illegal or dangerous ingredients (formaldehyde, chalk) to increase profit.
+
+In some cases these practices never returned; however, some practices once consider adulteration are being revisited due to new issues related to the environment.
+For example, it was once considered adulteration to use soy in meat products.
+Now reducing the meat content of a meat product by adding a plant-based material is considered more sustainable.
+
+This is a case of a shift in context, where a new problem (climate change) has led to a practice being considered in a different light.
+:::
+
+### Food as a 'Messy System'
+
+There are similarities between food and drugs. For example, both are consumed.
+Traditionally food was an aspect of medicine, with treatments involving modifications to diet.
+Foods are designed to have specific health effects, like yoghurts supplemented with probiotics for digestive health
+Some consider the gap between food and drugs to be closing, but we should consider the specific roles that food has (think: flavour, enjoyment, shared meals)
+
+| Food   | Drugs    |
+|--------------- | --------------- |
+| Eat always   | Consume when ill   |
+| Personal choice   | Prescription based   |
+| Multiple functions   | Single function   |
+| No side effects   | Potential side effects   |
+
+Working food scientists often refer to food systems as 'messy'.
+Food ingredients rarely approach the purity of pharmaceuticals.
+Food products are rarely purchased for a single reason.
+
+## Food Systems According to Science
+
+You are currently studying biology, chemistry and physics.
+
+Ontologically, any food can be considered strictly as a biological, chemical or physical system.
+
+For example:
+
+> All foods are biological systems that undergo cycles of life and decay
+
+However, food scientists often use all three when defining a food.
+
+Take yoghurt for example, which we could describe as:
+
+- Generated from the biological activity of bacteria that metabolise lactose (biology)
+- Acidified due to the release of hydrogen ions into the aqueous environment (chemistry)
+- Transformed into a (semi-solid) that is can withstand moderate forces (physics)
+
+## Food as Functional Materials
+
+Food scentists generally consider two different categories of functionality:
+
+- Bio-functionality: the functions that a food or ingredient has in the body
+- Techno-functionality: the functions that food or ingredient has that make it more usable
+
+## Macro and Micro Levels of Causation
+
+The statement `ultra-processed food is bad for public health` is not necessarily incorrect but it is vague.
+It can be useful to think of this as a part of a larger explanation rather than a wrong explanation.
+
+This statement occurs at the macro level based on loose observations and rough approximations.
+A scientist adds a finer level of explanation that completes the model.
+
+Thus, ultra-processing might cause vitamin loss, which in turn leads to vitamin deficiences, that cause the public health problem.
+The micro and macro levels are not incompatible.
+
+The problem of vagueness remains in this case, however, because the scientist working on the experiments does not know what ultra-processing is exactly.
+Secondly, developing this model would require collaboration between food scientists, nutritional scientists and public health specialists.
+This is not always possible and leads to gaps in our understanding of complex issues.
+
+
+
+# Conclusions
+
+- Concepts like "natural" and "pure" are so widely used in society that they are inescapable to a designer of technology
+- Extreme care is required when thinking about and using these terms as they are vague and often value-laden
+- In science and engineering these terms are often operationalised, meaning they are given a more precise and testable meaning
+- With shifting circumstances there can be changes in what society considers to be accepted in the category of food

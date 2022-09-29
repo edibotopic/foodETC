@@ -1,0 +1,209 @@
+---
+title: Matter, Form, Process, Function 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+One of the most prominent ontological theories in Ancient Philosophy was the Four Causes of Aristotle.
+While this principle is rarely cited directly by scientists it still has a significant influence on our thinking.
+Any time we are concerned with **designing something**, whether a university course or a new chair, we see this principle emerge.
+
+Aristotle existed at a time when thinkers first began to imagine that the world was constructed from simple building blocks (atoms).
+To Aristotle, this was a *reductive* explanation.
+In his writings he considered everyday objects like statues and asked:
+
+> How can we fully describe what makes this thing called a "statue" a statue?
+
+He suggested that such questions are usually answered with an appeal to four causes.
+By "four causes" here we can think *four things that make (or cause) the thing to be itself*.
+The four causes were: **matter**, **form**, **process** and **function**.
+In this course we will use this as an abstract model for thinking about food, but first we need to give a brief outline of each.
+
+### Matter
+
+The things scientists study consist of **matter**.
+A material thing is a physical object with physical properties, like mass and size.
+When we are talking about matter it is important to consider the **scale** we are interested in.
+In everyday life we are interested in the macro-scale, things that are usually larger than a millimeter and that can be seen by the human eye.
+At this scale, we would say that the matter in a table is wood, or that the matter in a salad consists of different ingredients, like tomatoes and salad leaves.
+In science we often look at the matter that constitutes the parts of these visible objects, which are invisible but measurable using special equipment or techniques.
+Even when we spend a lot of time at small scales, a product consumer always interacts at the macro-scale, so we must consider the connection between both.
+
+### Form
+
+The form of something is how it is perceived by people.
+It therefore often has a **subjective** aspect.
+An object's shape can be considered a form, but so can its colour or taste.
+The structure of something, which relates to how its different parts connect or interact can also be considered a form.
+A discipline that deals a lot with form is architecture.
+Consider how a famous architect might design a building.
+She would not just think of what materials are needed, but also the shape of the building, the relative size of the rooms, how the sunlight casts shadows inside and so on.
+Similarly with food, it is very important to consider what **qualities** a food has, as these qualities determine how a food is experienced by people.
+Again, when we think of form we need to keep scale in mind.
+At the macro-scale a whey protein supplement has the form of a powder, which flows and can form a heap.
+At the micro-scale this powder consists of thousands of solid particles.
+At the nano-scale we can make out the proteins, which have their own well-defined three-dimensional structure.
+
+### Process
+
+We can now distinguish between objects that are natural and those that are artifacts.
+The former is anything generated spontaneously without human intervention.
+The latter is any object made by people.
+When archaeologists find an ancient site where a civilisation once lived they find artifacts.
+These are evidence of how those humans lived, what types of lives they led and what state of technological advancement they were in. Every day we use and make our own artifacts.
+
+As humans, we make things that would otherwise not be found in nature: houses, furniture, containers, vehicles, weapons, tools and — of course — food.
+Each thing we make has a process that must be followed for it to be created.
+A process is simply a series of ordered steps that generate an output.
+Every food, whether made in a kitchen or made in a factory, has a process.
+What occurs during a process, in terms of the choices made, the materials added or removed and any chemical changes that might occur influence the properties of the object.
+
+### Function
+
+A function is the end which an object is supposed to serve.
+Tables are expected to support solid things without them sliding off and breaking on the floor.
+A glass is expected to hold water.
+Each of these simple objects has a well-understood function in human life and they are designed with this function in mind.
+
+Food can be thought of as having nutrition as an important function.
+However, it is difficult to ignore that many people consume certain foods for different purposes.
+Consider ice-cream — for example — which is typically consumed for pleasure alone.
+If we design an ice-cream but ignore this fact then we are unlikely to produce a *good* ice-cream.
+This is one way of definining what a *good food* is: a food that fulfils a well-defined function. A food can also be multi-functional.
+For example, a protein bar is design to be 1. convenient and 2. nutritional.
+When evaluating whether a protein bar "works" we would need to evaluate it on at least these two criteria.
+
+:::{.callout-note}
+## Functional food
+
+In recent years the term "functional food" has become popular among food scientists.
+
+As all food has a function the term seems confusing at first, but typically it is taken to mean:
+
+> A food that has a function that goes beyond the conventional functionality of a food product
+
+In this area there are special ingredients that can impact specific aspects of how food and body interact, like how eating a probiotic food can influence the gut microbiome or how some fatty acids are linked with brain development. 
+:::
+
+## The Structure of Food Science?
+
+Arguably, modern food science is structured loosely around the four areas mentioned above.
+
+There are projects focusing on:
+
+- Matter: what is the composition of a food? This kind of work is common in Quality Control roles.
+Scientific papers of this type are published in journals like Food Chemistry
+- Form: what structure does a food have, such as how its molecules are arranged microscopically.
+This work is important in Research & Development roles. Scientific papers of this kind are published in
+journals like Food Structure.
+- Process: what ways can we manufacture food effectively? This kind of work is common in Food Production roles.
+Scientific papers of this kind are published in journals like Journal of Food Engineering.
+- Function: what functions do foods have technologically or biologically. This kind of work is common in a wide
+range or roles, and usually requires collaboration with nutritional scientists when biological functions are
+being tested. Scientific papers of this kind are published in journals like Food & Function.
+
+In food products these different areas intersect in complex ways.
+Consider a vitamin D-enriched nutrition beverage:
+
+|Function              |Matter                               |Form                       |Process                           |
+|----------------------|-------------------------------------|---------------------------|----------------------------------|
+|Delivery of vitamin   |Oil carrier, vitamin and water       |Structure of an emulsion   |Homogenisation to stabilise oil   |
+
+To design a functioning product we need knowledge of what the product will do (its function), what ingredients we need (the matter),
+what structure the ingredients generate (the form) and what operations will be necessary to produce it (the process).
+
+## Structure and Reality
+
+What I just described in the previous section is basically a restatement of an ancient model for understanding the world attributed to Aristotle.
+
+:::{.callout-note}
+## Aristotle
+
+Aristotle is one of the most famous ancient philosophers and is considered the most influential *natural philosopher*, which was the precursor to the modern concept of the scientist.
+
+He is known for the writing influential books on most topics you can imagine, including physics, politics, biology, psychology and astronomy.
+:::
+
+One of the general problems that interested Aristotle was:
+
+> how can we provide good explanations?
+
+He grew frustrated at the explanations that were being provided around him.
+When asked "What is a statue?" one would say it is a lump of stone or marble (matter), another that it was a person-shaped object (form) and another that it was the product of sculpting (process).
+
+Aristotle suggested that an *exhaustive* account of a statue would have to include at least these three aspects. He also thought that the object's *telos* (Greek for end or function) is also essential to any description.
+
+Some statues were crafted to pay homage to a great citizen, others in praise of a God and others to ridicule a defeated enemy. These different functions would have to be considered when evaluating whether a given statue was a good one.
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="../slides/three/"></iframe>
+```
+</div>
+
+[📽️ Direct link to slides for this lecture](slides/three/)
+
+## Applying the Four Causes
+
+When asked the questions:
+
+- What is candy floss?
+- What is a protein supplement?
+- What is drinking milk?
+
+It is not sufficient to answer:
+
+- A sugary snack
+- A thing used to build muscle
+- A white liquid
+
+In each case we are simply describing food according to a single category of properties.
+
+Aristotle would ask us to consider each of the four factors that cause these materials to be be what they are.
+
+For example, consider the second case:
+
+- Matter: predominately protein, typically whey protein
+- Form: usually a powder
+- Process: spray-drying
+- Function: convenient source of protein
+
+We now have a more full description of this material.
+
+Each aspect could be described in more detail, depending on your knowledge of the product.
+
+In a job, you might be expected to make innovations with this product or come up with something new that will sell well.
+As a food scientist you can make changes to one or more aspects in the hope of achieving thos goal.
+
+:::{.callout-warning}
+Aristotle was a great thinker and continues to influence scientists, philosophers and mathemiticians today. However, there have always been those that disagree with his ideas and we must be careful not to extend them to areas where they do not work.
+
+In ancient times the main opponents to Aristotle's views were the *atomists* who consider atoms (matter) to be sufficient to explain all things. Many years later, Francis Bacon — considered to be the founder of the modern scientific method — rejected the formal and final (function) causes and urged scientists to focus on matter (e.g., atoms, molecules) and process (e.g., heat, motion).
+
+A significant rejection of Aristotle's ideas occured in biology with the discovery of evolution. Aristotle would suggest that an animal had a specific *telos* that governed its development; however, evolutionary biology maintains that animals develop through random genetic mutations and natural selection.
+
+Models like the four causes are not "scientific theories" as we normally understand them.
+They are *heuristics* or rules-of-thumb that guide us in our thinking.
+
+Versions of the four causes are most commonly found among **designers** who are in the business of creating clothes, buildings, software, furniture, lessons and any other thing you can imagine that people use or consume. Of course, food scientists in their own way are designers also, because they make things that people should want to eat. Many of the examples Aristotle gave in his original works were of things people made (statues, tables) rather than natural things (animals, plants).
+
+When using the four causes as a heuristic, it is important to keep in mind that it is most appropriate when guiding how we approach questions concerning technology (making things for people) rather than science (understanding nature) *per se*.
+:::
+
+Food products are technologies, engineered in all cases for ultimate
+consumption by humans; any technology is a cultural artifact, which
+is shaped by, and itself shapes, culture; the designer of a technol-
+ogy bears an ethical responsibility to the user of that technology. From
+the preceding something becomes apparent – food scientists are not
+’just’ scientists, they are often some amalgam of scientist, engineer and
+designer. Once we recognise the essence of what we do, we can understand better what we could do and what we should do to benefit society.
+
+# Conclusions
+
+- Any food can be explained well by describing the matter from which it is composed, its qualities and structure, the manner of its production and its range of functions
+- Such explanations are always constrained to a degree, by factors such as scale, context and audience, which need to be considered when formulating the explanation
+- This model is ontological (it structures our thinking) rather than scientific and is holistic insofar as it attempts to describe food in its entirety
+- A type of reductionism is the kind where one of these ontological categories is given primacy (e.g., materialism or functionalism)

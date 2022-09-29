@@ -1,0 +1,28 @@
+---
+title: Reflections 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+Below please find a list of reflective exercises that are assigned during this course:
+
+Assignments will be completed by groups. At the end of semester 1 groups will be asked to expand on one of the assigned topics in a group presentation.
+
+## Semester 1
+
+1. What is food? Define the criteria that you think must be met for something to be food, citing at least one controversial case.
+
+2. Analyse a recipe sourced from online or in a book. Highlight any deficiencies in the recipe and suggest ways it could be improved.
+
+3. Find a food advertisement that you focuses on science. Is the science communicated effectively? Explain.
+
+4. Generate a new idea for a food structure. Explain how this might be achieved and why.
+
+5. Explain how food scientists, molecular gastronomers and nutritional scientists might work together on a project.
+
+## Semester 2
+
+To be announced...

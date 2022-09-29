@@ -1,0 +1,30 @@
+---
+title: Food Processes 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+## Foods are dispersed systems
+
+Generate binary combinations of food phases:
+
+If viewing on a small screen it might be easier to [open in a new window]().
+
+ <div> 
+<iframe class="slide-deck" src="https://edibotopic.github.io/disperse/"></iframe>
+ </div>
+
+## Dispersions can be unstable
+
+Emulsions consist of one liquid phase dispersed in another, while suspensions consist of a solid dispersed in a liquid.
+Play with the animation below to determine the factors that influence the separation.
+
+If viewing on a small screen it might be easier to [open in a new window]().
+
+ <div> 
+<iframe class="slide-deck" src="https://edibotopic.github.io/stokes-law/
+" loading="lazy"></iframe>
+ </div>

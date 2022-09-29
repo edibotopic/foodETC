@@ -1,0 +1,16 @@
+---
+title: Food Marketing 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="../slides/seven/"></iframe>
+```
+</div>
+
+[📽️ Direct link to slides for this lecture](slides/two/)

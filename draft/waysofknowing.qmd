@@ -1,0 +1,111 @@
+---
+title: Ways to Know 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+## Knowing How and Knowing That
+
+Lots of people know how to cook. Everyone has their favourite meal. We have all been eating and drinking for most of our lives.
+
+What then is different about how a food scientist knows about food?
+
+A classic distinction that is useful when thinking about this question is that between two ways of knowing:
+
+- Procedural knowledge (knowing how)
+- Declarative knowledge (knowing that)
+
+### Procedural knowledge
+
+Procedural knowledge is associated with following sets of instructions.
+For example, it is possible to cook a good meal by simply following a recipe.
+This is not too different to mechanically following a laboratory protocol.
+
+This way of knowing is often acquired through experience.
+Someone may know the steps required to achieve a goal but not why the steps work.
+An issue with this kind of knowledge is that it is difficult to teach.
+When asking someone why a step works they might respond "it just works".
+Another problem with this is that it is relatively inflexible and when
+the procedure is found to falter or fail it can be difficult to modify.
+
+### Declarative knowledge
+
+Declarative knowledge is knowledge that can be expressed clearly in speech or writing.
+When a scientist outlines the steps in a laboratory method it is preferable if they can explain the purpose of each step.
+Consider a method with a step that involves adding a dangerous acid — a legitimate question might be:
+
+> Do we really need the step with the dangerous acid?
+
+To answer the question we need to know what the mechanism of the acid is supposed to be.
+Alternatively we could remove the step and see if the method still works.
+
+Knowledge of how something works better enables us to explain it other people (students, employees, managers).
+It also means that we are typically more flexible when a problem arises (there might be a non-acidic material that works the same way).
+
+The declarative knowledge characteristic of science is usually also generalisable, meaning that once we know some set of facts about a phenomenon we are able to extend that knowledge over a wide variety of cases.
+
+As a scientist, technologist or designer you need both procedural and declarative knowledge; however, many students think that *knowing how* is sufficient.
+This can restrict your thinking and your career path, as it is often necessary to question that procedures that are in place, even when they have been there for a long time.
+
+### Procedural Vs. Declarative: The Case of Searing Meat
+
+A classic case that helps us explore this distinction is the searing of meat.
+It is still common today for recipes to suggest that cooks "sear meat".
+This is a common step that is followed to produce juicy meat (a procedure).
+
+When chefs explained why meat should be seared they suggested that it "sealed in" the juices.
+This explanation is somewhat metaphorical, and is similar to the ancient surgical technique of cauterisation by burning.
+While effective searing does produce delicious meat it is not because juices are sealed in through the formation of a skin.
+
+Here, there is a problem with the declarative knowledge used to explain the step.
+This knowledge is assumed uncritically, informed by metaphors and has never been tested.
+These three reasons alone make the knowledge somewhat unscientific.
+
+Recently, scientists began to study the operation of searing.
+They measured the loss of moisture from meat that had been seared and meat that had not.
+It was found that searing — in fact — accelerates the loss of moisture.
+
+These scientists knew that searing was desirable (it produced a good effect) but it was not for the reasons commonly outlined.
+Instead, they suggested that the high temperatures used during searing promoted other effects — especially Maillard browning — that were responsible for the positive attributes of seared meat.
+
+Maillard browning is a well understood chemical reaction that occurs in a wide variety of food systems.
+In some it is undesirable (infant formula) and in others it is desirable (baked goods).
+It is known that the effect is promoted by certain conditions (e.g., alkaline pH); hence, obvious questions emerged, such as whether changing pH could improve the quality of cooked meat.
+In addition, scientists returned to the original stated goal of searing (sealing the juices) and wondered how this could be achieved while also promoting browning.
+
+The answer is known as *sous vide* cooking, where meat is first cooked at low temperature in a sealed pouch before then being briefly seared.
+Most of the cooking is done in the pouch where moisture loss is minimal while the searing can still achiever the browning effect.
+
+Considering this case a few important points to consider are:
+
+- Knowing the true mechanism of searing allowed the development of more optimal techniques
+- Scientific knowledge of the Maillard browning reaction allows us to generalise to a variety of cases
+
+
+## Reductionsim and Holism
+
+There has been some debate in recent years about the *reductionsim* of food and nutritional science.
+Critics suggest that scientists should try to be *more holistic*.
+These terms are often ill-defined, but from what we have just discussed we can begin to think through them.
+We have listed four categories — matter, form, process and function.
+To be reductionist is to emphasise one over the others at the expense of understanding the object of study.
+To be reductionist is to seek explanations that give weighting to all four, or *at least* these four.
+
+Just like matter, form, process and function are all just different categories by which we can think about food (at different scales), we can also differentiate between kinds of reductionism that correspond to these categories. The resulting "-isms" might be:
+
+- **Materialism**: focusing on how the matter in food influences its properties
+- **Structuralism**: focusing on how the structure of food influences its properties
+- **Causalism**: focusing on how processing causes changes in food properties
+- **Functionalism**: focusing on the final function served by food
+
+:::{.callout-important}
+The most prominent kind of materialism is "nutritional reductionism" or "nutritionism" for short.
+
+Nutritionism is usually framed as a criticism, which suggests that scientists focus too much on nutrients while neglecting other aspects of food that are important.
+
+A central goal of this course if exploring this claim by trying to understand what food scientists actually think about.
+:::
+

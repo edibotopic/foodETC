@@ -1,0 +1,88 @@
+---
+title: Knowing Food 
+slide-format: revealjs
+css: styles.css
+execute:
+  echo: false
+search: false
+---
+
+There are different ways to approach knowing something.
+
+Approaching food like a scientist, a designer or a craftsperson are all different modes of thinking.
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="../slides/five/"></iframe>
+```
+</div>
+
+[📽️ Direct link to slides for this lecture](slides/two/)
+
+Consider the factors that consumers deem important when purchasing a food product:
+
+<div style="display: table margin-right: auto; margin-left: auto"> <!-- TODO: add to CSS -->
+
+```{ojs}
+
+factors = [
+  {importance: 85, factor: "taste"},
+  {importance: 65, factor: "price"},
+  {importance: 62, factor: "health"},
+  {importance: 49, factor: "convenience"},
+  {importance: 37, factor: "sustainability"}
+]
+
+Plot.plot({
+  y: {domain: [0,100], label: "Importance (%)"},
+  x: {label: ""},
+
+  marks: [
+    Plot.barY(factors, {y: "importance", x: "factor", fill: d => d.importance}),
+    Plot.ruleY([0])
+  ]
+
+})
+
+```
+</div>
+
+Health is but one aspect of this picture, and nutrition is just one aspect of health.
+
+## Operationalisation
+
+When confronted with an ontological concept that is not immediately testable we have two choices:
+
+1. Reject the concept
+2. operationalise the concept
+
+For example, if someone argues that unicorns might be healthier meat source than chickens we should probably reject the concept.
+This is certainly a view not generally held by people and it is difficult to imagine how we might use an imaginary animal as a raw material.
+Now, a concept like "natural food" is viewed by some scientist as being equally as meaningless.
+In their view, as all things are ultimately derived from nature, it does not make sense to talk of degrees of naturalness.
+However, the concept is widely used in society and is not necessarily imaginary in the sense of a unicorn.
+The problem is not whether natural things are real but is instead:
+
+1. How can things be categorised as natural?
+2. What benefit is there to this categorisation?
+
+These questions **operationalise** the problem and make it more **tractable**.
+
+::: {.callout-tip}
+
+## Operationalisation of AI
+
+A famous case of operationaliation is the Turing Test.
+
+When Alan Turing proposed his test it was after many years of debates concerning the question:
+
+> Can machines think?
+
+While Turing thought this was an interesting question he did not think it could be resolved.
+
+In other words: it was a waste of time.
+his test, on the other hand, was tractable:
+
+> Can a machine convince someone that it is a person?
+
+:::
