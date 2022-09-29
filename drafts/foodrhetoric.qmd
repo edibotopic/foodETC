@@ -1,7 +1,0 @@
----
-title: Food Rhetoric 
-slide-format: revealjs
-css: styles.css
-execute:
-  echo: false
----
