@@ -14,6 +14,7 @@ format:
         - ../anim.css 
         - styles.css
     footer: Food Technology, Culture & Ethics 
+search: false
 ---
 
 <section data-auto-animate>

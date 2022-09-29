@@ -12,6 +12,7 @@ format:
     # logo: images/quarto.png
     css: styles.css
     footer: Food Technology, Culture & Ethics 
+search: false
 ---
 
 ## {background-video="vids/bottled_food_c.mp4"}

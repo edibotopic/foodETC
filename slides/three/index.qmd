@@ -13,6 +13,7 @@ format:
     footer: Food Technology, Culture & Ethics 
     transition: zoom
     transition-speed: slow
+search: false
 ---
 
 ## Giving Explanations {transition="zoom"}
