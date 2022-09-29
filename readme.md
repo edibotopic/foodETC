@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 Notes and slides for FS1005.
 
 Work in progress.
