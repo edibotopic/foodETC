@@ -5,7 +5,9 @@ subtitle: "Introduction"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: true
+    chalkboard:
+        theme: "whiteboard"
+        grid: { color: 'rgb(50,50,10,0.1)', distance: 30, width: 1}
     buttons: true
     controls: true
     preview-links: true
