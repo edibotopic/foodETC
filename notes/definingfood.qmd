@@ -185,16 +185,11 @@ The difference is that in science it is assumed that there is an explanation (it
 
 ### Boundaries and Levels
 
-<div title="click and drag nodes to rearrange the graph" id="observablehq-chart-7fb96fb1"></div>
+<div title="click and drag nodes to rearrange the graph" id="observablehq-chart-7fb96fb1">
+<iframe width="100%" height="984" frameborder="0"
+  src="https://observablehq.com/embed/dc3dc8d5798f99dd?cells=chart"></iframe>
 <strong>Fig. 1.</strong><p>Examples of some different ways to "reduce" food <a href="https://observablehq.com/d/dc3dc8d5798f99dd">(original source here)</a></p>
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/dc3dc8d5798f99dd.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-7fb96fb1"));
-});
-</script>
+</div>
 
 When working on anything we usually operate within some constraints (e.g., time, money).
 To make progress we often need to draw a *boundary* around the (sub)system that interests us.
@@ -609,7 +604,7 @@ The distinction between natural and artificial is rarely clear-cut.
 
 Consider this example (Bunge, 2003):
 
-$$seed \to seedling \to sapling \to tree \to log \to pulp \to paper \to book$$
+seed → seedling → sapling → tree → log → pulp → paper → book
 
 This is a combination of a natural and an artificial process.
 Given that the seed may have been purposefully planted and its environment manipulated to promote its growth, there is a also a question as to whether the entire process is artificial.
@@ -623,27 +618,6 @@ Given that the seed may have been purposefully planted and its environment manip
 - Not every question about food can be resolved scientifically (e.g., ontological questions, ethical problems, design aesthetics)
 - Reductionists think of a thing is the set of its parts, holists consider wholes as primary and systemists consider systems comprised of parts that form structures 
 - Ontological reductionism is rarely a feature of how scientists think (this is a common misconception)
-
-```{ojs}
-
-md`---`
-
-md`***Ontologically, most systems can be described as a set of: ***`
-
-mcq = [
-  {name: "objects and relations", mark: "✅ correct!"},
-  {name: "objectives and facts", mark: "❌"},
-  {name: "subjects and objects", mark: "❌"},
-  {name: "relations between ideas", mark: "❌"},
-  {name: "none", mark: "❓"}
-]
-
-viewof answer = Inputs.radio(mcq, {label: "answer", value: mcq[4], format: x => x.name})
-
-md`**${answer.name}** ${answer.mark}`
-
-md`---`
-```
 
 ## References
 
