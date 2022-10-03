@@ -5,12 +5,13 @@ subtitle: "What is Food?"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: true 
+    chalkboard:
+        theme: "whiteboard"
+        grid: { color: 'rgb(50,50,10,0.1)', distance: 30, width: 1}
     buttons: true
     controls: true
     preview-links: true
     # logo: images/quarto.png
-    css: styles.css
     footer: Food Technology, Culture & Ethics 
 search: false
 ---
@@ -33,7 +34,7 @@ Would a food scientist work on something like this?
 
 ---
 
-What about medicinal drugs?
+What about this?
 
 ![](../../img/kidney_pills.jpg){fig-align="center" width="70%" height="70%"}
 
@@ -43,10 +44,10 @@ What about medicinal drugs?
 |   |FOOD|DRUGS              |
 |:--------|:--------:|---------------------------------:|
 |Consumption   |Always    |When ill     |
-|Side effects  |Should not be |May happen |
-|Motivation  |Variable  |Cure/protect |
-|Availability      |Wide   |Prescription-only    |
-|Regulation|For safety|Safety & efficacy |
+|Side effects  |Unlisted |Listed |
+|Purpose  |Various  |Cure/protect |
+|Availability      |Wide   |Prescription    |
+|Regulation|Safety|Safety & efficacy |
 
 <sub><sub><sub>Adapted from *Food Styles and the Future of Nutrigenomics* by Michiel Korthals (2009)<sub><sub><sub>
 
@@ -79,13 +80,12 @@ What about medicinal drugs?
 - **Romanticism**: in the past everything was better, presumably because of a lack of technology
 
 ::: {.callout-note}
-These ideas are simply visions, imaginings of what the past was or future will be.
-There are no guarantees that technology (e.g., 3D printing) will be used for bad or good.
-There are also no guarantees that non-technology (natural things) will help or harm us.
+These are all *visions*, imaginings of what the past was or future will be.
+There are no guarantees that a given *technology* will be used for bad or good.
+There are also no guarantees that unknown natural things will help or harm us.
 
-Ultimately, whatever is adopted will be chosen by people.
-These choices should be informed and not coerced.
-The insects in Snowpiercer, the people in Soylent Green and the nutraloaf in prisons is not freely chosen.
+Ideally, whatever is adopted will be *freely-chosen* by *informed* (not confused or coerced) individuals.
+The insects in Snowpiercer, the people in Soylent Green and the nutraloaf in prisons are not freely chosen.
 :::
 
 :::
@@ -98,12 +98,11 @@ The insects in Snowpiercer, the people in Soylent Green and the nutraloaf in pri
 
 **C.** This thing is good for me 
 
-
 ::: {.callout-warning}
 Logically, this argument is **valid** but not **sound**.
 
-The conclusions *follow* from the premisses but
-it is not clear how the statements in P1 and P2 are **true**.
+The conclusion *follows* from the premisses but
+it is not obvious that P1 and P2 are **true**.
 :::
 
 ---
@@ -132,9 +131,9 @@ Consider the example of 'nature-inspired design'.
 ## Questions to Consider
 
 1. Is it ever useful to use the term 'natural'?
-2. Food preservation stops a natural process — is this bad?
-3. Are other vague terms like 'purity' important?
-4. Do you think insects are food?
+2. Food preservation stops a 'natural' process — is this bad?
+3. Are other vague terms like 'purity' useful?
+4. Do you think insects will ever be considered food?
 
 ## Foods of the Future
 
@@ -150,7 +149,6 @@ of World War II when American citizens were encouraged to incorporate
 protein-rich organ meats into their protein deficient diets.
 
 ```
-
 
 ## Foods of the Future {auto-animate=true}
 
@@ -193,3 +191,17 @@ defining what makes an unfavorable food acceptable.
 ```
 
 [Link to original paper](https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614)
+
+## Next Lecture
+
+> A simple, ontological model to frame our thinking about food systems
+
+:::{.fragment .fade-up .r-fit-text}
+::: {.callout-note}
+The recently-uploaded notes written in support of this lecture are long.
+
+All of the notes will not be this long and you are not expected to read them all in one sitting.
+
+They are a resource to come back to and if anything is unclear you can ask me and I will add clarifications.
+:::
+:::
