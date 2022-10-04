@@ -56,8 +56,8 @@ In science education, there is a tendency to begin with `parts` (elements, atoms
 In everyday life we are more likely to begin with `wholes` (qualities, appearance, emotions).
 Both approaches are legitimate but they often seem to be in conflict:
 
-> Science tells us to choose foods based on nutrients but we should really be trusting our instincts
-> — a common view among figures like Michael Pollan, who have critiqued the food industry in recent years
+> Science seems to tell us to choose foods based on their nutrient levels but we should really be trusting our instincts and traditions
+> — a common view among figures like Michael Pollan, who have [critiqued the food industry in recent years](https://www.youtube.com/watch?v=qaqhKYdhSu8&t=147s)
 
 There is another way of talking about food that focuses on `categories`.
 A significant number of people think it is 'common sense' to opt for **natural** food.
@@ -185,17 +185,9 @@ The difference is that in science it is assumed that there is an explanation (it
 
 ### Boundaries and Levels
 
-<div title="click and drag nodes to rearrange the graph" id="observablehq-chart-7fb96fb1">
-<iframe width="100%" height="984" frameborder="0"
-  src="https://observablehq.com/embed/dc3dc8d5798f99dd?cells=chart"></iframe>
-<strong>Fig. 1.</strong><p>Examples of some different ways to "reduce" food <a href="https://observablehq.com/d/dc3dc8d5798f99dd">(original source here)</a></p>
-</div>
-
-When working on anything we usually operate within some constraints (e.g., time, money).
 To make progress we often need to draw a *boundary* around the (sub)system that interests us.
-In the diagram above, we can imagine cutting the blue line so that the rest falls away and we only have to think about nutrients.
-
-We could then draw a boundary around the macronutrients of food, proteins (P), sugars (S) and lipids (L).
+When working on anything we usually operate within some constraints (e.g., time, money).
+We may draw a boundary around the macronutrients of food, proteins (P), sugars (S) and lipids (L).
 In symbols this could be written:
 
 $$Food = \{P,S,L\}$$
@@ -284,9 +276,7 @@ However, the nature of this analysis does not mean that the scientist denies the
 There is a sense in which food is a collection of chemicals, a sense in which it is a physical system, a sense in which it is an economic commodity, and a sense in which it is a source of nutrients for human growth, and a sense in which it is an object of desire.
 All of these ways of categorising food can be useful.
 Because we are in a university classroom we have the luxury of *thinking big* so that we can develop a complex understanding of food.
-The mathematician Eugenia Cheng in a talk at Google gives an excellent example of `thinking in systematic terms` about the phenomenon of gaining weight (the video will start at the correct mark):
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YHZKX0H6cUE?start=1195" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[The mathematician Eugenia Cheng in a talk at Google gives an excellent example of `thinking in systematic terms` about the phenomenon of gaining weight.](https://youtu.be/YHZKX0H6cUE?t=1196)
 
 ::: {.callout-note}
 
@@ -617,7 +607,7 @@ Given that the seed may have been purposefully planted and its environment manip
 - The choice to consume a food is influenced by personal needs and desires, as well as social and cultural factors
 - Not every question about food can be resolved scientifically (e.g., ontological questions, ethical problems, design aesthetics)
 - Reductionists think of a thing is the set of its parts, holists consider wholes as primary and systemists consider systems comprised of parts that form structures 
-- Ontological reductionism is rarely a feature of how scientists think (this is a common misconception)
+- Ontological reductionism is rarely a feature of how scientists think (science involves bottom-up and top-down thinking)
 
 ## References
 
