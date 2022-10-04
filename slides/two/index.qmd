@@ -191,17 +191,3 @@ defining what makes an unfavorable food acceptable.
 ```
 
 [Link to original paper](https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614)
-
-## Next Lecture
-
-> A simple, ontological model to frame our thinking about food systems
-
-:::{.fragment .fade-up .r-fit-text}
-::: {.callout-note}
-The recently-uploaded notes written in support of this lecture are long.
-
-All of the notes will not be this long and you are not expected to read them all in one sitting.
-
-They are a resource to come back to and if anything is unclear you can ask me and I will add clarifications.
-:::
-:::
