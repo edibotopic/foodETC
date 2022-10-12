@@ -208,5 +208,5 @@ This video is a quick and convenient way of reviewing some concepts from the sli
 
 ---
 
-## {background-iframe="https://edibotopic.github.io/stokes-law/"}
+## {background-iframe="https://edibotopic.github.io/stokes-law/" background-interactive="true"}
 
