@@ -191,3 +191,22 @@ defining what makes an unfavorable food acceptable.
 ```
 
 [Link to original paper](https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614)
+
+---
+
+## Review Video(s)
+
+::: {.callout-tip}
+
+This video is a quick and convenient way of reviewing some concepts from the slides and lectures.
+
+:::
+
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g8a8V6ipJdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+## {background-iframe="https://edibotopic.github.io/stokes-law/"}
+
