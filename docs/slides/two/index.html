@@ -7,7 +7,7 @@
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.38">
+  <meta name="generator" content="quarto-1.1.251">
 
   <meta name="author" content="Dr Shane Crowley">
   <title>Food Technology, Culture &amp; Ethics - Food ETC</title>
@@ -19,10 +19,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -610,6 +615,29 @@
 <span id="cb3-16" class="hljs-ln-code"><a href="#cb3-16"></a>discussed in the context of the empirical contributions they made in</span>
 <span id="cb3-17" class="hljs-ln-code"><a href="#cb3-17"></a>defining what makes an unfavorable food acceptable.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><a href="https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614">Link to original paper</a></p>
+</section>
+<section id="review-videos" class="slide level2">
+<h2>Review Video(s)</h2>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>This video is a quick and convenient way of reviewing some concepts from the slides and lectures.</p>
+</div>
+</div>
+</div>
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g8a8V6ipJdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+</section>
+<section id="section-1" class="slide level2" data-background-iframe="https://edibotopic.github.io/stokes-law/">
+<h2></h2>
 
 <div class="footer footer-default">
 <p>Food Technology, Culture &amp; Ethics</p>
@@ -896,7 +924,8 @@
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
