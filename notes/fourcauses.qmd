@@ -1,5 +1,5 @@
 ---
-title: Four (be)causes 
+title: Four (be)Causes 
 slide-format: revealjs
 css: ../styles.css
 execute:
@@ -26,7 +26,7 @@ As an alternative method of explanation he developed the **Four Causes**, which 
 ```
 </div>
 
-[📽️ Direct link to slides for this lecture](slides/three/)
+[📽️ Direct link to slides for this lecture](../slides/three/)
 
 ## Science of the Artificial
 
