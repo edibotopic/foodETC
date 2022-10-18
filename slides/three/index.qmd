@@ -38,7 +38,7 @@ css: "../anim.css"
 
 <div>
 ```{=html}
-<video controls="true" class="video-embed" src="https://github.com/edibotopic/foodETC/raw/master/docs/slides/three/vids/FourCauses.mp4"></iframe>
+<video controls="true" class="video-embed" src="https://github.com/edibotopic/foodETC/raw/master/slides/three/vids/FourCauses.mp4"></video>
 ```
 </div>
 
