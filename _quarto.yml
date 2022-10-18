@@ -17,7 +17,7 @@ website:
       - section: "Ontology"
         contents:
           - notes/definingfood.qmd 
-        #   - notes/fourcauses.qmd
+          - notes/fourcauses.qmd
         #   - notes/isandisnot.qmd
         #   - notes/replacingfood.qmd
       - section: "Epistemology"

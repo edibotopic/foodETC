@@ -4,16 +4,16 @@ subtitle: "Four Causes"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: true
+    chalkboard:
+        theme: "whiteboard"
+        grid: { color: 'rgb(50,50,10,0.1)', distance: 30, width: 1}
     buttons: true
     controls: true
     preview-links: true
     # logo: images/quarto.png
-    css: ../anim.css
     footer: Food Technology, Culture & Ethics 
-    transition: zoom
-    transition-speed: slow
 search: false
+css: "../anim.css"
 ---
 
 ## Giving Explanations {transition="zoom"}
@@ -36,7 +36,11 @@ search: false
 
 ##  {background-color=black}
 
-![](vids/FourCauses.mp4){autoplay="autoplay"}
+<div>
+```{=html}
+<video controls="true" class="video-embed" src="https://github.com/edibotopic/foodETC/raw/master/docs/slides/three/vids/FourCauses.mp4"></iframe>
+```
+</div>
 
 ---
 
@@ -92,84 +96,18 @@ style="float: right;">
 
 ---
 
-## But, Is This Unscientific? 🤔 {background-color="black"}
-
-There is a strong tendency in science to focus on **matter** and **motion**.
-For example, temperature can be explained based on knowledge of the mass
-of molecules and their velocity.
-
-
-```{=html}
-<div>
-<svg data-=""
-xmlns="http://www.w3.org/2000/svg" 
-viewBox="0 0 300 300" width="300px" height="310px">
-
-<title>Materialism: if we know the matter that exists and how it moves we know everything that is to be known</title>
-
-<!-- racing bars -->
-<polyline stroke="white" stroke-width="5" fill="none">
-  <animate attributeName="points" dur="15s" repeatCount="indefinite"
-    values="100,100 100,100; 100,100 300,100; 100,100 100,100;"
-	  begin="2"
-  />
-</polyline>
-
-<polyline stroke="yellow" stroke-width="5" fill="none">
-  <animate attributeName="points" dur="10s" repeatCount="indefinite"
-	values="100,200 100,200; 100,200 300,200; 100,200 100,200; "
-	  begin="2"
-  />
-</polyline>
-
-<polyline stroke="green" stroke-width="5" fill="none">
-  <animate attributeName="points" dur="17s" repeatCount="indefinite"
-    values="100,300 100,300; 100,300 300,300; 100,300 100,300;"
-	  begin="2"
-  />
-</polyline>
-
-</svg>
-
-</div>
-```
-
-## Epistemic Reductionism
-
-> The idea that all explanations ultimately reduce to physics:
-> what is the nature of the matter and the extent of its motion?
-
-::: {.fragment .fade-up}
-::: {.callout-important}
-
-## Food Science & Technology
-
-The above concept is important for simple systems and also philosophically interesting.
-Practically speaking, however, we often must study properties at a macro-scale. 
-
-Food as a biological entity has a complex and varied structure. As a technology it is
-manufactured, stored, marketed, distributed, sold and consumed.
-
-:::
-:::
-
----
-
 ## Structure of Food Science ... {background-color=black}
 
-:::{.fragment .grow transition-speed="slow"}
 ![](img/FS_CAUSES.jpg)
-:::
 
 ## Biomimetics
 
 > The mimicking of natural biological structures in the design of functional materials
 
-
 :::{.r-fit-text}
 <div style="padding-left:130px">
 <div title="meat on bone" class="rotate" style="float:left; padding: 20px;">
-<span class="scale">🍖</span>
+<span>🍖</span>
 </div>
 <div title="cut of meat" class="rotate" style="float: left; padding: 20px;">
 <span>🥩</span>					
@@ -190,13 +128,11 @@ manufactured, stored, marketed, distributed, sold and consumed.
 :::
 
 ::: {.callout}
-There are specific reasons we might want to replace meat (see sustainability).
+There are specific reasons we might want to replace meat (`sustainability`).
 By studying real meat closely we can determine how to replace it effectively.
 An important aspect is recreating the fibrous structure of meat.
 This is less important in products like burgers and nuggets,
 which have a a more uniform structure due to processing.
-
-**The solution is more complex than "just use protein".**
 :::
 
 ## Biomimetics: Other Examples
@@ -209,8 +145,8 @@ which have a a more uniform structure due to processing.
 
 The idea is not simply that "nature is better".
 
-It is `there are cases when natural structures can inform design`.
+`There are cases when natural structures can inform design`.
 
-A vegan food designer has as much to learn from milk is a dairy scientist.
+A vegan beverage designer may have as much to learn from cow milk as a dairy scientist.
 
 :::
