@@ -140,6 +140,27 @@ Many label claims like "high protein" require nutrients like protein to exceed a
 - Stable to chemical and microbiological changes
 - Affordable
 
+::: {.callout-important}
+
+## More on Soylent
+
+I refer to Soylent as an interesting food product.
+It's interesting for a variety of reasons:
+
+- It was initially promoted as a complete meal-replacer (quite the claim)
+- The name is taken from a 1970s Sci-Fi movie where Soylent is a protein-rich food that turns out to be made from people
+- Its marketing focused on convenience (meal preparation is too labor-intensive), productivity (save time for what you really want to do) and sustainability (only drink what you need)
+- The concept attracted major criticism from journalists and nutritional scientists when news of its development spread
+- It is largely equivalent — in principle — to products that pre-date Soylent (Abbott Ensure)
+- The company repositioned itself recently to focus on "usage occasions" and expanded its range to include solid foods
+- A significant proportion of its profits have historically been through e-commerce
+- Two-thirds of their consumers are millenials or younger
+- Its creator blogged extensively about its early development (some of these blogs are very thoughtful)
+- As a diet food it shares many problems with other meal-replacers (namely: taste fatigue)
+
+In the end, the product consists mostly of a combination of dried ingredients that are mixed, heated and bottled.
+:::
+
 **Question:** are the nutritional requirements the same for all adults?
 
 :::{.callout-note collapse="true"}
