@@ -1,16 +1,17 @@
 ---
 title: "Replacing Food"
 author: "Dr Shane Crowley"
-subtitle: "Case Study: Soylent"
+subtitle: "Possible, Desirable?"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: true
+    chalkboard:
+        theme: "whiteboard"
+        grid: { color: 'rgb(50,50,10,0.1)', distance: 30, width: 1}
     buttons: true
     controls: true
     preview-links: true
     # logo: images/quarto.png
-    css: styles.css
     footer: Food Technology, Culture & Ethics 
 search: false
 ---
@@ -18,8 +19,6 @@ search: false
 ## {background-video="vids/bottled_food_c.mp4"}
 
 ## {background-iframe="http://web.archive.org/web/20170316060410/http://robrhinehart.com/?p=298"}
-
-
 
 ---
 
@@ -81,20 +80,18 @@ trends.embed.renderExploreWidget("GEO_MAP_0", {"comparisonItem":[{"keyword":"soy
 ## Universal Versus Niche Technologies
 
 Soylent was initially marketed as a complete meal-replacement.
-Much of its notoriety arises from the universality of this claim.
-For many, seeking efficiency by sacrificing food is undesirable.
-However, such technologies can be useful in specific cases.
+Much of its notoriety arises from the perceived *universality* of this claim.
+However, such technologies can be undeniably useful in specific contexts.
 :::
 :::
 
 ::: {.fragment .fade-right}
 ::: {.callout-tip}
 
-## Techno-optimism Versus Romanticism
+## Techno-optimism and Romanticism
 
-In the Soylent future people have more time for other things, but many want still want time for food.
-Critics argued that Soylent was strange but these were arguments from nature, or because 
-the name was distasteful (not arguments of substance).
+In a Soylent future people have more time to be productive, but not everyone places the same value on *productivity*.
+Critics argued that Soylent was "strange" but often appealed to nature or vague concepts (wholeness).
 :::
 :::
 
@@ -103,8 +100,9 @@ the name was distasteful (not arguments of substance).
 
 ## Legitimate Issues with the Technology
 
-It is arrogant to suggest that the full functionality of food can be replaced easily.
-Diets are diverse, nutritional science isn't finished, taste fatigue is a problem.
+It is unwise to suggest that the the nutritional complexity of a diverse diet can be replicated in a beverage.
+There are also known problems with successfully incorporating nutrients into processed food products.
+These are major challenges with obvious trade-offs.
 :::
 :::
 
