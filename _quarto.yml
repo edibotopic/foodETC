@@ -19,7 +19,7 @@ website:
           - notes/definingfood.qmd 
           - notes/fourcauses.qmd
         #   - notes/isandisnot.qmd
-        #   - notes/replacingfood.qmd
+          - notes/replacingfood.qmd
       - section: "Epistemology"
         # contents:
         #   - notes/knowingfood.qmd
