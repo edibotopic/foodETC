@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "draft/changingfood.html",
-    "href": "draft/changingfood.html",
-    "title": "Food Technology, Culture & Ethics",
-    "section": "",
-    "text": "Changing Food"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Overview",
@@ -40,6 +33,48 @@
     "title": "Overview",
     "section": "Preface to the Module",
     "text": "Preface to the Module\nFood is both astonishingly complex and boringly familiar. That there is a science of food, and that students study this at a university, comes as a great surprise to some people. Yet these same people often have many questions about their own food choices and how their food is manufactured that are difficult to answer using “common sense”. The effects of diet on health, lifestyle and the environment are some of the most pressing questions facing society today, and the knowledge of food scientists will play a key role in answering them.\nSome of these questions are age-old – how can we feed a growing population? – others more contemporary – do palatable alternatives to animal-based products exist that are less harmful to the environment? — and some quite controversial – should food choice be determined by personalised data to prevent diet-related disease? A university education will not give you the answers to all of these questions, but it will prepare you to begin finding the answers (or better questions).\nI hope you enjoy the module.\n\n\n\n\n\n\nVertical Slice\n\n\n\nLike most science degrees, each year of the BSc Food Science builds on the foundation of the previous year. Students might be interested in learning about beer brewing or ice-cream manufacture from day one. However, to appreciate these topics fully one has to master more foundational material, such as:\n\nChemistry (year 1)\nFood engineering (year 2)\nSensory science (year 3)\n\nThen in year 4 a student is considered ready to approach the full complexity of food product to the point that they can develop their own in a systematic fashion\n\nProduct development (year 4)\n\nThe difficulty with this approach for students is that for a long while they can feel out-of-touch with what they came to university to study (in this case food). This module is designed as a vertical slice through the whole degree. Samples of each year, ranging from the fundamentals in year 1 to advanced topics in year 4, are found throughout. The challenge with this approach is that the students have not studied the pre-requisites for the more advanced material. For this reason, a somewhat philosophical approach is adopted, focusing on general concepts, case studies and critical thinking."
+  },
+  {
+    "objectID": "notes/slides.html",
+    "href": "notes/slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Introduction\nOntology 1\nOntology 2\nOntology 3"
+  },
+  {
+    "objectID": "notes/about.html",
+    "href": "notes/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Shane is a food scientist and technologist from Cork, Ireland. He has worked full-time as an academic at UCC for six years."
+  },
+  {
+    "objectID": "notes/about.html#education",
+    "href": "notes/about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nShane has a PhD in Food Science & Technology and a HDip in Philosophy, both from UCC. During his PhD he did research on nutritional ingredient development in UW-Madison, Wisconsin on a Fulbright scholarship."
+  },
+  {
+    "objectID": "notes/about.html#teaching",
+    "href": "notes/about.html#teaching",
+    "title": "About",
+    "section": "Teaching",
+    "text": "Teaching\nShane has taught food scientists, nutritional scientists and marketing students. He is interested in the application of technology in food and nutrition, as well as the exploration of how philosophy and programming can be applied to solving problems in food technology."
+  },
+  {
+    "objectID": "notes/about.html#research",
+    "href": "notes/about.html#research",
+    "title": "About",
+    "section": "Research",
+    "text": "Research\nShane’s PhD thesis focused on the development of protein and mineral ingredients for formulated nutritional products. More recently he has become interested in the broad areas of food design, food philosophy and food digitilisation."
+  },
+  {
+    "objectID": "notes/about.html#office-hours",
+    "href": "notes/about.html#office-hours",
+    "title": "About",
+    "section": "Office Hours",
+    "text": "Office Hours\n2-4 pm every Thursday"
   },
   {
     "objectID": "notes/definingfood.html",
@@ -91,48 +126,6 @@
     "text": "References\nBunge, M. (2003). Emergence and Convergence: Qualitative Novelty and the Unity of Knowledge. Toronto: University of Toronto Press.\nJackson, P., Brembeck H., Everts, J., Fuentes, M., Halkier, B., Hertz, F. D., Meah, A., Viehoff, V., & Wenzl, C. (2018). Reframing Convenience Food. Cham: Palgrave Macmilan.\nKaplan, D.M. (2012). Philosophy of Food. Berkeley: University of California Press.\nThis, H (2014). Note-by-Note Cooking: The Future of Food. New York: Columbia University Press.\nWrangham, R (2009). Catching Fire: How Cooking Made Us Human. London: Profile Books."
   },
   {
-    "objectID": "notes/slides.html",
-    "href": "notes/slides.html",
-    "title": "Slides",
-    "section": "",
-    "text": "This page will be populated with a list of all slides used during the course.\nIntroduction\nOntology 1\nOntology 2\nOntology 3"
-  },
-  {
-    "objectID": "notes/about.html",
-    "href": "notes/about.html",
-    "title": "About",
-    "section": "",
-    "text": "Shane is a food scientist and technologist from Cork, Ireland. He has worked full-time as an academic at UCC for six years."
-  },
-  {
-    "objectID": "notes/about.html#education",
-    "href": "notes/about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nShane has a PhD in Food Science & Technology and a HDip in Philosophy, both from UCC. During his PhD he did research on nutritional ingredient development in UW-Madison, Wisconsin on a Fulbright scholarship."
-  },
-  {
-    "objectID": "notes/about.html#teaching",
-    "href": "notes/about.html#teaching",
-    "title": "About",
-    "section": "Teaching",
-    "text": "Teaching\nShane has taught food scientists, nutritional scientists and marketing students. He is interested in the application of technology in food and nutrition, as well as the exploration of how philosophy and programming can be applied to solving problems in food technology."
-  },
-  {
-    "objectID": "notes/about.html#research",
-    "href": "notes/about.html#research",
-    "title": "About",
-    "section": "Research",
-    "text": "Research\nShane’s PhD thesis focused on the development of protein and mineral ingredients for formulated nutritional products. More recently he has become interested in the broad areas of food design, food philosophy and food digitilisation."
-  },
-  {
-    "objectID": "notes/about.html#office-hours",
-    "href": "notes/about.html#office-hours",
-    "title": "About",
-    "section": "Office Hours",
-    "text": "Office Hours\n2-4 pm every Thursday"
-  },
-  {
     "objectID": "notes/review.html",
     "href": "notes/review.html",
     "title": "Review",
@@ -144,6 +137,6 @@
     "href": "notes/review.html#ontology",
     "title": "Review",
     "section": "Ontology",
-    "text": "Ontology\nInteractive simulation of floating/sedimentation behaviour in a dispersed system\nShort video explaining general approaches to studying complex food systems\nShort video on 3D printing, biomimetics and the four causes\n\n\n\n\n\n\nTip\n\n\n\nWhile these should work well on a phone, your experience will likely be improved with a larger screen."
+    "text": "Ontology\nInteractive simulation of floating/sedimentation behaviour in a dispersed system\nShort video explaining general approaches to studying complex food systems\nShort video on 3D printing, biomimetics and the four causes\nShort video on mixing issues during product formulation\n\n\n\n\n\n\nTip\n\n\n\nWhile these should work well on a phone, your experience will likely be improved with a larger screen."
   }
 ]
