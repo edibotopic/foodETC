@@ -273,20 +273,6 @@ Food scentists generally consider two different categories of functionality:
 - Bio-functionality: the functions that a food or ingredient has in the body
 - Techno-functionality: the functions that food or ingredient has that make it more usable
 
-## Macro and Micro Levels of Causation
-
-The statement `ultra-processed food is bad for public health` is not necessarily incorrect but it is vague.
-It can be useful to think of this as a part of a larger explanation rather than a wrong explanation.
-
-This statement occurs at the macro level based on loose observations and rough approximations.
-A scientist adds a finer level of explanation that completes the model.
-
-Thus, ultra-processing might cause vitamin loss, which in turn leads to vitamin deficiences, that cause the public health problem.
-The micro and macro levels are not incompatible.
-
-The problem of vagueness remains in this case, however, because the scientist working on the experiments does not know what ultra-processing is exactly.
-Secondly, developing this model would require collaboration between food scientists, nutritional scientists and public health specialists.
-This is not always possible and leads to gaps in our understanding of complex issues.
 
 
 
