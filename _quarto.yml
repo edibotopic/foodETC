@@ -21,8 +21,8 @@ website:
         #   - notes/isandisnot.qmd
           - notes/replacingfood.qmd
       - section: "Epistemology"
-        # contents:
-        #   - notes/knowingfood.qmd
+        contents:
+          - notes/knowingfood.qmd
         #   - notes/waysofknowing.qmd
         #   - notes/scienceandtechnology.qmd
         #   - notes/fooddisciplines.qmd
