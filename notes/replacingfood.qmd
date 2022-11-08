@@ -31,7 +31,7 @@ These questions have been provoked by products like **Soylent**, a product claim
 ```
 </div>
 
-[📽️ Direct link to slides for this lecture](slides/four/)
+[📽️ Direct link to slides for this lecture](../slides/four/)
 
 An even more controversial case is **Nutraloaf**, a meal (not a commercial product) prepared for prisoners in some US prisons as a punishment for bad behaviour.
 
