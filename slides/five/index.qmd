@@ -4,12 +4,13 @@ subtitle: "Knowing Food"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: true
+    chalkboard:
+        theme: "whiteboard"
+        grid: { color: 'rgb(50,50,10,0.1)', distance: 30, width: 1}
     buttons: true
     controls: true
     preview-links: true
     # logo: images/quarto.png
-    css: ../styles.css
     footer: Food Technology, Culture & Ethics 
 search: false
 ---
@@ -29,7 +30,7 @@ Potential diversity of human diet creates tension between **neophilia** 🍍 and
 ![](img/supermarket.jpg){fig-align="center" width="70%" height="70%"}
 
 :::{.aside}
-Critics argue that this tension has been recreated in the modern supermarket
+Critics argue that it has become difficult to *know* what food to choose (because of science)
 :::
 
 ---
@@ -39,22 +40,22 @@ Critics argue that this tension has been recreated in the modern supermarket
 ![](img/eye.jpg){ fig-align="center" width="60%" height="60%"}
 
 :::{.aside}
-They argue that people should be guided by intuition and their senses, but has this worked before?
+Argument that we can get sufficient *knowledge* about food through senses and tradition
 :::
 
 ---
 
-## Efforts to Reduce Anxiety 
+## Anti-Science Rhetoric
 
 ![](img/chobini.png){ fig-align="center" width="40%" height="40%"}
 
 :::{.aside}
-Yoghurt company's effort to convince consumers no science was involved in their product
+Company that employs scientists using marketing that downplays role of science
 :::
 
 ---
 
-## Bread Fortification
+## Food Fortification
 
 <div style="display: table; margin-right: auto; margin-left: auto"> <!-- TODO: add to CSS -->
 
@@ -95,8 +96,7 @@ Plot.plot({
 </div>
 
 :::{.aside}
-It was not possible to "sense" the absence of nutrients bread.
-This needed to be measured and changed in a controlled way.
+Not always an obvious solution, but perhaps it was a *simple* problem?
 :::
 
 ---
@@ -104,7 +104,7 @@ This needed to be measured and changed in a controlled way.
 ![](img/recipes.gif)
 
 :::{.aside}
-Recipes are a classic example of **procedural knowledge** (learn by doing)
+Recipes are a classic source of traditional food knowledge (lists of instructions)
 :::
 
 ---
@@ -115,7 +115,7 @@ Recipes are a classic example of **procedural knowledge** (learn by doing)
 :::
 
 :::{.aside}
-Recipes often include vague instructions and rules-of-thumb that are flawed
+Recipes often include vague instructions, rules-of-thumb and inaccuracies
 :::
 
 ---
@@ -127,7 +127,7 @@ Recipes often include vague instructions and rules-of-thumb that are flawed
 :::
 
 :::{.aside}
-A feature of **declarative knowledge** is its generalisability
+A feature of **scientific knowledge** is that it can be generalised
 :::
 
 ---
@@ -147,7 +147,7 @@ Knowing true causes empowers decision-making
 ![](img/boneOrMoon.png){fig-align="center" width="65%" height="65%"}
 
 :::{.aside}
-This does not mean there is nothing to learn from tradition
+There is a lot of knowledge in the world, science often makes old ideas more precise
 :::
 
 ---
@@ -155,5 +155,3 @@ This does not mean there is nothing to learn from tradition
 ## "New-trition"
 
 ![](img/starch.png){fig-align="center"}
-
-## Next Lecture: Video Overview of Food Science
