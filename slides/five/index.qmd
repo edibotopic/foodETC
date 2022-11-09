@@ -89,11 +89,10 @@ Company that *employs scientists* using marketing that downplays science
 
 ---
 
-## {background-image="img/recipe_errors.png"}
+## Recipe Linter (experimental)
 
-::: footer
+![](img/recipe_errors.png)
 
-:::
 ---
 
 :::{.r-stack}
@@ -125,7 +124,9 @@ A feature of **scientific knowledge** is that it can be generalised
 <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/rhrQT_9OpC0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-Knowing mechanistic causes can empower decision-making
+:::{.aside}
+Knowing underlying mechanistic causes can empower decision-making
+:::
 
 ---
 
