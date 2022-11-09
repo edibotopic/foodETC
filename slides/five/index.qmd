@@ -15,7 +15,7 @@ format:
 search: false
 ---
 
-## Omnivore's Dilemma
+## Omnivore's Dilemma (nature)
 
 ![](img/koala.jpg){fig-align="center" width="70%" height="70%"}
 
@@ -25,7 +25,7 @@ Potential diversity of human diet creates tension between **neophilia** 🍍 and
 
 ---
 
-## Omnivore's Dilemma
+## Omnivore's Dilemma (culture)
 
 ![](img/supermarket.jpg){fig-align="center" width="70%" height="70%"}
 
@@ -35,7 +35,7 @@ Critics argue that it has become difficult to *know* what food to choose (becaus
 
 ---
 
-## Omnivore's Dilemma
+## Doctrine of Signatures (a device)
 
 ![](img/eye.jpg){ fig-align="center" width="60%" height="60%"}
 
@@ -45,15 +45,103 @@ Argument that we can get sufficient *knowledge* about food through senses and tr
 
 ---
 
-## Anti-Science Rhetoric
+## Scientists Doing Philosophy? 
+
+:::{.r-fit-text}
+> More fundamentally, one finds the origin of reductionism in René Descartes (a French scholar of the sixteenth century) who viewed reality as the sum of components that could be divided into isolated entities, applying a mechanistic vision of the world. According to him, this decomposition and the resulting simplification would lead to the most appropriate explanation 
+> [...] Contrary to reductionism, holism is defined broadly by the view that a phenomenon is an indivisible whole and that the sum of its parts is not sufficient to define it. In other words, the whole is more than the sum of its parts, i.e., 1 + 1 > 2
+>
+> — Anthony Fardet & Edmond Rock
+:::
+
+:::{aside}
+[From a Reductionist to a Holistic Approach in Preventive Nutrition to Define New and More Ethical Paradigms](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4934630/)
+:::
+
+---
+
+![](img/duck.jpg "Reductionist depiction of a duck"){fig-align="center"}
+
+---
+
+## Appeal to Naturalness/Wholeness
 
 ![](img/chobini.png){ fig-align="center" width="40%" height="40%"}
 
 :::{.aside}
-Company that employs scientists using marketing that downplays role of science
+Company that *employs scientists* using marketing that downplays science
 :::
 
 ---
+
+
+## Scientific Cooking
+
+:::{.r-fit-text}
+> Take, for example, an eighteenth century book that advises us to cover the pan when beef is cooked with water to produce stock (Albert, 1838). If this recommendation is correct, why? And if it is not, why did someone write this sentence more than 150 years ago? To answer this question, we can use tools from physics, chemistry and biology—for example, the microscope, the thermometer and the gas chromatograph—to investigate the processes that take place during cooking. If we can answer the question, we can correct a mistake, use this knowledge to improve the cooking process or even invent new dishes or ways to prepare food.
+>
+> — Hervé This  
+:::
+
+:::{.aside}
+[Food for tomorrow? How the scientific discipline of molecular gastronomy could change the way we eat](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1679779/)
+:::
+
+---
+
+## {background-image="img/recipe_errors.png"}
+
+::: footer
+
+:::
+---
+
+:::{.r-stack}
+![](img/cautery.jpg)
+![](img/gaston.jpg)
+:::
+
+:::{.aside}
+Recipes often include vague instructions, rules-of-thumb and inaccuracies
+:::
+
+---
+
+:::{.r-stack}
+![](img/Maillard.jpg)
+![](img/maillard_health.png){.fragment width="30%" height="30%"}
+![](img/maillard_bread.jpg){.fragment width="25%"}
+:::
+
+:::{.aside}
+A feature of **scientific knowledge** is that it can be generalised
+:::
+
+---
+
+## Applying Knowledge
+
+<p style="text-align: center">
+<iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/rhrQT_9OpC0" frameborder="0" allowfullscreen></iframe>
+</p>
+
+Knowing mechanistic causes can empower decision-making
+
+---
+
+## Traditional Knowledge
+
+![](img/boneOrMoon.png){fig-align="center" width="65%" height="65%"}
+
+:::{.aside}
+There is a lot of knowledge in the world, science often *rediscovers* old ideas
+:::
+
+---
+
+## "New-trition"
+
+![](img/starch.png){fig-align="center"}
 
 ## Food Fortification
 
@@ -96,62 +184,5 @@ Plot.plot({
 </div>
 
 :::{.aside}
-Not always an obvious solution, but perhaps it was a *simple* problem?
+Not always an obvious solution, but perhaps it was a *simple* problem (single cause)?
 :::
-
----
-
-![](img/recipes.gif)
-
-:::{.aside}
-Recipes are a classic source of traditional food knowledge (lists of instructions)
-:::
-
----
-
-:::{.r-stack}
-![](img/cautery.jpg)
-![](img/gaston.jpg)
-:::
-
-:::{.aside}
-Recipes often include vague instructions, rules-of-thumb and inaccuracies
-:::
-
----
-
-:::{.r-stack}
-![](img/Maillard.jpg)
-![](img/maillard_health.png){.fragment width="30%" height="30%"}
-![](img/maillard_bread.jpg){.fragment width="25%"}
-:::
-
-:::{.aside}
-A feature of **scientific knowledge** is that it can be generalised
-:::
-
----
-
-## Applying Knowledge
-
-<div class = "center">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rhrQT_9OpC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-Knowing true causes empowers decision-making
-
----
-
-## Traditional Knowledge
-
-![](img/boneOrMoon.png){fig-align="center" width="65%" height="65%"}
-
-:::{.aside}
-There is a lot of knowledge in the world, science often makes old ideas more precise
-:::
-
----
-
-## "New-trition"
-
-![](img/starch.png){fig-align="center"}
