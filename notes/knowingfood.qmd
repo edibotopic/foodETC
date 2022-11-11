@@ -22,7 +22,7 @@ Approaching food like a scientist, a designer or a chef may involve different wa
 ```
 </div>
 
-[📽️ Direct link to slides for this lecture](slides/two/)
+[📽️ Direct link to slides for this lecture](../slides/five/)
 
 In earlier lectures we saw how while the nutritional properties of food are critical,
 food is *more than* a collection of nutrients.
