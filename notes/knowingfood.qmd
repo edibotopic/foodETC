@@ -1,5 +1,5 @@
 ---
-title: Knowing Food (draft) 
+title: Knowing Food
 slide-format: revealjs
 css: ../styles.css
 execute:
@@ -113,6 +113,8 @@ have knowledge - this is often called a ’false positive’.
 Thus, someone is only said to have knowledge if they believe something that is true and can justify that belief (with a good supporting explanation).
 What science is particularly good at is providing justifications for beliefs that are *probably* true.
 These justifications are made through a combination of theory and experiment.
+
+![](../img/JTB_venn.svg "JTB model of knowledge")
 
 Philosophers of science have long argued about what makes scientific knowledge so successful.
 These arguments are often complex and ingenious, due to the nuances involved.
@@ -338,12 +340,30 @@ A statement like `this food process is bad for your health` is not necessarily i
 It can be useful to think of this as a *part* of a larger explanatory model rather than simply a wrong explanation.
 
 This statement occurs at the *macro* level based on loose observations and rough approximations.
-A scientist adds a finer level of explanation that completes the model.
+A scientist adds a finer level of explanation that completes the model (which might allow us to supplement the macro-level explanation or dismiss it entirely).
 
 Thus, the process might make a nutrient less available to the body during digestion, which in turn contributes to a nutrient deficiency, with the latter being the actual cause of the health problem.
-The micro and macro levels are not incompatible, and they can work together when forming an good explanation.
+The micro and macro levels are not incompatible, and they can work together when forming a good explanation.
 
 This *systematic* approach to studying the world has been advocated in recent scientific articles concerning food and diet [such as this (free) one](https://pubmed.ncbi.nlm.nih.gov/27417812/) but the basic idea was expressed by philosophers like Mario Bunge decades ago.
+
+In the lectures we saw *several practical examples* that showed the move between different levels of explanation.
+This can be represented more generally using the following diagram:
+
+![](../img/MicroMacroCausal.svg "Sometimes it is necessary to move between different levels of explanation")
+
+- First there is a macro-level explanation ($X \to Y$), which is assumed to be **causal**.
+- We move from *macro* to *micro* level — a **micro-reduction** (red arrow).
+- This allows us to determine the actual underlying cause ($x \to y \to Y$).
+- Often, it is not possible as a scientist to study $F$ because it is not a causal relationship (or it is not sufficiently clear as an idea).
+- Thus, we can instead study actual causes like $G$.
+- Once we have studied such causes we can return to the higher level by a **macro-reduction** (blue arrow).
+- Typically, a systematic understanding of something requires knowledge at the micro **and** macro levels.
+- Knowledge of only the macro level is fuzzy, imprecise and does little to inform decision-making.
+- Knowledge of only the micro level is academic and impractical.
+
+> Many processes of scientific discovery or technological innovation begin with the recognition that
+> there is something interesting at the macro level but it is not sufficiently well understood
 :::
 
 It is not uncommon to encounter a criticism that modern society is too often guilty of "scientism".
@@ -387,4 +407,10 @@ The role of the scientist is often to find interesting but inexact ideas from th
 
 # References
 
-References can be found hyperlinked above and will be added here at a later date.
+Bennett, B. C. (2007). Doctrine of Signatures: An Explanation of Medicinal Plant Discovery or Dissemination of Knowledge? *Economic Botany*, 61, 246-255.
+
+Bunge, M., (2000). Systemism: the alternative to individualism and holism. *The Journal of Socio-Economics*, 29, 147-157.
+
+Fardet, A., & Rock, E. (2015). From a Reductionist to a Holistic Approach in Preventive Nutrition to Define New and More Ethical Paradigms. *Healthcare*, 3, 1054-1063.
+
+Lucey, J. A. (2015). Raw Milk Consumption: Risk and Benefits. *Nutrition Today*, 50: 189-193.
