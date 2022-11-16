@@ -128,6 +128,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
 <link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -360,6 +361,7 @@ Warning
 <section id="reliable-knowledge" class="level2">
 <h2 class="anchored" data-anchor-id="reliable-knowledge">Reliable Knowledge</h2>
 <p>The best available definition of knowledge is that it consists of a Justified True Belief. One must have all three elements in order to have knowledge of something. If you believe something, and it turns out that it is true, but you cannot provide a good justification for the belief then you do not have knowledge - we might call this a ’lucky guess’. If you have a justification for something being true, and that thing is actually true, but you do not believe it, then you do not have knowledge - this we call ’denial’. If you believe in something, and have a good justification for doing so, but it turns out to be false, then you do not have knowledge - this is often called a ’false positive’. Thus, someone is only said to have knowledge if they believe something that is true and can justify that belief (with a good supporting explanation). What science is particularly good at is providing justifications for beliefs that are <em>probably</em> true. These justifications are made through a combination of theory and experiment.</p>
+<p><img src="../img/JTB_venn.svg" title="JTB model of knowledge" class="img-fluid"></p>
 <p>Philosophers of science have long argued about what makes scientific knowledge so successful. These arguments are often complex and ingenious, due to the nuances involved. However, here are some claims that have received a lot of support:</p>
 <ul>
 <li>Many scientific claims are <strong>falsifiable</strong>: this means that in principle any scientific claim can potentially be disproven. The most reliable scientific claims are those that have stood the test of time and have not (yet) been falsified. This must be contrasted with claims that are not falsifiable; for example, the claim that human beings by their very nature are in a state of tension associated with the risk of poison and the reward of food is interesting, but it is not clear how an experiment could de devised to test this claim.” That such a claim cannot be falsified is not a strength because this means we cannot test if it is reliable.</li>
@@ -493,9 +495,25 @@ Macro- and Micro-Levels of Explanation
 </div>
 <div class="callout-body-container callout-body">
 <p>A statement like <code>this food process is bad for your health</code> is not necessarily incorrect but it is vague as an explanation. It can be useful to think of this as a <em>part</em> of a larger explanatory model rather than simply a wrong explanation.</p>
-<p>This statement occurs at the <em>macro</em> level based on loose observations and rough approximations. A scientist adds a finer level of explanation that completes the model.</p>
-<p>Thus, the process might make a nutrient less available to the body during digestion, which in turn contributes to a nutrient deficiency, with the latter being the actual cause of the health problem. The micro and macro levels are not incompatible, and they can work together when forming an good explanation.</p>
+<p>This statement occurs at the <em>macro</em> level based on loose observations and rough approximations. A scientist adds a finer level of explanation that completes the model (which might allow us to supplement the macro-level explanation or dismiss it entirely).</p>
+<p>Thus, the process might make a nutrient less available to the body during digestion, which in turn contributes to a nutrient deficiency, with the latter being the actual cause of the health problem. The micro and macro levels are not incompatible, and they can work together when forming a good explanation.</p>
 <p>This <em>systematic</em> approach to studying the world has been advocated in recent scientific articles concerning food and diet <a href="https://pubmed.ncbi.nlm.nih.gov/27417812/">such as this (free) one</a> but the basic idea was expressed by philosophers like Mario Bunge decades ago.</p>
+<p>In the lectures we saw <em>several practical examples</em> that showed the move between different levels of explanation. This can be represented more generally using the following diagram:</p>
+<p><img src="../img/MicroMacroCausal.svg" title="Sometimes it is necessary to move between different levels of explanation" class="img-fluid"></p>
+<ul>
+<li>First there is a macro-level explanation (<span class="math inline">\(X \to Y\)</span>), which is assumed to be <strong>causal</strong>.</li>
+<li>We move from <em>macro</em> to <em>micro</em> level — a <strong>micro-reduction</strong> (red arrow).</li>
+<li>This allows us to determine the actual underlying cause (<span class="math inline">\(x \to y \to Y\)</span>).</li>
+<li>Often, it is not possible as a scientist to study <span class="math inline">\(F\)</span> because it is not a causal relationship (or it is not sufficiently clear as an idea).</li>
+<li>Thus, we can instead study actual causes like <span class="math inline">\(G\)</span>.</li>
+<li>Once we have studied such causes we can return to the higher level by a <strong>macro-reduction</strong> (blue arrow).</li>
+<li>Typically, a systematic understanding of something requires knowledge at the micro <strong>and</strong> macro levels.</li>
+<li>Knowledge of only the macro level is fuzzy, imprecise and does little to inform decision-making.</li>
+<li>Knowledge of only the micro level is academic and impractical.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Many processes of scientific discovery or technological innovation begin with the recognition that there is something interesting at the macro level but it is not sufficiently well understood</p>
+</blockquote>
 </div>
 </div>
 <p>It is not uncommon to encounter a criticism that modern society is too often guilty of “scientism”. In general, this can be defined as:</p>
@@ -533,7 +551,10 @@ Macro- and Micro-Levels of Explanation
 </section>
 <section id="references" class="level1">
 <h1>References</h1>
-<p>References can be found hyperlinked above and will be added here at a later date.</p>
+<p>Bennett, B. C. (2007). Doctrine of Signatures: An Explanation of Medicinal Plant Discovery or Dissemination of Knowledge? <em>Economic Botany</em>, 61, 246-255.</p>
+<p>Bunge, M., (2000). Systemism: the alternative to individualism and holism. <em>The Journal of Socio-Economics</em>, 29, 147-157.</p>
+<p>Fardet, A., &amp; Rock, E. (2015). From a Reductionist to a Holistic Approach in Preventive Nutrition to Define New and More Ethical Paradigms. <em>Healthcare</em>, 3, 1054-1063.</p>
+<p>Lucey, J. A. (2015). Raw Milk Consumption: Risk and Benefits. <em>Nutrition Today</em>, 50: 189-193.</p>
 
 
 </section>
