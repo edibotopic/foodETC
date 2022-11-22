@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.1.251">
+
+  <meta name="author" content="Dr Shane Crowley">
+  <title>Food Technology, Culture &amp; Ethics - Food ETC</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="../anim.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-captioned.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-captioned) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-captioned.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-captioned .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-captioned .callout-caption  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-captioned.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-captioned.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-caption {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-caption {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-caption {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-captioned .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-captioned .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-captioned) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-caption {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-caption {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-caption {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-caption {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-caption {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="center">
+  <h1 class="title">Food ETC</h1>
+  <p class="subtitle">Semiotics I</p>
+  <p class="author">Dr Shane Crowley</p>
+</section>
+
+<section class="slide level2">
+
+<section data-auto-animate="">
+<h3>
+Colours as Signs
+</h3>
+<br>
+<p style="color: red;">
+STOP
+</p>
+<p style="color: green;">
+GO
+</p>
+<p style="color: orange;">
+CAUTION
+</p>
+<br><br> <small class="fragment fade-up">Isn’t color just light of a certain wavelength?</small>
+</section>
+<section data-auto-animate="">
+<h3>
+Colours as Signs
+</h3>
+<br>
+<p style="color: green;">
+STOP
+</p>
+<p style="color: red;">
+GO
+</p>
+<p style="color: violet;">
+CAUTION
+</p>
+<br><br> <small>So we could just change the colors, right?</small>
+</section>
+<section data-auto-animate="">
+<h3>
+Colours as Signs
+</h3>
+<br>
+<p style="color:rgb(167, 204, 35);">
+STOP
+</p>
+<p style="color:hotpink;">
+GO
+</p>
+<p style="color:darkturquoise;">
+CAUTION
+</p>
+<br><br> <small>The connection here is arbitrary.</small>
+</section>
+<section>
+<h3>
+Traffic Light Systems
+</h3>
+<iframe data-src="https://youtube.com/embed/tL8SeX-euko" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="">
+</iframe>
+<br><br> <small class="fragment fade-up">Colors may signify health or danger</small>
+</section>
+</section>
+<section class="slide level2">
+
+    <div class="slideshow center">
+    <img data-src="img/red_meat.jpg" width="60%" height="60%">
+    <img data-src="img/red_meat_greyed.png" width="60%" height="60%">
+    <img data-src="img/red_meat_enhanced.png" width="60%" height="60%">
+    <img data-src="img/red_meat_browned.png" width="60%" height="60%">
+    </div>
+</section>
+<section id="signifying-red-wineness" class="slide level2">
+<h2>Signifying red-wineness</h2>
+<video src="vids/wine_col.mp4" autoplay="" loop="">
+<a href="vids/wine_col.mp4">Video</a>
+</video>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0093934X01924939">Famous study on role of colour in wine-tasting</a></p>
+</section>
+<section class="slide level2">
+
+<h3 id="the-biosemiotics-of-taste">The Biosemiotics of Taste</h3>
+<table>
+<colgroup>
+<col style="width: 51%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong><em>Taste</em></strong></th>
+<th style="text-align: center;"><strong><em>Cellular activity</em></strong></th>
+<th style="text-align: center;"><strong><em>Evolutionary role</em></strong></th>
+<th style="text-align: center;"><strong><em>Example trigger</em></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><stretch style="color:yellow">Sweet</stretch></td>
+<td style="text-align: center;">Energy</td>
+<td style="text-align: center;">Non-toxicity</td>
+<td style="text-align: center;">Glucose</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><stretch style="color:red">Bitter</stretch></td>
+<td style="text-align: center;">Cell damage</td>
+<td style="text-align: center;">Poison</td>
+<td style="text-align: center;">Phenols</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><stretch style="color:green">Salty</stretch></td>
+<td style="text-align: center;">Cell signalling</td>
+<td style="text-align: center;">Electrolyte balance</td>
+<td style="text-align: center;">Sodium</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><stretch style="color:fuchsia">Sour</stretch></td>
+<td style="text-align: center;">pH regulation</td>
+<td style="text-align: center;">Ripeness/safety</td>
+<td style="text-align: center;">Protons</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><stretch style="color:darkorange">Umami</stretch></td>
+<td style="text-align: center;">Growth/repair</td>
+<td style="text-align: center;">Protein supply</td>
+<td style="text-align: center;">Glutamic acid</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<h3 id="types-of-sign">Types of Sign</h3>
+<video id="fire_video" src="vids\art_sign.mp4" autoplay="" loop="">
+    <a href="vids\art_sign.mp4">Video</a>
+</video>
+
+<div class="fragment fade-in">
+    <small>Smoke = natural sign | </small>
+    <small>Floating fire = cultural sign | </small>
+    <small>Fireworks = conventional sign</small>
+</div>
+<script>
+    const slow_vid = document.getElementById("fire_video");
+
+slow_vid.playbackRate = 0.6;
+</script>
+</section>
+<section id="transferance-of-meaning" class="slide level2" data-background-color="black">
+<h2>Transferance of Meaning</h2>
+<svg width="485pt" height="357.08pt" version="1.0" viewbox="0 0 285 157.08" xmlns="http://www.w3.org/2000/svg">
+<defs> <clippath id="clipPath871"> <rect transform="scale(1,-1)" x="70.061" y="-3407.9" width="5726" height="3196.5" rx="64.551" fill="none" stroke="#000" stroke-width="80.839"></rect> </clippath> </defs> <g id="dogan" fill="yellow" transform="matrix(.05 0 0 -.05 -4 167.64)" clip-path="url(#clipPath871)"> <path d="m5050 3300c-20-22-29-40-19-40 9 0-1-13-22-28-44-33-43-28-46-202l-3-130h-1198l-6 73c-9 106-56 113-56 9 0-45-9-82-20-82-12 0-20 74-20 181 0 177-1 182-45 175-42-6-45-16-51-192-4-136-12-182-29-171-38 24-653 29-696 7-176-95-74-200 193-200h211l-13-65c-20-97-73-241-103-277-15-17-21-37-14-45 8-7 3-13-10-13-12 0-23 11-23 25 0 69-100 135-206 135-103 0-234-56-234-99 0-11-36-39-80-61-105-54-105-95-1-166 62-42 101-44 101-4 0 20-20 30-60 30-49 0-60 8-59 45 1 55 124 142 156 110 25-25 90-3 73 25-7 11-32 20-55 20-55 0-23 31 50 48 56 13 64 3 56-70-3-38 75-178 100-178 27 0 79 86 79 131 0 62 23 74 54 29 62-88-96-215-233-190-64 12-67 11-40-23s26-35-6-10c-19 16-35 45-35 65 0 21-13 38-30 38-55 0-31-73 48-146 43-39 83-66 90-59 7 6 12 1 12-12 0-12-9-23-20-23s-20-45-20-100c0-112-8-118-73-57-41 38-70 43-256 45l-211 2v465c0 438-2 465-37 465-20 0-47 23-60 52-23 50-26 51-73 20-51-33-130 9-130 68 0 44-76 18-88-30-13-51-92-8-92 51 0 11-14 25-30 32-17 6-40 51-53 99-34 138-80 118-125-53-35-139-32-212 6-117 11 26 20 37 21 23 2-53 41-22 41 34 0 80 38 98 52 24 7-34 41-82 80-113 37-30 68-68 68-85 0-21 16-14 54 24l55 54 35-44c20-24 36-36 37-26 0 9 10 1 21-19 20-35 23-34 57 5 48 55 61 52 61-16 0-70 19-92 48-52 28 39 23-839-5-914-19-48-55-65-183-87-46-7-346-91-360-100-8-5-42-13-78-20l-64-11 3 716c3 663 0 716-32 722-64 13-68-46-69-922v-875h-80c-57 0-80 8-80 29 0 37-62 71-129 71-32 0-51-11-51-30s19-30 51-30c29 0 46 9 39 20s-4 20 5 20c30 0 43-22 31-52-13-35-168-38-202-4-19 19-24 19-24 0 0-15-33-24-90-24-82 0-90 4-90 50 0 50 96 56 147 9 20-18 113 19 113 44 0 9-58 17-130 17h-130v99c0 121-45 161-180 161-163 0-183-30-178-267l4-203-105-60c-58-33-138-78-177-100-98-55-111-102-16-57 40 19 72 42 72 51s8 16 18 16c9 0 68 31 131 68 170 103 310 34 180-89-57-53-45-90 17-55 60 34 132 35 120 2-6-14-1-26 11-26 40 0 42 35 3 70-61 55-52 122 20 147 33 12 66 35 72 52 7 18 36 31 71 31 33 0 54-8 48-18-6-9 1-27 15-39s28-60 31-107c5-81 21-162 55-274l14-48-473 13c-312 9-473 6-473-7s172-20 480-20c428 0 480-4 480-32 0-29-49-32-480-25-264 4-480 1-480-8 0-8 220-15 490-15h489l33-50c18-28 42-50 54-50 15 0 15 7 0 22-71 71-19 78 661 83l663 4-678 11c-518 8-681 16-687 35-7 20 149 26 728 29l737 5-510 10c-280 6-501 17-489 25 27 17 545 26 562 9 52-52 127-11 115 63-11 73-8 78 112 172 68 53 151 123 186 155 75 68 212 83 207 23-2-27 15-34 82-35 68-1 85 6 85 34 0 22 15 35 41 35 34 0 40-11 35-55-6-57-8-58-138-32-52 11-53 9-67-136-24-243-30-277-61-337-36-70-38-87-7-68 14 9 18 5 9-8-7-12-26-18-41-12s-32 2-39-8c-6-11 11-19 39-19 29 0 59 16 70 38 13 23 42 37 80 37 32 0 59 10 59 21 0 13-17 16-40 9-46-15-55 48-20 140 11 29 22 100 25 156 5 112 20 133 90 134 37 0 45-11 45-60 0-38-10-60-28-60-33 0-54-45-35-75 22-35 116-50 161-26 53 28 54 82 2 95-35 9-40 27-40 135v124h126c138 0 210-59 142-115-37-30-36-58 2-58 45 0 36-31-20-68-63-42-63-56 3-87 68-31 154 5 163 70 12 82 68 54 61-30-8-81 68-126 95-56 10 25 49 31 209 31 231 0 251 15 151 118-89 91-90 102-2 102 66 0 87 17 57 46-7 8-23 6-35-4-60-48-171-35-227 26-30 33-39 48-20 34 19-15 35-18 35-7s-19 33-42 48c-41 27-69 157-33 157 10 0 11 11 3 25-8 15-7 18 4 8 10-9 18-24 18-33 0-19 141-173 211-230 48-40 48-40 19 0-28 37-27 38 5 13 19-16 35-20 35-10 0 9 81 17 180 17h180v-55c0-34-11-55-28-55-37 0-54-50-26-78 76-76 199 12 180 130-16 95 45 94 85-1 41-99 36-169-15-211-56-44-21-100 61-100 90 1 101 21 107 198l6 168 90 2 90 1v-71c0-91 67-217 124-231 25-6 50-27 56-46 13-41 85-112 99-98 6 5 2 36-8 68s-18 46-19 31c-7-102-82 54-86 176l-4 132-7-115c-22-349-36 16-40 1062-5 1132-4 1178 32 1211 35 31 41 31 71 2 38-39 51-2044 12-2020-11 7-20-2-20-20s7-28 15-23 17-42 20-104c6-128 65-403 87-403 7 0 6 34-2 75-80 368-80 394-5 376 54-14 252-176 420-343 54-55 85-74 85-54 0 17-19 48-42 68s-110 97-193 172c-202 181-207 185-270 185l-55 1v750c0 570 6 750 24 750 19 0 19 5 0 24-13 13-24 54-24 90v66h208c159 0 213-7 232-30 30-37 12-90-31-90-17 0-45-13-62-30-27-27-22-30 39-30 73 0 94 24 94 108 0 80-36 92-264 92h-216v196c0 242-65 320-170 204zm-1430-240c0-99-8-180-17-180s-14 34-11 75 6 122 7 180c0 58 6 105 11 105 6 0 10-81 10-180zm1398-25c-1-82-8-125-15-99-13 46-6 244 9 244 4 0 7-65 6-145zm-3508-1185c0-632-7-1150-15-1150s-15 518-15 1150c0 633 7 1150 15 1150s15-517 15-1150zm2010 979c0-68-56-128-82-87-12 20-17 21-18 3 0-14-11-23-25-20-38 8-75 49-75 84 0 17-7 31-17 31-33 0-40-25-18-61 30-48 4-74-44-44-30 18-40 18-48-1-7-16-16-17-26-4-27 33-249 39-269 7-13-20-17-20-18-2 0 14-14 25-31 25-42 0-59 54-29 90 20 24 88 30 362 30h338zm1498-44c-2-52 3-491 10-975 13-792 11-875-16-830-41 67-47 1020-7 1020 19 1 20 4 1 16-18 12-23 102-17 350 4 195 0 334-11 334-17 0-25-329-27-1125l-1-375h-103c-159 0-264 154-242 353 13 111 12 110 104 85 58-16 89-15 124 4 73 39 59 78-29 78-92 0-164 47-164 107 0 24-14 64-31 88-32 46-21 143 19 169 12 8 23 26 23 40 1 14 16 58 33 96 17 39 65 147 106 240 41 94 97 188 124 211 54 44 60 148 9 165-19 6-24-3-15-31 21-65-7-105-73-105-49 0-56-5-37-28 18-22 18-30-2-37-21-7-21-14 0-40 19-23 20-35 3-46-31-19-120-212-107-233 6-9 2-16-8-16s-35-38-56-85c-45-101-108-173-108-124 0 43 69 173 181 344 52 80 87 150 77 156-9 6-70-68-133-165-206-312-194-301-305-290-54 5-159-5-234-22-75-18-170-37-212-44s-89-17-103-22c-36-14-32 459 4 495 14 14 25 55 25 91v66h339c186 0 344 8 350 18s-32 15-84 12-106 4-120 15c-17 13-25 13-25 0 0-26-65-22-85 5-9 12-15 10-15-5 0-32-232-35-251-4-7 12-54 19-106 15-79-5-93 0-99 34-4 22-22 51-40 65-25 20 102 25 653 25h685zm-1362-20c-5-65-13-75-56-75s-51 10-56 75c-6 72-4 75 56 75s62-3 56-75zm106-65c10 0 18-28 18-62v-61l-50 59c-58 69-64 93-18 76 17-7 40-12 50-12zm-226-42c16-25 21-66 13-105-17-86-92-299-112-322-9-10-17-33-17-50-1-74-30-84-122-44-119 51-170 108-129 143 17 14 31 42 31 62 0 39 39 154 97 283 41 92 190 113 239 33zm85-403c1-223 3-475 5-560 3-85-1-155-8-155s-13-90-14-200c-1-114 6-200 17-200 10 0 19 72 19 161 0 155 33 259 82 259 25 0 23-95-2-110-11-7-20-44-20-82 0-42-8-65-20-58-13 8-20-68-20-214 0-205-4-229-40-251-40-25-40-20-40 895 0 600 7 920 20 920s21-149 21-405zm117 117c-2-158-8-205-20-162-12 44-14 29-7-55 8-93 4-115-21-115s-30 40-30 250c0 260 32 350 45 125l7-125 4 144c3 121-1 143-26 133-22-8-30 3-30 44 0 54 1 54 40 19 36-32 40-60 38-258zm-758-19c-1-203-80-209-120-9-11 60-8 76 18 81 69 15 102-8 102-72zm548-106c-18-75-41-146-51-156-24-26-21-111 3-111 12 0 19-56 17-135l-4-135-13 130c-13 128-13 127-19-70-4-110-11-236-17-280-14-115-13-203 6-348 25-195-22-150-102 99-107 330-108 364-9 589 46 105 85 208 86 229 2 21 10 34 18 29 16-10 27 24 46 139 14 81 52 178 65 166 4-5-7-70-26-146zm-206-154 52-12-77-154c-42-85-77-169-77-187s-8-41-18-51-22-37-26-59c-8-43-76 66-76 122 0 14-21 50-46 81-47 57-123 206-111 215 4 3 40 25 80 49s77 63 84 86c10 41 13 41 87-17 42-33 99-66 128-73zm1054-57c-25-36-56-76-69-90s-38-64-57-112l-33-87-137-22c-77-11-190-48-259-83-167-85-161-91-161 158v220l75 2c41 2 81 2 89 1 7-1 92 15 190 36 97 21 228 39 292 40l115 1zm119 33c-6-6 20-62 58-125 41-68 62-125 54-144-7-16-17-122-22-235l-10-205 70-86c131-159 114-476-21-424-29 11-28 17 15 49 79 60 32 225-108 377-126 136-184 233-201 337-7 43-18 100-24 127l-12 50-15-50c-13-44-15-41-17 24-1 40 7 79 18 86s14-1 8-19c-7-17-5-31 5-31 14 0 120 168 145 230 4 11 18 27 30 35 26 17 43 20 27 4zm-1553-104c24-52 67-126 96-165s36-58 17-42c-23 18-61 23-110 15l-75-12 4 145c5 170 4 154 16 154 5 0 28-43 52-95zm617-345c0-372-4-420-33-420-27 0-30 19-18 145 16 169 15 585-1 650-8 33-3 45 21 45 28 0 32-48 31-420zm-880 181c17-10 26-22 20-25-24-16-418 9-408 25 15 25 350 24 388 0zm-268-70c81-8 175-8 209-1 37 8 60 5 60-8 0-11-16-15-35-8-29 10-30 7-10-15 61-66-44-105-210-78-124 20-187 70-183 146 2 30 5 33 11 10 7-25 45-36 158-46zm409-31c0-26-27-53-80-80-44-22-80-45-80-51 0-5 27 4 59 20 65 34 109 41 93 14-6-9-12-47-15-85-3-46-15-70-36-72-17-2-56-10-86-17-66-16-59 35 13 97l42 37-44-22c-45-22-1163-32-1141-10 6 6 252 11 547 10s531 3 525 8c-6 6-235 12-509 13-350 2-477 8-428 22 39 10 115 30 170 45 55 14 157 42 226 62l127 36 45-57c93-116 430-106 488 15 30 64 84 73 84 15zm207 15c-10-16-142-76-164-74-7 0 19 18 57 39 76 42 72 51-9 20-41-15-51-13-51 11s20 29 88 25c49-3 84-13 79-21zm1708-20c14-11 43-15 65-9s40 2 40-8c0-27-148-22-176 6-54 54 3 63 71 11zm-1586-114c17-14 31-35 31-47s17-40 37-63c20-22 51-93 68-156l32-115h-117c-113 0-118 2-124 55-8 71-115 92-264 53-100-27-192-36-192-20 0 28 27 72 45 72 11 0 33 16 49 35s23 24 16 10c-21-42 15-28 74 29 38 36 56 74 56 116 0 56 9 65 100 98 55 20 101 46 102 59s13-5 28-38c15-34 41-73 59-88zm1018 108c-8-21 2-35 29-42 39-10 84-97 84-160 0-15 27-65 60-110 112-155 96-173-161-181l-221-6-188 200 95-89c127-119 122-76-5 49-173 170-136 247 160 330 50 13 99 28 110 31 41 12 48 8 37-22zm216-286c14-18 47-58 75-88 84-94 55-335-40-335-45 0-51 56-8 73 44 17 39 181-9 267-71 128-102 202-113 266-7 43 3 29 30-43 22-59 52-122 65-140zm-3755 126c6-17 21-26 32-19s15 21 9 31c-13 22 52 25 82 4 11-8 22-37 24-63 2-36-3-42-20-25-13 13-58 23-100 23-97 0-174 36-133 62 43 27 93 21 106-13zm23-69c87 0 88-1 65-50-12-28-41-51-64-53-41-2-41-3 1-11 33-6 47-28 57-87 8-44 28-87 47-98 47-26-67-68-145-52-100 20-112 43-112 216 0 137 4 158 32 147 17-7 71-12 119-12zm949-338c0-293-5-362-30-382-26-22-30 20-30 358 0 326 4 382 30 382s30-53 30-358zm460-2v-360h-440v720h440zm540 330c0-19-19-30-50-30s-50-11-50-30 19-30 50-30c101 0 65-89-45-111-131-26-184-1-181 85 2 65 4 65 80 53 60-10 76-6 72 15-8 36-97 62-127 37-12-10-29-12-37-4-9 8-26 1-39-17-32-43-113-85-113-59 0 12 15 21 34 21 26 0 29 5 10 24-32 32-71-6-60-57 9-38 20-40 79-17 25 10 36-2 46-47 9-42 23-57 42-50 16 6 29 0 29-13 0-15-16-20-41-14-70 18-190-65-139-96 40-24 24-260-20-300-40-36-40-35-40 317v353h250c209 0 250-5 250-30zm875-205c-5-41-8-7-8 75 0 83 3 116 8 75 4-41 4-109 0-150zm-460 5c5-53-21-61-110-37-61 16-57 47 5 47 28 0 50 9 50 20 0 44 52 16 55-30zm-215-31c-17-10-64-19-107-19-76 0-199-78-359-228-73-68-70-72-77 78l-7 130h60c33 0 132 15 220 32 88 18 180 32 205 31 25-2 45 8 45 21 0 18 6 18 25-1 20-20 19-29-5-44zm947-23c-16-27 134-177 161-162 12 7 15 5 7-4-9-10 13-47 49-84l64-66h-350l3 201c4 194 5 200 41 167 20-18 32-42 25-52zm-2527-56c0-38-30-50-100-40-41 5-43 9-28 47 19 51 128 44 128-7zm220-200v-240h-335l-32 116c-52 183-46 217 37 233 114 21 159-93 66-168-57-46-21-101 65-101 117 0 156 51 80 105-33 23-39 51-39 161l1 134h157zm797 110c-2-109-37-122-37-13 0 66 12 103 33 103 3 0 5-40 4-90zm1283 60c0-16 9-30 20-30s20-9 20-20-13-20-30-20c-16 0-30 8-30 18s-5 33-12 50c-7 18-2 32 10 32s22-13 22-30zm-40-168c0-52-29-82-79-82-77 0-90 23-37 64 49 38 116 48 116 18zm-372-69c-4-13-30-23-56-23-27 0-44 6-40 13 5 8-3 18-17 23s8 9 49 9c47 1 70-7 64-22zm-1794-22c9-9-4-12-29-6s-50 4-55-5c-6-9 5-21 25-26 22-6 16-10-18-12-45-2-66 36-39 70 8 10 104-7 116-21z"></path> <path d="m1653 2506c-16-15-18-755-2-770 9-10 103 9 439 90l100 24 6 294 5 293-95 13c-110 14-336 48-398 61-23 4-48 2-55-5zm107-83c0-52 20-65 52-33 37 36 36 57-2 43-16-7-30-3-30 8 0 27 31 23 296-33 50-10 53-399 3-459-12-15-19-42-15-62 5-28-13-38-87-49-51-8-111-20-134-27-33-10-38-5-29 28 15 58-11 51-34-9-13-35-34-50-70-50h-50l4 325c2 179 7 250 11 159s13-161 21-157c8 5 15-35 16-88 1-54-6-93-15-87s-17-17-17-51c0-33 9-61 20-61s20 21 20 46 11 57 25 71c16 16 22 72 18 166-5 107-1 138 17 127 16-10 21-49 15-113-5-53-1-97 9-97s13 8 7 19c-6 10-3 24 9 31 32 20 23 126-14 184l-35 52-24-58c-25-58-25-58-26 32-1 50-7 110-14 135-8 33-3 45 21 45 18 0 32-16 32-37zm398-551c-17-17-20 17-11 136 7 87 15 213 17 280 3 67 8 6 11-136 4-178-1-266-17-280z"></path> <path d="m2003 2293c3-39-1-77-9-85s-13-92-13-186c2-223 30-159 50 112 10 148 7 205-10 216-18 10-23-5-18-57z"></path> <path d="m1873 2224c-7-11-3-24 9-28 16-5 16-29 0-87-31-113-29-274 3-219 45 78 33 408-12 334z"></path> <path d="m5100 1214c0-46 8-71 20-64 25 16 25 71 0 110-14 22-19 10-20-46z"></path> <path d="m2902 692c19-18 258-28 258-11 0 11-60 19-133 19-74 0-130-4-125-8z"></path> <path d="m4420 680-1230-10 1220-4c671-2 1256 4 1300 13 80 16 80 16 10 14-38-1-623-7-1300-13z"></path> <path d="m2950 600c-8-13 440-20 1329-20 881 0 1341 7 1341 20 0 28-2653 28-2670 0z"></path> <path d="m5666 606c30-8 35-27 30-123l-6-113-100-5c-139-7-230-24-230-43 0-22 325-1 355 23 15 12 25 67 25 136 0 74 9 119 25 126 14 5-11 10-55 9-44 0-64-5-44-10z"></path> <path d="m1173 536c9-14 17-35 17-46 0-26 149-75 185-61 15 6 22 2 15-9s9-20 35-20c83 0 57 56-33 71-45 8-117 31-159 53-49 25-71 29-60 12z"></path> <path d="m2485 463c-150-32-202-83-85-83 44 0 60 10 60 35 1 26 5 28 17 9 11-17 35-22 70-13 29 7 47 22 40 34-8 13-3 15 11 6 27-17 122 2 122 24 0 24-81 20-235-12z"></path> <path d="m1513 410c12-33 167-44 167-12 0 24-51 42-121 42-43 0-55-8-46-30z"></path> <path d="m1730 400c7-11 53-20 102-20 55 0 86 8 78 20-7 11-53 20-102 20-55 0-86-8-78-20z"></path> <path d="m2020 396c0-9 70-16 155-16 107 1 146 7 125 20-36 23-280 20-280-4z"></path> <path d="m80 362c0-13 11-27 25-31 46-15 5215-26 5215-12 0 24-1423 41-3364 41-998 0-1828 6-1845 12-17 7-31 2-31-10z"></path> <path d="m2780 140c0-49 51-53 78-5 19 32 21 32 22-5 0-30 5-33 18-13 14 23 19 23 28 0s14-23 30 0 21 23 30 0c7-16 11-10 12 15 2 38-10 43-108 45-97 3-110-2-110-37z"></path> <path d="m3118 175c-18-61-10-75 44-75 56 0 56 1 23 40-29 34-62 51-67 35z"></path> </g>
+</svg>
+<p><small>Pavlov’s dogs were conditioned to salivate in response to an arbitrary stimulus</small></p>
+</section>
+<section id="the-logic-of-conditioning" class="slide level2" data-background-color="black">
+<h2>The logic of conditioning</h2>
+<ul>
+<p style="color: yellow;">
+<span class="math display">\[s \rightarrow \ R\]</span>
+</p>
+<p style="color: yellow;" class="fragment fade-up">
+<span class="math display">\[NOT(x \rightarrow R)\]</span>
+</p>
+<p style="color: yellow;" class="fragment fade-up">
+<span class="math display">\[s \ AND \ x \rightarrow R\]</span>
+</p>
+<p style="color: yellow;" class="fragment fade-up">
+<span class="math display">\[x \rightarrow R\]</span>
+</p>
+</ul>
+<p><small st="" class="fragment fade-left">The salience of the stimulus(<span style="color: yellow;">s</span>) is transferred to an arbitrary percept(<span style="color: yellow;">x</span>)</small></p>
+</section>
+<section class="slide level2">
+
+<h3 id="signifying-not-food">Signifying (not) food</h3>
+
+<img data-src="img/lobster.jpg" class="r-stretch"><p><strong>Lobster was once the “insect of the sea”</strong></p>
+</section>
+<section class="slide level2">
+
+<p><a class="fragment fade-left" href="https://www.theatlantic.com/health/archive/2014/09/the-world-war-ii-campaign-to-bring-organ-meats-to-the-dinner-table/380737/">Unfamiliar foods in WWII (Atlantic article)</a></p>
+
+<img data-src="img\rations.jpg" class="r-stretch"><p><a class="fragment fade-right" href="https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614">Have important lessons been lost? (Wansink paper)</a></p>
+</section>
+<section id="semiotics-and-marketing" class="slide level2">
+<h2>Semiotics and Marketing</h2>
+
+<img data-src="img/valio.jpg" class="r-stretch"><p><a href="https://www.warc.com/newsandopinion/news/how-premium-packaging-sells-valio-butter/40038"> UCC graduate Kevin Deegan on <strong style="color: gold; background-color: black; font-family: serif;">Premium</strong> butter</a></p>
+<p><small>image from www.valio.com/brands-and-products/</small></p>
+</section>
+<section class="slide level2">
+
+<h2>
+Saussure’s Sign
+</h2>
+<svg width="1491.4" height="1394.2" version="1.1" viewbox="-120 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(-27.527 -26.414)">
+ <path id="circle" d="m224.83 28.667a195.42 195.42 0 0 0-195.05 183.43h390.1a195.42 195.42 0 0 0-195.05-183.43zm-195.05 207.41a195.42 195.42 0 0 0 195.05 183.43 195.42 195.42 0 0 0 195.05-183.43z" fill="#6fd1d1" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.5072"></path>
+ <text fill="#000000" font-family="'Times New Roman'" font-size="50.8px" style="line-height:1.25;shape-inside:url(#rect854);white-space:pre" space="preserve"></text>
+ <g id="arrows" transform="matrix(.25559 0 0 .25559 20.491 19.663)" shape-rendering="auto">
+  <g transform="matrix(1.1549 0 0 1.1549 -106.74 -140.98)">
+   <path d="m345.76 492.88v601.74h10v-601.74z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+   <g fill-rule="evenodd">
+    <g transform="rotate(134.32 357.44 474.65)">
+     <path d="m421.47 422.17v-56.569l-70.711 127.28 127.28-70.711z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+     <path d="m426.81 345.02-89.771 161.59 161.59-89.771h-71.816zm-10.668 41.164v41.32h41.32l-92.971 51.65z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+    </g>
+    <g>
+     <path d="m350.76 1075c11.04 0 20 8.96 20 20s-8.96 20-20 20-20-8.96-20-20 8.96-20 20-20z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+     <path d="m350.76 1072.4c-12.483 0-22.666 10.185-22.666 22.668 0 12.483 10.183 22.666 22.666 22.666 12.483 0 22.666-10.183 22.666-22.666 0-12.483-10.183-22.668-22.666-22.668zm0 5.3339c9.5972 0 17.334 7.7369 17.334 17.334 0 9.5972-7.7368 17.332-17.334 17.332-9.5972 0-17.334-7.7349-17.334-17.332 0-9.5971 7.7368-17.334 17.334-17.334z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(-1.1549 .0016256 -.0016256 -1.1549 1639.8 1659.6)">
+   <path d="m345.76 492.88v601.74h10v-601.74z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+   <g fill-rule="evenodd">
+    <g transform="rotate(134.32 357.44 474.65)">
+     <path d="m421.47 422.17v-56.569l-70.711 127.28 127.28-70.711z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+     <path d="m426.81 345.02-89.771 161.59 161.59-89.771h-71.816zm-10.668 41.164v41.32h41.32l-92.971 51.65z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+    </g>
+    <g>
+     <path d="m350.76 1075c11.04 0 20 8.96 20 20s-8.96 20-20 20-20-8.96-20-20 8.96-20 20-20z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+     <path d="m350.76 1072.4c-12.483 0-22.666 10.185-22.666 22.668 0 12.483 10.183 22.666 22.666 22.666 12.483 0 22.666-10.183 22.666-22.666 0-12.483-10.183-22.668-22.666-22.668zm0 5.3339c9.5972 0 17.334 7.7369 17.334 17.334 0 9.5972-7.7368 17.332-17.334 17.332-9.5972 0-17.334-7.7349-17.334-17.332 0-9.5971 7.7368-17.334 17.334-17.334z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"></path>
+    </g>
+   </g>
+  </g>
+ </g>
+
+ <g class="fragment fade-in-then-out">
+<text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="149.23438" y="125.08633"><tspan font-size="25.4px">SIGNIFIER</tspan></tspan></text>
+
+ <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="149.23438" y="125.08633"><tspan font-size="25.4px">SIGNIFIED</tspan></tspan></text> 
+ </g>
+
+ <g class="fragment fade-in-then-out">
+        <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="159.23438" y="125.08633"><tspan font-size="25.4px">"COFFEE"</tspan></tspan></text>
+
+         <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="129.23438" y="125.08633"><tspan font-size="25.4px">COFFEE (idea)</tspan></tspan></text> 
+         </g>
+
+         <g class="fragment fade-in-then-out">
+            <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="159.23438" y="125.08633"><tspan font-size="25.4px">RED LIGHT</tspan></tspan></text>
+
+             <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="159.23438" y="125.08633"><tspan font-size="25.4px">STOP (idea)</tspan></tspan></text> 
+             </g>    
+
+ <g class="fragment fade-in-then-out">
+    <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="159.23438" y="125.08633"><tspan font-size="25.4px">COFFEE</tspan></tspan></text>
+
+     <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="159.23438" y="125.08633"><tspan font-size="25.4px">ENERGY</tspan></tspan></text> 
+     </g>
+
+
+
+     <g class="fragment fade-in-then-out">
+        <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="159.23438" y="125.08633"><tspan font-size="25.4px">COFFEE</tspan></tspan></text>
+
+         <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="139.23438" y="125.08633"><tspan font-size="25.4px">RELAXATION</tspan></tspan></text> 
+         </g>
+
+         <g class="fragment fade-in-then-out">
+            <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="169.23438" y="125.08633"><tspan font-size="25.4px">MEAT</tspan></tspan></text>
+
+             <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="149.23438" y="125.08633"><tspan font-size="25.4px">PROTEIN</tspan></tspan></text> 
+             </g>
+
+             <g class="fragment fade-in-then-out">
+                <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="179.23438" y="125.08633"><tspan font-size="25.4px">MEAT</tspan></tspan></text>
+
+                 <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="149.23438" y="125.08633"><tspan font-size="25.4px">MANLINESS</tspan></tspan></text> 
+                 </g>
+
+                 <g class="fragment fade-in-then-out">
+                    <text transform="translate(4.2333 11.642)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect943);white-space:pre" space="preserve"><tspan x="179.23438" y="125.08633"><tspan font-size="25.4px"></tspan></tspan></text>
+
+                     <text transform="translate(4.2333 206.38)" fill="#000000" font-family="sans-serif" font-size="25.4px" style="line-height:1.25;shape-inside:url(#rect957);white-space:pre" space="preserve"><tspan x="149.23438" y="125.08633"><tspan font-size="25.4px"></tspan></tspan></text> 
+                     </g>
+
+</g>
+</svg>
+
+<div class="footer footer-default">
+<p>Food Technology, Culture &amp; Ethics</p>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        target: function(trigger) {
+          return trigger.previousElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        setTimeout(function() {
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto-reveal',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+        tippyHover(ref, function() {
+          var popup = window.document.createElement('div');
+          cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    });
+    </script>
+    
+
+</body></html>

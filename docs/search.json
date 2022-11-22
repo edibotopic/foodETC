@@ -39,7 +39,7 @@
     "href": "notes/slides.html",
     "title": "Slides",
     "section": "",
-    "text": "Introduction\nOntology 1\nOntology 2\nOntology 3"
+    "text": "Introduction\nOntology 1\nOntology 2\nOntology 3\nEpistemology 1&2\nNo slides planned for Food Structure lectures"
   },
   {
     "objectID": "notes/about.html",
@@ -126,6 +126,48 @@
     "text": "References\nBunge, M. (2003). Emergence and Convergence: Qualitative Novelty and the Unity of Knowledge. Toronto: University of Toronto Press.\nJackson, P., Brembeck H., Everts, J., Fuentes, M., Halkier, B., Hertz, F. D., Meah, A., Viehoff, V., & Wenzl, C. (2018). Reframing Convenience Food. Cham: Palgrave Macmilan.\nKaplan, D.M. (2012). Philosophy of Food. Berkeley: University of California Press.\nThis, H (2014). Note-by-Note Cooking: The Future of Food. New York: Columbia University Press.\nWrangham, R (2009). Catching Fire: How Cooking Made Us Human. London: Profile Books."
   },
   {
+    "objectID": "notes/foodstructure.html",
+    "href": "notes/foodstructure.html",
+    "title": "Parts & Relations [draft]",
+    "section": "",
+    "text": "Tip\n\n\n\nNote: there are no slides associated with this set of notes, which themselves contain a variety of interactive elements.\nA basic definition of structure:\nFood structure is an important area of food science. When food scientists refer to “food structure” they often mean the microstructure of food. Microstructure is what is observed under a (light) microscope. A particle of 1 µm is 1000 times smaller than 1 mm. Many bacteria are approximately 1 µm in size.\nMicrostructural features are often used to explain events occurring over short time-scales (minutes, days, weeks) that have practical consequences. Here are some examples:\nEvents\nMore generally, food structure can be taken to refer to how different parts interact to generate new properties:\nProperties"
+  },
+  {
+    "objectID": "notes/foodstructure.html#structure-function",
+    "href": "notes/foodstructure.html#structure-function",
+    "title": "Parts & Relations [draft]",
+    "section": "Structure → Function",
+    "text": "Structure → Function\nMany of the properties described above can be considered functional. More specifically, they can be considered “techno-functional”, in that they relate to some technical problem (e.g., thickening, gelling, preserving). Techno-functional properties are often distinguished from bio-functional ones, which are those that relate to the function a food or ingredient has in the human body.\nIncreasingly, food structure is often studied in relation to human digestion (biofunctionality). This is often referred to as the “food matrix effect”. For example, if we are interested in the digestion of amino acids or glucose molecules it is often valuable to consider the specific matrix (i.e., structure) those components are located within.\n\nCasein digests more slowly than whey proteins because it forms a gel in the stomach — this is why sports nutrition products are marketed as being either “slow release” or “fast release”\nCooked starch digests more quickly because the sugars are more accessible to digestive enzymes — this effect can also be leveraged to control the rate of digestion\n\nConsider the table below. Imagine you are asked which of the foods you expect to be most “water-like”. Intuitively, you might expect that the system that contains the most water would be most like water. However, this neglects to consider how that water might be structured (is it free or bound? is it liquid or solid?).\n\n\n\nFood\nWater\nProtein\nLipids\nCarbohydrates\n\n\n\n\n🥛\n87.6\n3.2\n3.9\n4.8\n\n\n🍅\n93.1\n0.7\n0.3\n3.1\n\n\n🥑\n72.5\n1.9\n19.5\n1.9\n\n\n\n\n\n\n\n\n\nWater Activity in Foods\n\n\n\nWater is often removed from foods in processes like evaporation and drying. It is known that such processes decrease microbial growth and therefore increase shelf-life.\nWater content, however, is not the best predictor of shelf-life. Instead, food scientists use the concept of water activity.\nWater activity can be considered as an estimate of the ratio of bound water to free water. The more bound water the lower the water activity. Water activity can be considered a structural property, in that it relates to how food molecules and water molecules interact.\nMore correctly, water activity is the ratio of the vapor pressure of a food divided by the vapor pressure of pure water. \\(H_2O\\) in pure water is not bound by other molecules and therefore tends to evaporate easily, generating vapor molecules that exert pressure. In food systems, the water is more tightly bound, reducing the number of vapor molecules that are generated and therefore creating less vapor pressure.\nFood scientists use instruments that measure water activity based on these principles, and reducing water activity is a frequent target of food processes."
+  },
+  {
+    "objectID": "notes/foodstructure.html#all-foods-are-dispersed-systems",
+    "href": "notes/foodstructure.html#all-foods-are-dispersed-systems",
+    "title": "Parts & Relations [draft]",
+    "section": "“All Foods are dispersed systems”",
+    "text": "“All Foods are dispersed systems”\nDiagrams and animations can be very helpful when learning about food structures. However, they are also difficult to reproduce and remember.\nA simple shorthand — similar to algebra — has been developed to solve this problem. Note that it does not do many things we might expect from a mathematical equation we learn in school. For example, the formulas cannot be solved to yield a number.\nThe shorthand — called the Dispersed System Formalism — uses four letters that represent physical phases common in food systems: \\(G\\) for gas, \\(O\\) for oil, \\(S\\) for solid and \\(G\\) for gas. A symbol placed between two letters represents a structural relationship between those phases. The most common symbol is \\(/\\) for dispersed_in.\n\n\n\nPhase\nGas\nOil\nSolid\nWater\n\n\n\n\nGas\nG/G\nO/G\nS/G\nW/G\n\n\nOil\nG/O\nO/O\nS/O\nW/O\n\n\nSolid\nG/S\nO/S\nS/S\nW/S\n\n\nWater\nG/W\nO/W\nS/W\nW/W\n\n\n\nEach pair of letters in this table represents a possible structure. We can rewrite the table to represent the structures in plain english. Many food systems can be represented by the structures in this table. For example, yoghurt is a gel. Milk is an oil-in-water emulsion. Whey Protein Concentrate is a powder.\n\n\n\n\n\n\n\n\n\n\nPhase\nGas\nOil\nSolid\nWater\n\n\n\n\nGas\nGas\nOil aerosol\nSolid aerosol (or powder)\nWater aerosol\n\n\nOil\nLiquid oil foam\nOil-in-oil emulsion\nSolid-in-oil suspension\nWater-in-oil emulsion\n\n\nSolid\nSolid foam\nOleogel\nSolid-in-solid suspension\nGel\n\n\nWater\nLiquid water foam\nOil-in-water emulsion\nSolid-in-water suspension\nWater\n\n\n\nAlso, it only represents the topological structure of food. This means that it is primarily based on the notion of connection. For example, this is how we might think of a dispersion of oil in water:\n\nThere are two unique components\nThe oil is divided into multiple parts that do not connect\nEvery surface point of the oil is connected with water\nNot every surface point of the water is connected with oil\nThe oil is therefore discrete (not self-connected) and the water continuous (self-connected)\n\nThis complex logic is encoded in the simple formula \\(O/W\\).\n\n\n\n\n\n\nGeometry and Topology\n\n\n\nThese are both topics in pure mathematics but for our purposes we only need an intuitive understanding of the difference.\nYou remember from school that geometry involves the study of shapes like triangles and circles, which are assembled from points and lines. In geometry properties like length and direction are important, while in topology these are ignored.\nTopology is only concerned with connection and the classic joke about topology is that:\n\nTo a topologist there is no difference between a donut and a mug\n\nThe meaning of the joke is that both consist of a hole that is surrounded by a continuous self-connected region. In topology, as were only interested in connection, we ignore the different shape, size and function of both.\nSimilarly, when using DSF we are only concerned with the fact that yogurt is a gel, not whether the yogurt is in a bowl or a cup, or whether it is white or purple.\n\n\nNot all food products can be described using the notion of dispersion. For this reason, DSF includes a range of symbols that describe relations between phases:\n\nSuperposition (σ): one thing on top of another\nInclusion (@): one thing inside of another\nDisconnection (+): one thing disconnected to another\nBicontinuous (×): two things that are continuous with each other\n\nThese are illustrated using simple diagrams below for imaginary phases (x, y, z):\n\nFor example, consider the formula \\((x + y)@z\\). This would mean “x and y are both disconnected from each other, but both are included in z”."
+  },
+  {
+    "objectID": "notes/foodstructure.html#procedural-generation-of-food",
+    "href": "notes/foodstructure.html#procedural-generation-of-food",
+    "title": "Parts & Relations [draft]",
+    "section": "Procedural Generation of Food?",
+    "text": "Procedural Generation of Food?\nBelow you can use a simple app (Disperse) to generate random food structures using this method. If viewing on a small screen it might be easier to open it in a new window. This app is a computer program and because DSF simply involves a finite set of symbols it is relatively easy to write a computer program that generates DSF formulae. As a more general point, it is worth considering the implications of using computers in this way to help us in the design of food products. In Computer-generated Imagery (CGI) used in movies and videogames it is common to use an approach called procedural generation. This means that instead of manually building mountains when we need to create a world, we simply define a set of rules that can be followed to build the structure (i.e., a mountain-building algorithm). DSF seems to create similar possibilities for food.\n\n\n\n\nBelow is another app (WriteHeight) that leverages digital technology to generate geometrical structures. The algorithm behind the app takes a black and white image then renders black regions as low and white regions as high. Gray colours create regions with heights somewhere in between these extremes. This technique is called “height-mapping”. The models can be downloaded and 3D-printed.\n\n\n\n\n\n\nImagine designing a topological structure with DSF and then 3D-printing it into a geometric shape determined by a heightmap. This would be a digitally-generated food structure."
+  },
+  {
+    "objectID": "notes/foodstructure.html#complex-structures",
+    "href": "notes/foodstructure.html#complex-structures",
+    "title": "Parts & Relations [draft]",
+    "section": "Complex Structures",
+    "text": "Complex Structures\nThe structure of different foods is often responsible for their unique properties. When these foods have to be “replaced” or “mimicked” one of the major challenges is recreating the structure. Some examples are briefly described below.\n\nMilk\n\\[(O+S)/W\\]\nAn emulsion of oil in water and a suspension of casein particles in water.\n\n\nIce-cream\n\\[(G+O+S)/W\\]\nA dispersion of gas bubbles, oil droplets and ice crystals in supercooled water.\n\n\nMeat\n\\[D_1S/D_1S^3\\]\nRepeating bundles of one-dimensional (\\(D_1\\)) solid fibres, each dispersed in the other, the structure repeating approximately three times.\n\n\n\n\n\n\nMeat Structure as Repeating Fibres (click-through animation)\n\n\n\n🥩 Click here for full-screen animation of meat structure\n\n\n\n\n\n\n\n\n\n\nExpanding the Language\n\n\n\nNote, for the meat example the language needs to be expanded. In this case, the idea of dimensions is introduced:\n\n\\(D_0\\): zero-dimension (point-like particle)\n\\(D_1\\): one-dimension (line-like fibre)\n\\(D_2\\): two-dimension (surface-like sheet)\n\\(D_3\\): three-dimension (volume-like region)\n\nEach phase in a DSF formula can be given a dimension like this.\nIn addition, for the meat example the concept of repetition is represented by the superscript \\(3\\).\n\n\nFor more examples you are encouraged to read many of the excellent papers written by Herve This, the brilliant French scientist who developed DSF and co-founded the discipline of molecular gastronomy. Three articles are included below (the articles are free online) that contain many more examples — please read through them and find examples that interest you."
+  },
+  {
+    "objectID": "notes/foodstructure.html#references",
+    "href": "notes/foodstructure.html#references",
+    "title": "Parts & Relations [draft]",
+    "section": "References",
+    "text": "References\nBurke, R., This, H., & Kelly, A. (2016). Molecular Gastronomy, in Reference Module in Food Sciences. Available online.\nThis, H. (2005). Modelling dishes and exploring culinary ‘precisions’: the two issues of molecular gastronomy. British Journal of Nutrition, 93, Suppl. 1, S139-S146. Available online.\nThis, H. (2013). Molecular gastronomy is a scientific discipline, and note by note cuisine is the next culinary trend. Flavour, 2, 1. Available online."
+  },
+  {
     "objectID": "notes/review.html",
     "href": "notes/review.html",
     "title": "Review",
@@ -133,10 +175,17 @@
     "text": "Here you can find short videos and animations explaining some concepts from the lectures and notes. These might be especially helpful if you want to quickly review a difficult concept."
   },
   {
-    "objectID": "notes/review.html#ontology",
-    "href": "notes/review.html#ontology",
+    "objectID": "notes/review.html#ontology-epistemology",
+    "href": "notes/review.html#ontology-epistemology",
     "title": "Review",
-    "section": "Ontology",
-    "text": "Ontology\nInteractive simulation of floating/sedimentation behaviour in a dispersed system\nShort video explaining general approaches to studying complex food systems\nShort video on 3D printing, biomimetics and the four causes\nShort video on mixing issues during product formulation\n\n\n\n\n\n\nTip\n\n\n\nWhile these should work well on a phone, your experience will likely be improved with a larger screen."
+    "section": "Ontology & Epistemology",
+    "text": "Ontology & Epistemology\nInteractive simulation of floating/sedimentation behaviour in a dispersed system\nShort video explaining general approaches to studying complex food systems\nShort video on 3D printing, biomimetics and the four causes\nShort video on mixing issues during product formulation"
+  },
+  {
+    "objectID": "notes/review.html#food-structure",
+    "href": "notes/review.html#food-structure",
+    "title": "Review",
+    "section": "Food Structure",
+    "text": "Food Structure\nWeb app for generating combinations DSF formulae\nWeb app for generating 3D models from heightmaps\nClick-through animation of emulsion structure\nClick-through animation of meat structure\n\n\n\n\n\n\nTip\n\n\n\nWhile these should work well on a phone, your experience will likely be improved with a larger screen."
   }
 ]
