@@ -8,7 +8,7 @@ execute:
 Here you can find short videos and animations explaining some concepts from the lectures and notes.
 These might be especially helpful if you want to quickly review a difficult concept.
 
-## Ontology
+## Ontology & Epistemology
 
 [Interactive simulation of floating/sedimentation behaviour in a dispersed system](https://edibotopic.github.io/stokes-law/)
 
@@ -17,6 +17,16 @@ These might be especially helpful if you want to quickly review a difficult conc
 [Short video on 3D printing, biomimetics and the four causes](https://youtu.be/ABfOkQWphog)
 
 [Short video on mixing issues during product formulation](https://youtube.com/shorts/5Khf5HPHZ8A?feature=share)
+
+## Food Structure
+
+[Web app for generating combinations DSF formulae](https://edibotopic.github.io/disperse/)
+
+[Web app for generating 3D models from heightmaps](https://edibotopic.github.io/write-height/)
+
+[Click-through animation of emulsion structure](../slides/six/sozi/emulsion.sozi.html)
+
+[Click-through animation of meat structure](../slides/six/sozi/meat.sozi.html)
 
 ::: {.callout-tip}
 

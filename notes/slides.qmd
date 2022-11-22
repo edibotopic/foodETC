@@ -14,3 +14,7 @@ This page will be populated with a list of all slides used during the course.
 [Ontology 2](../slides/three/)
 
 [Ontology 3](../slides/four/)
+
+[Epistemology 1&2](../slides/five/)
+
+`No slides planned for Food Structure lectures`
