@@ -23,22 +23,23 @@ website:
       - section: "Epistemology"
         contents:
           - notes/knowingfood.qmd
+          - notes/thinkingfood.qmd
         #   - notes/waysofknowing.qmd
         #   - notes/scienceandtechnology.qmd
         #   - notes/fooddisciplines.qmd
         #   - notes/toolsforknowing.qmd
+      - section: "Food Structure"
+        contents:
+            - notes/foodstructure.qmd
+        #   - notes/imaginingfood.qmd
+        #   - notes/changingfood.qmd
+        #   - notes/foodprocesses.qmd
       - section: "Semiotics"
         # contents:
         #   - notes/talkingfood.qmd
         #   - notes/foodsigns.qmd
         #   - notes/foodrhetoric.qmd
         #   - notes/marketingfood.qmd
-      - section: "Food Structure"
-        # contents:
-        #   - notes/foodstructure.qmd
-        #   - notes/imaginingfood.qmd
-        #   - notes/changingfood.qmd
-        #   - notes/foodprocesses.qmd
       - section: "Appendix"
         contents:
           - notes/slides.qmd
