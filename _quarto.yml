@@ -34,7 +34,7 @@ website:
         #   - notes/imaginingfood.qmd
         #   - notes/changingfood.qmd
         #   - notes/foodprocesses.qmd
-      - section: "Semiotics"
+        # - section: "Semiotics"
         # contents:
         #   - notes/talkingfood.qmd
         #   - notes/foodsigns.qmd
