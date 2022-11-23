@@ -65,7 +65,7 @@ More generally, food structure can be taken to refer to how different parts inte
 
 - The viscosity of a liquid depends on the interaction of polymers with solvent
 - Liquids transform into gels when the distance between particles is reduced below a critical level
-- Bacteria is are less capable of growing in water that is bound to food molecules
+- Bacteria are less capable of growing in water that is bound to food molecules
 
 ## Structure → Function
 
@@ -80,10 +80,10 @@ For example, if we are interested in the digestion of amino acids or glucose mol
 - Casein digests more slowly than whey proteins because it forms a gel in the stomach — this is why sports nutrition products are marketed as being either "slow release" or "fast release"
 - Cooked starch digests more quickly because the sugars are more accessible to digestive enzymes — this effect can also be leveraged to control the rate of digestion
 
-Consider the table below. Imagine you are asked which of the foods you expect to be most "water-like".
-Intuitively, you might expect that the system that contains the most water would be most like water.
-However, this neglects to consider how that water might be structured (is it free or bound? is it liquid or solid?).
-For most it is surprising that milk has less water than a tomato, but this is not paradoxical if we have an appreciation for how water is structured differently in different foods. 
+Consider the table below. Imagine you are asked (based on the data) which of the foods you expect to be most "water-like".
+Intuitively, you might expect that the system that contains the most water would most closely resemble water (i.e., liquid).
+However, this neglects to consider how that water might be structured in the food matrix.
+For most it is surprising that milk has less water than a tomato, yet behaves more like a liquid, but this is not paradoxical if we have an appreciation for how water is structured differently in different foods. 
 
 |***Food***|***Water***|***Protein***|***Lipids***|***Carbohydrates***|
 |:---------|:---------:|:-----------:|:----------:|:-----------------:|
