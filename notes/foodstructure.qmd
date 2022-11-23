@@ -1,5 +1,5 @@
 ---
-title: Parts & Relations [draft]
+title: Parts & Relations
 slide-format: revealjs
 css: ../styles.css
 execute:
@@ -7,9 +7,9 @@ execute:
 search: true
 ---
 
-::: {.callout-tip}
+::: {.callout-note}
 
-Note: there are no slides associated with this set of notes, which themselves contain a variety of interactive elements.
+There are no slides associated with this set of notes, which themselves contain a variety of interactive elements.
 
 :::
 
@@ -26,11 +26,14 @@ Many bacteria are approximately 1 µm in size.
 
 ::: {.callout-note}
 
-## Milk Structure as an Emulsion (click-through animation)
+## Milk Structure as an Emulsion
 
-[🥛 Full-screen animation of milk structure](../slides/six/sozi/emulsion.sozi.html)
+To progress through the animation **click** on the image or **swipe left**.
 
 <iframe width="100%" height="280px" src="../slides/six/sozi/emulsion.sozi.html"></iframe>
+
+[🥛 Full-screen version of animation of milk structure](../slides/six/sozi/emulsion.sozi.html)
+
 :::
 
 Microstructural features are often used to explain
@@ -80,6 +83,7 @@ For example, if we are interested in the digestion of amino acids or glucose mol
 Consider the table below. Imagine you are asked which of the foods you expect to be most "water-like".
 Intuitively, you might expect that the system that contains the most water would be most like water.
 However, this neglects to consider how that water might be structured (is it free or bound? is it liquid or solid?).
+For most it is surprising that milk has less water than a tomato, but this is not paradoxical if we have an appreciation for how water is structured differently in different foods. 
 
 |***Food***|***Water***|***Protein***|***Lipids***|***Carbohydrates***|
 |:---------|:---------:|:-----------:|:----------:|:-----------------:|
@@ -136,6 +140,7 @@ Many food systems can be represented by the structures in this table.
 For example, yoghurt is a **gel**.
 Milk is an **oil-in-water emulsion**.
 Whey Protein Concentrate is a **powder**.
+Some of these may not be of interest to a food scientist; for example: a gas dispersed in a gas.
 
 |***Phase***|***Gas***|***Oil***|***Solid***|***Water***|
 |:----------|:--------|:-------:|:---------:|:---------:|
@@ -144,14 +149,14 @@ Whey Protein Concentrate is a **powder**.
 |Solid      |Solid foam      |Oleogel      |Solid-in-solid suspension	    |Gel        |
 |Water      |Liquid water foam      |Oil-in-water emulsion      |Solid-in-water suspension  	    |Water        |
 
-Also, it only represents the topological structure of food.
-This means that it is primarily based on the notion of **connection**.
+By "structure" here we mean the *topological structure* of the food.
+This means that it is primarily based on the notion of **connection** (how are the phases connected to each other?).
 For example, this is how we might think of a dispersion of oil in water:
 
 - There are two unique components
 - The oil is divided into multiple parts that do not connect
-- Every surface point of the oil is connected with water
-- Not every surface point of the water is connected with oil
+- Any point at the surface of a droplet of oil is connected with water
+- Not every surface point of the water is connected with oil (example: the surface of the water)
 - The oil is therefore discrete (not self-connected) and the water continuous (self-connected)
 
 This complex logic is encoded in the simple formula $O/W$.
@@ -179,17 +184,26 @@ Similarly, when using DSF we are only concerned with the fact that yogurt is a g
 Not all food products can be described using the notion of dispersion.
 For this reason, DSF includes a range of symbols that describe relations between phases:
 
-- Superposition (σ): one thing on top of another
-- Inclusion (@): one thing inside of another
-- Disconnection (+): one thing disconnected to another
-- Bicontinuous (×): two things that are continuous with each other
+- Superposition (σ): one thing externally touching another (icing on a cake)
+- Inclusion (@): one thing inside of another (egg yolk in egg white)
+- Disconnection (+): one thing disconnected to another (ice crystals and gas bubbles in icecream)
+- Bicontinuous (×): two things that are continuous with each other (strands of gelatine and water in a gelatine-based gel)
+
+::: {.callout}
+Note: if you refer to the papers on this topic you will see some differences in how the symbols are used and described.
+This is because it is still under development.
+:::
 
 These are illustrated using simple diagrams below for imaginary phases (x, y, z):
 
 ![](../img/dsf_ops.png)
 
-For example, consider the formula $(x + y)@z$.
-This would mean "x and y are both disconnected from each other, but both are included in z".
+For example, consider the formula $(x + y)/z$.
+This would mean "x and y are both disconnected from each other, but both are dispersed in z".
+Just like in equations, we can use brackets to group elements.
+For example, the following does not represent the same structure:
+
+$$x + (y/z)$$
 
 ## Procedural Generation of Food?
 
@@ -209,7 +223,7 @@ Below is another app (`WriteHeight`) that leverages digital technology to genera
 The algorithm behind the app takes a black and white image then renders black regions as low and white regions as high.
 Gray colours create regions with heights somewhere in between these extremes.
 This technique is called "height-mapping".
-The models can be downloaded and 3D-printed.
+The models can be downloaded and 3D-printed (the 3D printing part is not straightforward, but I am working on it).
 
 ::: {.callout}
 Imagine designing a topological structure with DSF and then 3D-printing it into a geometric shape determined by a heightmap.
@@ -231,12 +245,17 @@ Some examples are briefly described below.
 $$(O+S)/W$$
 
 An emulsion of oil in water and a suspension of casein particles in water. 
+Often milk is simple described as an emulsion ($O/W$), especially when this is the most immediately important feature (for example: when studying creaming of fat).
+Further complications arise when we consider that some of the fat in milk is solid and some of it liquid,
+with solid fat crystals dispersed in liquid fat ($(S/O+S)/W$).
+By reasoning towards a more precisely-defined formula we can develop a better understanding of the system.
 
 ### Ice-cream
 
 $$(G+O+S)/W$$
 
 A dispersion of gas bubbles, oil droplets and ice crystals in supercooled water.
+Ice-cream is onmost comoplex structures in food.
 
 ### Meat
 
@@ -248,9 +267,11 @@ Repeating bundles of one-dimensional ($D_1$) solid fibres, each dispersed in the
 
 ## Meat Structure as Repeating Fibres (click-through animation)
 
-[🥩 Click here for full-screen animation of meat structure](../slides/six/sozi/meat.sozi.html)
+To progress through the animation **click** on the image or **swipe left**.
 
 <iframe width="100%" height="280px" src="../slides/six/sozi/meat.sozi.html"></iframe>
+
+[🥩 Click here for full-screen version of animation of meat structure](../slides/six/sozi/meat.sozi.html)
 
 :::
 
