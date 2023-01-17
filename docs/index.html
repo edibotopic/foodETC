@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.197">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -229,6 +229,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -236,14 +237,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>These notes are an <em>exploration</em> of topics relating to the design of food products, beverages and nutritional solutions. They are associated with a module taught to BSc Food Science students at University College Cork, Ireland, which is named <strong>Food Technology, Culture &amp; Ethics</strong> (or <em>FoodETC</em> for short). The course is being developed and taught with the aim of providing a more <em>systematic</em> account of food to students that are otherwise focused on scientific studies. By design, the material does not assume a significant background in science, as most students will have not studied chemistry or physics when taking the course.</p>
-<section id="lectures-and-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="lectures-and-schedule">Lectures and Schedule</h2>
-<p>This module is spread across <em>two semesters</em>.</p>
-<p>In <strong>semester 1</strong>, lectures will be at <strong>4 pm each Wednesday</strong>.</p>
-<p>The lectures will take place in <strong>CONN-S2</strong>.</p>
-<p>This building can be found on <strong>Western Road</strong>.</p>
-<iframe title="3D image of classroom" src="https://kuula.co/share/7PLMc?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;alpha=0.02&amp;info=1&amp;logo=1" allowfullscreen="" width="100%" height="540">
+<p>This module is spread across <em>two semesters</em>. Details on lectures venues are included below.</p>
+<section id="lectures-s2" class="level2">
+<h2 class="anchored" data-anchor-id="lectures-s2">Lectures (S2)</h2>
+<p>In <strong>semester 2</strong>, lectures will be at <strong>4 pm each Tuesday</strong>.</p>
+<p>The lectures will take place in <strong>FSB-322</strong>.</p>
+<iframe title="3D image of S2 classroom" src="https://kuula.co/share/7lRfY?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;info=1&amp;logo=1" allowfullscreen="" width="100%" height="540">
 </iframe>
+</section>
+<section id="lectures-s1" class="level2">
+<h2 class="anchored" data-anchor-id="lectures-s1">Lectures (S1)</h2>
+<p>In <strong>semester 1</strong>, lectures were at <strong>4 pm each Wednesday</strong>.</p>
+<p>The lectures took place in <strong>CONN-S2</strong>.</p>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -280,7 +285,7 @@ Slides
 <p>📃 Pressing <kbd>e</kbd> on the slides will convert them into a printable format. Note: this does not always work well and <code>pdf</code> versions will be made available on Canvas where possible.</p>
 </div>
 </div>
-<p>The content of the course has the following general structure:</p>
+<p>The content of the course has the following general themes:</p>
 <ul>
 <li><strong>Knowing food</strong>: establishing what food is and how we gain knowledge about food</li>
 <li><strong>Talking food</strong>: investigating how food is perceived/interpreted in society</li>
@@ -308,8 +313,8 @@ Warning
 <h2 class="anchored" data-anchor-id="list-of-assessments">List of Assessments</h2>
 <p>The module involves 100% <strong>Continuous Assessment</strong>:</p>
 <ul>
-<li>Lecture attendance and participation (10 marks)</li>
-<li>Semester 1 class exam (20 marks)</li>
+<li>✅ Lecture attendance/participation (10 marks)</li>
+<li>✅ Semester 1 class exam (20 marks)</li>
 <li>Semester 2 class exam (20 marks)</li>
 <li>Group presentation (20 marks)</li>
 <li>Critical Essay (30 marks)</li>
@@ -481,7 +486,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -503,7 +510,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -539,24 +563,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
