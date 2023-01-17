@@ -11,17 +11,22 @@ They are associated with a module taught to BSc Food Science students at Univers
 The course is being developed and taught with the aim of providing a more *systematic* account of food to students that are otherwise focused on scientific studies.
 By design, the material does not assume a significant background in science, as most students will have not studied chemistry or physics when taking the course.
 
-## Lectures and Schedule
-
 This module is spread across _two semesters_.
+Details on lectures venues are included below.
 
-In **semester 1**, lectures will be at **4 pm each Wednesday**.
+## Lectures (S2)
 
-The lectures will take place in **CONN-S2**.
+In **semester 2**, lectures will be at **4 pm each Tuesday**.
 
-This building can be found on **Western Road**.
+The lectures will take place in **FSB-322**.
 
-<iframe title="3D image of classroom" src="https://kuula.co/share/7PLMc?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;alpha=0.02&amp;info=1&amp;logo=1" allowfullscreen="" width="100%" height="540"></iframe>
+<iframe title="3D image of S2 classroom" src="https://kuula.co/share/7lRfY?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;info=1&amp;logo=1" allowfullscreen="" width="100%" height="540"></iframe>
+
+## Lectures (S1)
+
+In **semester 1**, lectures were at **4 pm each Wednesday**.
+
+The lectures took place in **CONN-S2**.
 
 ::: {.callout-note}
 New notes and slides will be made available before each weekly lecture.
@@ -53,7 +58,7 @@ The slides associated with this first lecture can be accessed below:
 Note: this does not always work well and `pdf` versions will be made available on Canvas where possible.
 :::
 
-The content of the course has the following general structure:
+The content of the course has the following general themes:
 
 - **Knowing food**: establishing what food is and how we gain knowledge about food
 - **Talking food**: investigating how food is perceived/interpreted in society
@@ -78,8 +83,8 @@ Enrolled students are expected to participate fully in the course and write thei
 
 The module involves 100% **Continuous Assessment**:
 
-- Lecture attendance and participation (10 marks)
-- Semester 1 class exam (20 marks)
+- ✅ Lecture attendance/participation (10 marks)
+- ✅ Semester 1 class exam (20 marks)
 - Semester 2 class exam (20 marks)
 - Group presentation (20 marks)
 - Critical Essay (30 marks)
