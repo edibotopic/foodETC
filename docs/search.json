@@ -84,6 +84,48 @@
     "text": "References\nBornhorst, G. M., Gouseti, O., Wickham, M. S. J., & Bakalis, S. Engineering digestion: Multiscale Process of Food Digestion. Journal of Food Science, 81, R534-R543.\nBurke, R., This, H., & Kelly, A. (2016). Molecular Gastronomy, in Reference Module in Food Sciences. Available online.\nMcClements, D. J. (2015). Future Foods: How Modern Science is Transforming the Way We Eat. Cham, Switzerland: Springer."
   },
   {
+    "objectID": "notes/foodtech.html",
+    "href": "notes/foodtech.html",
+    "title": "Food Technology",
+    "section": "",
+    "text": "A technology is something created by people to have a useful purpose.\nUsually, a technology is distinguished from other types of artifact in that it is engineered in some way that incorporates scientific knowledge.\n“Food technology” as a term simply refers to materials and equipment that is developed with the purpose of creating useful food products.\n📽️ Direct link to slides for this lecture"
+  },
+  {
+    "objectID": "notes/foodtech.html#food-scientists-build-things",
+    "href": "notes/foodtech.html#food-scientists-build-things",
+    "title": "Food Technology",
+    "section": "Food Scientists Build Things",
+    "text": "Food Scientists Build Things\nNot every food scientist is restricted to analysing samples in a laboratory. Many food scientists are actively involved in the design of food technologies. The most obvious example of a food technology is a product.\nFood products are designed to have specific properties and to achieve certain functions. Manufacturing processes need to be designed to produce these products. A given process can achieve a variety of positive effects, including:\n\nMaking an inedible raw material into an edible food\nExtending the period during which a food remains edible\nImproving the sensory and/or nutritional properties of a food\nCreating unique structures or compositions that would not otherwise be possible\n\n\n\n\n\n\n\nSafety\n\n\n\nThe concept of “safety” typically refers to the immediate risk posed by a material. For example, a food is safe if it does not give you food poisoning.\nToxicologists, however, recognise that some materials can cause harm when consumed over extended periods. New ingredients, for example, have to undergo extensive testing to ensure that they do not have these harmful effects.\nMore recently, there has been greater attention paid to dietary issues such as obesity. The question has been raised: do we pay sufficient attention to how the consumption of specific kinds of processed foods impacts the bodyweight of individuals across their life?\nThis is an interesting and important question that is very difficult to answer, due to the complex array of factors and long timespans involved."
+  },
+  {
+    "objectID": "notes/foodtech.html#trade-offs",
+    "href": "notes/foodtech.html#trade-offs",
+    "title": "Food Technology",
+    "section": "Trade-offs",
+    "text": "Trade-offs\nNo food process is ideal. A process will have multiple goals that may be in conflict.\nA common example is thermal processing. In thermal processing, food is heated or cooled, usually with the intention of improving safety and/or shelf-life. Many bacteria that are dangerous (pathogenic) can have their levels reduced by heating. Foods that are sterilised, which effectively eliminates most bacteria, are often exposed to temperatures in excess of 100°C for several minutes, rendering them safe to consume.\nHowever, excessive heating can have other effects. Some nutrients, especially water-soluble vitamins, are sensitive to heat. Chemical reactions between food molecules can occur, changing the colour, taste and texture. The scientific approach to food processing involves accounting for these trade-offs. For example, a scientist may determine what the minimum time-temperature combination is to reduce bacteria to a target level while minimising negative impacts on vitamins. If it is discovered that there is always a 25% loss in vitamin C, then the starting material may be fortified with additional vitamin C to account for this inevitable loss.\n\n\n\n\n\n\nTip\n\n\n\nThis strategy of adding an excess of a nutrient to account for process-induced losses is referred to as an “overage”."
+  },
+  {
+    "objectID": "notes/foodtech.html#acceptance",
+    "href": "notes/foodtech.html#acceptance",
+    "title": "Food Technology",
+    "section": "Acceptance",
+    "text": "Acceptance\nEven when a food technology is the subject of much scientific investigation it may still fail. Take food irradiation, for example. Irradiation is a non-thermal method of improving the safety and shelf-life of foods. It has been studied for decades and has been shown to be an effective means of killing bacteria. Despite this, irradiation technology has not received wide acceptance. Misplaced concerns that the resultant foods are radioactive or depleted of nutrients have resulted in significant fear concerning the technology. In fact, when carefully controlled non-thermal treatments of this kind can lead to reduced nutrient losses. It is also certainly not the case that irradiated foods are radioactive.\n\n\n\n\n\n\nHerbs and Spices\n\n\n\nOne of the most common applications of irradiation today is herbs and spices. In some countries this is the only permitted use for food irradiation.\nHerbs and spices are valued for their flavour and aroma, which are characterised by their volatility.\nThese volatile components can be lost at elevated temperatures. Irradiation is therefore a “cold” alternative to heat processes for decontamination of herbs and spices that maintains their sensory profile.\n\n\nIn any case, at one point irradiated food was a new technology. It was subject to considerable scientific research, which determined that it was an effective method of preserving food. However, to some extent it is a failure, insofar as its level of utilisation is low relative to its potential.\nThe reason for this is that any technology must not only succeed under the microscope, it must also succeed in the marketplace. Society needs to be convinced that the technology is not only effective, but also safe and necessary."
+  },
+  {
+    "objectID": "notes/foodtech.html#push-pull",
+    "href": "notes/foodtech.html#push-pull",
+    "title": "Food Technology",
+    "section": "Push & Pull",
+    "text": "Push & Pull\nA common rule-of-thumb is that for all the new food products that are developed about 8/10 fail. Therefore, a lot of money and science goes into the development of products that do not convince people of their value.\nMany developments in the food industry are incremental. For example, consumers may want a breakfast cereal to come in a new flavour. Decreased sales of a gelatin-containing product may prompt a company to replace gelatin with a more animal-friendly alternative. These changes are often “pulled” from the consumer.\nA radical new technology may also only result in an incremental change. This is the case with a technology like irradiation, which is a radically different way of processing food that receives limited application in products like spices. These new technologies must be “pushed” on consumers, who may reject them if they are not convinced of their value.\nIt is not sufficient for a technology to be scientifically-approved to have a large impact in the marketplace. The technology must be deliberately designed for people. People must be convinced of the value it adds to their lives.\n\n3D Food Printing\nA technology we have encountered before — 3D Food Printing — is an interesting case study. The technology is radical and new, making things possible that were impossible before. 3D printing is not well understood by the public, with the exception of some hobbyists. 3D food printing is even less well understood, with few well-known applications or success stories. Dozens of scientific papers are published every year on 3D food printing.\nThe question is: will 3D food printing succeed? At this point any answer is mere speculation. However, here is the current state-of-play:\n\nScientists are interested in food printing, which allows new structures and textures to be created\nSome particular applications have been suggested, such as the use of food printing to reduce “taste fatigue” in individuals who must consume restricted diets or in the recreation of meat structure in printed plant-based foods\nA small number of chefs and startups have begun experimenting with food printing as a means to create new food experiences\nThere is a recognition among scientists of some difficulties with food printing, especially around the consistency with which a wide variety of different food materials can be printed accurately\nA non-negligible number of consumers are concerned that 3D-printed food might be unsafe (for unspecified reasons)\n\nWhen it comes to a new technology like 3D printing, it is not only a question of doing more science but also of imagining what could be designed for people that would help, interest or excite them. For any student of food science, there is considerable potential value in developing these new ideas."
+  },
+  {
+    "objectID": "notes/foodtech.html#references",
+    "href": "notes/foodtech.html#references",
+    "title": "Food Technology",
+    "section": "References",
+    "text": "References\nTo complete…"
+  },
+  {
     "objectID": "notes/foodstructure.html",
     "href": "notes/foodstructure.html",
     "title": "Parts & Relations",
@@ -175,11 +217,60 @@
     "text": "References\nBunge, M. (2003). Emergence and Convergence: Qualitative Novelty and the Unity of Knowledge. Toronto: University of Toronto Press.\nJackson, P., Brembeck H., Everts, J., Fuentes, M., Halkier, B., Hertz, F. D., Meah, A., Viehoff, V., & Wenzl, C. (2018). Reframing Convenience Food. Cham: Palgrave Macmilan.\nKaplan, D.M. (2012). Philosophy of Food. Berkeley: University of California Press.\nThis, H (2014). Note-by-Note Cooking: The Future of Food. New York: Columbia University Press.\nWrangham, R (2009). Catching Fire: How Cooking Made Us Human. London: Profile Books."
   },
   {
+    "objectID": "notes/foodcomp.html",
+    "href": "notes/foodcomp.html",
+    "title": "Protein Story",
+    "section": "",
+    "text": "The lecture associated with these notes focused on some historical developments in the scientific understanding of protein.\nThese notes are a brief summary of the main points covered but you are directed to the reading and video (accessible through Canvas) for greater detail."
+  },
+  {
+    "objectID": "notes/foodcomp.html#four-elements",
+    "href": "notes/foodcomp.html#four-elements",
+    "title": "Protein Story",
+    "section": "Four Elements",
+    "text": "Four Elements\nPeople were often interested in the idea that the world was made of simple parts or “elements”.\nOne of the oldest ideas concerning composition was that of the four elements, which suggested that the things were composed of varying proportions of water, earth, wind and fire.\nThis was closely tied with the idea that consuming foods with differing quantities of these materials affected the composition of the body. Specifically, the four elements were thought to correspond to four humours in the body, which were blood, phlegm, black bile and yellow bile. Ancient thinkers thought that excesses or deficiencies in these humours were caused by the levels of consumption of the four elements, and could result in physical or psychological issues.\nOf course, we now know that much of this thinking was metaphysical rather than scientific. The Ancient Greeks were wrong about what composed foods and what composed bodies; however, the general idea that composition involves multiple parts, and that a healthy diet consists of a balance of these multiple parts, was sensible."
+  },
+  {
+    "objectID": "notes/foodcomp.html#animal-substance",
+    "href": "notes/foodcomp.html#animal-substance",
+    "title": "Protein Story",
+    "section": "Animal Substance",
+    "text": "Animal Substance\nEarly work on food composition that we would now consider “scientific” was initiated around the time of the Chemical Revolution. The availability of analytical tools and chemical knowledge improved the ability of scientists to understand and quantify the parts in a given system.\nAn early finding was that rotting meat generated ammonia. It was known at the time that chemically ammonia contained nitrogen. It was also known that nitrogen was abundant in the air. So there was some confusion as to why and how a substance containing nitrogen was present in meat.\nGiven that animal meat resembled human muscle, and the general consensus at the time that meat was highly nourishing, scientists began to wonder if a special “animal substance” containing nitrogen was responsible for the high nutritional quality of meat."
+  },
+  {
+    "objectID": "notes/foodcomp.html#nutritional-technology",
+    "href": "notes/foodcomp.html#nutritional-technology",
+    "title": "Protein Story",
+    "section": "Nutritional Technology",
+    "text": "Nutritional Technology\nWhile the science of nutrition was emerging minds quickly turned to applications.\nIf the “animal substance” was the sole source of human nutrition, then finding a cheap source of this substance could be a major discovery.\nIt was known at the time that the viscous broth from boiling bones contained a significant level of nitrogen (taken to be indicative of the so-called animal substance).\nThe scientist Magendie hypothesised that a diet of this material (now known to be gelatin) would be sufficient to support growth and development.\nWith the support of the French Academy of Sciences he conducted an experiment in which dogs were fed different diets known to be deficient in nitrogen, including water, sugar, oil, gum and butter. All of the dogs became weak and ultimately died.\nFrom this result he concluded that the animal substance was necessary/sufficient for supporting growth and development; however, as he had no positive control (a food containing dietary nitrogen) this claim was speculative. He simply did not have the evidence and his assumption was based on (false) “common sense” that dogs could survive on bread alone. At the urging of the French Academy he repeated the experiment using gelatin. Much to his disappointment, the results indicated that animals could not survive on gelatin.\nIf successful, it was hoped that gelatin could be used effectively as a meal-replacement to feed poor people who could not afford expensive sources of nutrition (like meat). It should be noted that the historical emphasis on dietary protein was (partially) informed by strange, problematic and illogical ideas. For example, the success and wealth of some countries was taken to be caused by their high levels of protein consumption; more obviously, the wealth of these countries simply meant they could more easily afford expensive protein-rich foods."
+  },
+  {
+    "objectID": "notes/foodcomp.html#beyond-a-focus-on-single-nutrients",
+    "href": "notes/foodcomp.html#beyond-a-focus-on-single-nutrients",
+    "title": "Protein Story",
+    "section": "Beyond a Focus on Single Nutrients",
+    "text": "Beyond a Focus on Single Nutrients\nOver the next several hundred years a greater appreciation of human nutrition was developed. The so-called “animal substance” was also found in plant-based materials. Ultimately it was renamed “protein”, representing a set of molecules known for their diversity in structure and behaviour. For example, milk consists of two families of protein: caseins and whey proteins; the caseins are insoluble in acidic conditions while the whey proteins are soluble, which allows their separation. It was found that proteins were comprised of different proportion of smaller parts (amino acids). Early figures who considered protein to be “the only nutrient” were shown to be incorrect. All macronutrients were found to contribute energy in the form of calories. The development of the calorie concept led to an unfortunate de-emphasis of fruits and vegetables initially, as these were considered to be of poor nutritional quality due to their low caloric content. However, this ran counter to the knowledge that diseases like scurvy experiences by sailors could be cured with citrus fruits (which were low in calories). Scientific knowledge of nutrition, and how nutritional foods can be designed, has increased greatly. Occasionally, there have been thinkers that have (mistakenly) placed undue emphasis on a specific nutrient (protein) or property (caloric density) when providing dietary recommendations to the general public; however, most nutritional scientists would now agree that a healthy diet consists of a balance of nutrient sources. When the actual historical trajectory of the sciences of food are studied, the criticisms levelled at scientists as being “obsessed” with single nutrients rings hollow; indeed, there have been some figures that have made this mistake, but the scientific community has generally identified such errors and developed more nuanced accounts of food and nutrition — this is how a healthy science functions as a community to develop better and more correct ideas, but it can be a slow process."
+  },
+  {
+    "objectID": "notes/foodcomp.html#techno-functionality-versus-bio-functionality",
+    "href": "notes/foodcomp.html#techno-functionality-versus-bio-functionality",
+    "title": "Protein Story",
+    "section": "Techno-functionality Versus Bio-functionality",
+    "text": "Techno-functionality Versus Bio-functionality\nFood scientists recognise that industrial products need to be designed for specific use-cases and contexts. A protein supplement can be useful in the context of attempts to increase athletic performance but it is not a meal-replacer. The chemical complexity of a single citrus fruit or a piece of meat represents a tiny fraction of the complexity of a diverse human diet comprised of multiple foods; for this reason, efforts to create a genuine “meal-replacer” should recognise the magnitude of the challenge involved.\nGelatin was not successful as a meal-replacer but it became successful as an ingredient for enhancing non-nutritional properties of food. For example, it can be used to transform a liquid (solution) into a solid (gel), which creates new textural properties. This is an example of a “techno-functional” as distinct from a “bio-functional” ingredient. It serves some technical function other than (directly) providing nutrition.\nIn recent years, many consumers have sought alternatives to gelatin, due to its animal origin. An important task of food scientist developing a gelled, vegan product — for example — might be finding a protein (or other molecule) from a plant source that serves a similar function."
+  },
+  {
+    "objectID": "notes/foodcomp.html#references",
+    "href": "notes/foodcomp.html#references",
+    "title": "Protein Story",
+    "section": "References",
+    "text": "References\nThe nutritional scientist Kenneth Carpenter (1923-2016) wrote a series of historical articles on early historical developments in the science of food that are of interest to both nutritional scientists and food scientists.\nThey are all available for free online. In my view, they present a much more balanced perspective on the development and influence of these sciences than can be found in popular works (e.g., Pollan).\nPart 1 can be found here."
+  },
+  {
     "objectID": "notes/slides.html",
     "href": "notes/slides.html",
     "title": "Slides",
     "section": "",
-    "text": "This page will be populated with a list of all slides used during the course.\nIntroduction\nOntology 1\nOntology 2\nOntology 3\nEpistemology 1&2\nNo slides planned for Food Structure lectures"
+    "text": "This page will be populated with a list of all slides used during the course.\nIntroduction\nOntology 1\nOntology 2\nOntology 3\nEpistemology 1&2\nNo slides planned for Food Structure lectures (please refer to lecture videos linked through Canvas)\nTechnology"
   },
   {
     "objectID": "notes/about.html",
