@@ -28,12 +28,13 @@ website:
         #   - notes/scienceandtechnology.qmd
         #   - notes/fooddisciplines.qmd
         #   - notes/toolsforknowing.qmd
-      - section: "Food Structure"
+      - section: "Structure & Composition"
         contents:
             - notes/foodstructure.qmd
-        #   - notes/imaginingfood.qmd
-        #   - notes/changingfood.qmd
-        #   - notes/foodprocesses.qmd
+            - notes/foodcomp.qmd
+      - section: "Technology"
+        contents:
+            - notes/foodtech.qmd
         # - section: "Semiotics"
         # contents:
         #   - notes/talkingfood.qmd

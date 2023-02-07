@@ -17,4 +17,6 @@ This page will be populated with a list of all slides used during the course.
 
 [Epistemology 1&2](../slides/five/)
 
-`No slides planned for Food Structure lectures`
+`No slides planned for Food Structure lectures (please refer to lecture videos linked through Canvas)`
+
+[Technology](../slides/seven/)
