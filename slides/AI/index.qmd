@@ -13,7 +13,8 @@ format:
     preview-links: true
     # logo: images/quarto.png
     footer: "CIRTL: Assessment in the Age of AI"
-    theme: dracula.scss
+    # theme: dracula.scss
+    theme: "https://raw.githubusercontent.com/edibotopic/foodETC/master/docs/slides/AI/dracula.scss"
     css: styles.css
 search: false
 filters:
