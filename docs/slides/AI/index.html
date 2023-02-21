@@ -6,11 +6,13 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/quarto-contrib/roughnotation-0.5.1/rough-notation.iife.js"></script>
+<script src="../../site_libs/quarto-contrib/roughnotation-init-1.0.0/rough.js"></script><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.335">
 
   <meta name="author" content="Dr Shane Crowley">
-  <title>Food Technology, Culture &amp; Ethics - Food ETC</title>
+  <title>Food Technology, Culture &amp; Ethics - AI</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,14 +30,76 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #f07178; background-color: #2a0f15; font-weight: bold; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #00e0e0; } /* Attribute */
+    code span.bn { color: #d4d0ab; } /* BaseN */
+    code span.bu { color: #abe338; } /* BuiltIn */
+    code span.cf { color: #ffa07a; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffd700; } /* Constant */
+    code span.co { color: #f8f8f2; font-style: italic; } /* Comment */
+    code span.cv { color: #ffd700; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #ffa07a; } /* DataType */
+    code span.dv { color: #d4d0ab; } /* DecVal */
+    code span.er { color: #f07178; text-decoration: underline; } /* Error */
+    code span.ex { color: #00e0e0; font-weight: bold; } /* Extension */
+    code span.fl { color: #d4d0ab; } /* Float */
+    code span.fu { color: #ffa07a; } /* Function */
+    code span.im { color: #abe338; } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; font-weight: bold; } /* Keyword */
+    code span.op { color: #ffa07a; } /* Operator */
+    code span.ot { color: #00e0e0; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.re { color: #00e0e0; background-color: #f8f8f2; } /* RegionMarker */
+    code span.sc { color: #abe338; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #00e0e0; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #dcc6e0; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link rel="stylesheet" href="styles.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -322,13 +386,13 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Food ETC</h1>
-  <p class="subtitle">Introduction</p>
+  <h1 class="title">AI</h1>
+  <p class="subtitle"><code>Process</code>, <code>Rubberducks</code> &amp; <code>Sandboxing</code></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -339,11 +403,223 @@ Dr Shane Crowley
 </div>
 
 </section>
-<section class="slide level2">
+<section id="section" class="slide level2" data-transition="none" data-background-color="black">
+<h2></h2>
+<p><br></p>
+<iframe style="margin: auto; display: block;" width="780" height="500" data-src="frames/term.html">
+</iframe>
+<div class="footer">
+<p><strong>Prompting</strong> and <strong>being prompted back</strong></p>
+</div>
+</section>
+<section id="black-box" class="slide level2" data-transition="none" data-background-color="gray">
+<h2>Black Box</h2>
+<div data-id="wrap" style="width: 100hw; position: relative; z-index: 0">
+<div data-id="box1" style="width: 60hw; height: 70vh; background-color: rgba(0,0,0,1); margin: auto; display: block">
 
+</div>
+</div>
+<div class="footer">
+<p><strong>LLMs</strong> and <strong>authoring</strong> are black boxes</p>
+</div>
+</section>
+<section id="translucent-box" class="slide level2" data-transition="none" data-background-color="gray">
+<h2>Translucent Box</h2>
+<div data-id="wrap" style="width: 100hw; position: relative; z-index: 0">
+<div data-id="box1" style="width: 60hw; height: 70vh; background-color: rgba(0,0,0,0.2); margin: auto; display: block">
+<iframe style="margin: auto; display: block;" width="780" height="500" data-src="frames/boxes.html">
+</iframe>
+</div>
+</div>
+<div class="footer">
+<p>How does <strong>original</strong>, <strong>good</strong>, <strong>important</strong> writing happen?</p>
+</div>
+</section>
+<section id="section-1" class="slide level2" data-background-image="./img/ducks.jpeg">
+<h2></h2>
+<div class="footer">
+
+</div>
+</section>
+<section id="section-2" class="slide level2" data-transition="none" data-background-image="./img/ducks.jpeg">
+<h2></h2>
+<div class="footer">
+
+</div>
+<div class="columns">
+<div class="column" style="width:40%;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WahYlxs9Ns0/?mute=1" title="Rubber ducking" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</div><div class="column" style="width:60%;">
+<iframe width="580" height="315" src="https://www.youtube.com/embed/oa2dHlQ-kfs/?mute=1" title="Live coding" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</div>
+</div>
+<div class="columns fragment fade-in">
+<div class="column" style="background-color: rgba(0,0,0,0.6)">
+<ul>
+<li><p>🎵 Live <strong>music</strong></p></li>
+<li><p>💻 Live <strong>coding</strong></p></li>
+<li><p>🍳 Live <strong>cooking</strong></p></li>
+<li><p>✏️ Live <strong>writing</strong>?</p></li>
+</ul>
+</div><div class="column" style="background-color: rgba(0,0,0,0.6); padding: 10">
+<p><img data-src="./img/writing_process.gif" width="428"></p>
+</div>
+</div>
+<div class="footer">
+
+</div>
+</section>
+<section id="self-documenting" class="slide level2" data-transition="none" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Self-documenting</h2>
+<div class="sourceCode" id="cb1" data-code-line-numbers="3-4,6-7"><pre class="sourceCode numberSource markdown number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode markdown hljs"><span id="cb1-1" class="hljs-ln-code"><a href="#cb1-1"></a><span class="fu"># My Interesting Article About `x`</span></span>
+<span id="cb1-2" class="hljs-ln-code"><a href="#cb1-2"></a></span>
+<span id="cb1-3" class="hljs-ln-code"><a href="#cb1-3"></a>In this article I will review</span>
+<span id="cb1-4" class="hljs-ln-code"><a href="#cb1-4"></a>the application of <span class="in">`x`</span> to <span class="in">`y`</span>.</span>
+<span id="cb1-5" class="hljs-ln-code"><a href="#cb1-5"></a></span>
+<span id="cb1-6" class="hljs-ln-code"><a href="#cb1-6"></a>Crowley (2018) demonstrated for the</span>
+<span id="cb1-7" class="hljs-ln-code"><a href="#cb1-7"></a>first time that <span class="in">`x`</span> could be applied to y.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="footer">
+<p>Embedding the <strong>history</strong> of a writing process</p>
+</div>
+</section>
+<section id="self-documenting-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Self-documenting</h2>
+<div class="sourceCode" id="cb2" data-code-line-numbers="8-9,16"><pre class="sourceCode numberSource markdown number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode markdown hljs"><span id="cb2-1" class="hljs-ln-code"><a href="#cb2-1"></a><span class="fu"># My Interesting Article About `x`</span></span>
+<span id="cb2-2" class="hljs-ln-code"><a href="#cb2-2"></a></span>
+<span id="cb2-3" class="hljs-ln-code"><a href="#cb2-3"></a><span class="co">&lt;!---</span></span>
+<span id="cb2-4" class="hljs-ln-code"><a href="#cb2-4"></a><span class="co">Motivate with relation to `z`</span></span>
+<span id="cb2-5" class="hljs-ln-code"><a href="#cb2-5"></a><span class="co">---&gt;</span></span>
+<span id="cb2-6" class="hljs-ln-code"><a href="#cb2-6"></a>In this article I will review</span>
+<span id="cb2-7" class="hljs-ln-code"><a href="#cb2-7"></a>the application of <span class="in">`x`</span> to <span class="in">`y`</span>, </span>
+<span id="cb2-8" class="hljs-ln-code"><a href="#cb2-8"></a>which has recently emerged as a method</span>
+<span id="cb2-9" class="hljs-ln-code"><a href="#cb2-9"></a>of solving <span class="in">`z`</span> problem.</span>
+<span id="cb2-10" class="hljs-ln-code"><a href="#cb2-10"></a></span>
+<span id="cb2-11" class="hljs-ln-code"><a href="#cb2-11"></a><span class="co">&lt;!---</span></span>
+<span id="cb2-12" class="hljs-ln-code"><a href="#cb2-12"></a><span class="co">Identify issues with prior work</span></span>
+<span id="cb2-13" class="hljs-ln-code"><a href="#cb2-13"></a><span class="co">---&gt;</span></span>
+<span id="cb2-14" class="hljs-ln-code"><a href="#cb2-14"></a>Crowley (2018) demonstrated for the</span>
+<span id="cb2-15" class="hljs-ln-code"><a href="#cb2-15"></a>first time that <span class="in">`x`</span> could be applied to <span class="in">`y`</span>,</span>
+<span id="cb2-16" class="hljs-ln-code"><a href="#cb2-16"></a>although this work did not consider <span class="in">`z`</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="footer">
+<p>Embedding the <strong>history</strong> of a writing process</p>
+</div>
+</section>
+<section id="self-documenting-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Self-documenting</h2>
+<div class="sourceCode" id="cb3" data-code-line-numbers="4,12"><pre class="sourceCode numberSource markdown number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode markdown hljs"><span id="cb3-1" class="hljs-ln-code"><a href="#cb3-1"></a><span class="fu"># My Interesting Article About `x`</span></span>
+<span id="cb3-2" class="hljs-ln-code"><a href="#cb3-2"></a></span>
+<span id="cb3-3" class="hljs-ln-code"><a href="#cb3-3"></a><span class="co">&lt;!---</span></span>
+<span id="cb3-4" class="hljs-ln-code"><a href="#cb3-4"></a><span class="co">Motivate with relation to `z`</span></span>
+<span id="cb3-5" class="hljs-ln-code"><a href="#cb3-5"></a><span class="co">---&gt;</span></span>
+<span id="cb3-6" class="hljs-ln-code"><a href="#cb3-6"></a>In this article I will review</span>
+<span id="cb3-7" class="hljs-ln-code"><a href="#cb3-7"></a>the application of <span class="in">`x`</span> to <span class="in">`y`</span>, </span>
+<span id="cb3-8" class="hljs-ln-code"><a href="#cb3-8"></a>which has recently emerged as a method</span>
+<span id="cb3-9" class="hljs-ln-code"><a href="#cb3-9"></a>of solving <span class="in">`z`</span> problem.</span>
+<span id="cb3-10" class="hljs-ln-code"><a href="#cb3-10"></a></span>
+<span id="cb3-11" class="hljs-ln-code"><a href="#cb3-11"></a><span class="co">&lt;!---</span></span>
+<span id="cb3-12" class="hljs-ln-code"><a href="#cb3-12"></a><span class="co">Identify issues with prior work</span></span>
+<span id="cb3-13" class="hljs-ln-code"><a href="#cb3-13"></a><span class="co">---&gt;</span></span>
+<span id="cb3-14" class="hljs-ln-code"><a href="#cb3-14"></a>Crowley (2018) demonstrated for the</span>
+<span id="cb3-15" class="hljs-ln-code"><a href="#cb3-15"></a>first time that <span class="in">`x`</span> could be applied to <span class="in">`y`</span>,</span>
+<span id="cb3-16" class="hljs-ln-code"><a href="#cb3-16"></a>although this work did not consider <span class="in">`z`</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-none no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p><strong>Versioning</strong> &amp; <strong>Playback</strong>: <code>GoogleDocs</code>, <code>Git</code>, <code>EtherPad</code></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Embedding the <strong>history</strong> of a writing process</p>
+</div>
+</section>
+<section id="section-3" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<div class="footer">
+<p>What we <strong>want</strong>…</p>
+</div>
+</section>
+<section id="section-4" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p>😃 <code>original</code> writing</p>
+<div class="footer">
+<p>What we <strong>want</strong>…</p>
+</div>
+</section>
+<section id="section-5" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p>😢 <code>plagiarised</code> writing</p>
+<p>😃 original writing</p>
+<div class="footer">
+<p>What we <strong>reject</strong>…</p>
+</div>
+</section>
+<section id="section-6" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p>😕 <code>de-plagiarised</code> writing</p>
+<p>😢 plagiarised writing</p>
+<p>😃 original writing</p>
+<div class="footer">
+<p>What we <strong>permit</strong></p>
+</div>
+</section>
+<section id="section-7" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<p>🤯 <code>AI-generated</code> writing</p>
+<p>😕 de-plagiarised writing</p>
+<p>😢 plagiarised writing</p>
+<p>😃 original writing</p>
+<div class="fragment fade-up">
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Process Over Outcome</strong></p>
+</div>
+<div class="callout-content">
+<p>What is the student’s <code>writing process</code>?</p>
+<p>In which ways did their ideas <code>develop over time</code>?</p>
+<p>How can the <code>value of the process</code> be demonstrated?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>What we <strong>don’t know</strong></p>
+</div>
+</section>
+<section id="section-8" class="slide level2" data-background-image="https://media.giphy.com/media/l41m5MtwsELwANple/giphy.gif">
+<h2></h2>
+<div class="columns">
+<div class="column fragment fade-right" style="width:50%;">
+<iframe width="560" height="600" src="https://edibotopic.github.io/write-height/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</div><div class="column fragment fade-left" style="width:50%;">
+<iframe width="560" height="600" src="https://edibotopic.github.io/arbitrary-fashions/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</div>
+</div>
+<div class="fragment fade-up" style="background-color: #282a36; color: #f8f8f2; padding: 5px">
+<p><code>Context</code> of the classroom | <code>Perspective</code> of the lecturer | <code>Constraints</code> of a technology</p>
+</div>
+<div class="footer">
+<p>Sandboxing</p>
+</div>
+</section>
+<section id="finding-our-place" class="slide level2" data-background-color="white">
+<h2>Finding Our Place?</h2>
+<iframe style="margin: auto; display: block; overflow: hidden;" width="780px" height="850px" src="frames/algo.html">
+</iframe>
+<div class="footer">
+
+</div>
 
 <div class="footer footer-default">
-<p>Food Technology, Culture &amp; Ethics</p>
+<p>CIRTL: Assessment in the Age of AI</p>
 </div>
 </section>
     </div>
@@ -356,7 +632,6 @@ Dr Shane Crowley
   <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -378,8 +653,7 @@ Dr Shane Crowley
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -400,7 +674,7 @@ Dr Shane Crowley
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -505,10 +779,10 @@ Dr Shane Crowley
         previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
+        transitionSpeed: 'slow',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
@@ -550,7 +824,7 @@ Dr Shane Crowley
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,

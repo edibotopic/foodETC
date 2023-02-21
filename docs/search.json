@@ -217,6 +217,76 @@
     "text": "References\nBunge, M. (2003). Emergence and Convergence: Qualitative Novelty and the Unity of Knowledge. Toronto: University of Toronto Press.\nJackson, P., Brembeck H., Everts, J., Fuentes, M., Halkier, B., Hertz, F. D., Meah, A., Viehoff, V., & Wenzl, C. (2018). Reframing Convenience Food. Cham: Palgrave Macmilan.\nKaplan, D.M. (2012). Philosophy of Food. Berkeley: University of California Press.\nThis, H (2014). Note-by-Note Cooking: The Future of Food. New York: Columbia University Press.\nWrangham, R (2009). Catching Fire: How Cooking Made Us Human. London: Profile Books."
   },
   {
+    "objectID": "notes/AIassessment.html",
+    "href": "notes/AIassessment.html",
+    "title": "AI & Assessment",
+    "section": "",
+    "text": "I’m a food scientist. I’ve done a small bit of exploration with AI tools like ChatGPT. The technology is really impressive and potentially very disruptive."
+  },
+  {
+    "objectID": "notes/AIassessment.html#the-literature-review",
+    "href": "notes/AIassessment.html#the-literature-review",
+    "title": "AI & Assessment",
+    "section": "The Literature Review",
+    "text": "The Literature Review\nA huge aspect of science degrees is often the literature review. For many science students this is their first exposure to scientific writing. The general goal is to find relevant scientific papers and review them in a coherent way.\nMany large scientific projects, such as those done during a PhD, start with a literature review, so that the student can become familiar with their research topic. Applications for funding usually require the applicant to write a literature review to situate what they want to achieve in the context of what has already been achieved. Scientists occasionally publish self-contained literature reviews in journals to provide reliable surveys of an area, positioning themselves in that research area in the process. Original scientific work often contains — effectively — mini literature reviews in sections like the Introduction and Discussion.\nThe vast majority of undergraduate science students do not go into careers that involve activities like the publication of scientific articles. Nonetheless, the literature review is a common feature of a scientific education, as it is has been one of the best tools available for acquiring up-to-date knowledge of a scientific area.\nAI tools like ChatGPT are capable of quickly generating competent literature reviews. As it stands, the AI-generated output is probably superior to the average undergraduate student, if perhaps not comparable to the work of an exceptional student.\nThe problem is that if student x uses AI to generate an excellent essay, and student y does not use AI and generates an average essay, it is conceivable that student y will learn more while being given a lower grade. Such a scenario is not a failure of conventional writing as a tool for learning, but it does seem to point to a failure of assessing that learning."
+  },
+  {
+    "objectID": "notes/AIassessment.html#input-in-something-happens-output-out",
+    "href": "notes/AIassessment.html#input-in-something-happens-output-out",
+    "title": "AI & Assessment",
+    "section": "Input In… Something Happens… Output Out",
+    "text": "Input In… Something Happens… Output Out\nThe reason scientists write literature reviews is not necessarily to produce an impressive document, but to develop expertise through the hard work of close reading and writing.\nWhen a graduate is hired to work in Research & Development one of the first tasks that they might be assigned is the writing of a literature review. The purpose of this exercise is to ensure that the graduate becomes accustomed with the area of research, is capable of participating in discussions and can potentially identify gaps to be explored.\nPerhaps this stage of a graduate’s transition into a new role is made obsolete by ChatGPT — the manager could simply ask for the student to generate a literature review or even do it themselves. This, of course, assumes that what the manager wants is an output (the finished literature review) and not a process (the development of competence)."
+  },
+  {
+    "objectID": "notes/AIassessment.html#is-ai-generated-science-that-good",
+    "href": "notes/AIassessment.html#is-ai-generated-science-that-good",
+    "title": "AI & Assessment",
+    "section": "Is AI-generated Science That Good?",
+    "text": "Is AI-generated Science That Good?\nIn the context of scientific writing, my experience suggests that ChatGPT generates readable, high-level overviews of scientific material. It would seem capable of generating passable abstracts and introductions. Currently, however, it falters when it comes to scientific detail.\n\nCaseins are the most abundant proteins in milk. They are present in the form of casein micelles. The proteins are surrounded by a layer of calcium phosphate. The micelle structure consists of sub-micelles.\n— sample of output from ChatGPT. The sub-micelle model is generally not accepted and calcium phosphate does not form a layer around the proteins.\n\nOne response scientists in education may have to the AI-revolution is to become obsessive about detail in student writing. This could amount to a raising of standards for student work, similar to our growing expectations around the quality of student slide-decks. In recent history, it might have been possible to reward a student for the care they have taken to organise the information in their slides; however, most PowerPoint users can now have their slides auto-magically “designed” by a built-in AI system. I suspect that the majority of student presentations now use this feature, resulting in a general improvement in aesthetics at the cost of diversity and creativity."
+  },
+  {
+    "objectID": "notes/AIassessment.html#which-aspects-of-students-writing-are-important",
+    "href": "notes/AIassessment.html#which-aspects-of-students-writing-are-important",
+    "title": "AI & Assessment",
+    "section": "Which Aspects of Students Writing Are Important?",
+    "text": "Which Aspects of Students Writing Are Important?\nAs I have indicated, it is the process more than the output that is important in student writing (well — in truth — it is both). The process, however, is somewhat of a black box. A student might be instructed to:\n\nOnly use scientific sources\nCite and reference correctly\nDo not plagiarise\n\nFor the average student, most of the effort is applied in becoming familiar with referencing style, accumulating papers and avoiding plagiarism detection. If a student succeeds in these aspects they will receive an OK mark.\nThey might also be asked to:\n\nSynthesise the information\nIdentify gaps in the literature\n\nThis is where the top student excels. Of course, the questions “how do I synthesise information?” and “what is a research gap?” are tricky and not always communicated effectively by educators outside of the humanities. While this is arguably the essence of what constitutes a good literature review, and potentially (I hesitate to say) what AI is the least capable of achieving, it is probably what is the subject of the least explicit instruction.\nAnother response to the AI-revolution might be to place a greater emphasis on scientific insight and creativity rather than the relative drudge-work of downloading papers and referencing consistently. This, however, may require scientists to work harder to demonstrate the writing process.\nMost have experience live-music. There is also live-coding, where a programmer writes some code in front of an audience (and/or a camera). “Live-writing” is comparatively rare. Writing is rarely performed and is maintained as a private activity for the most part. The performance of live-writing might could help academics explicate the process of developing or synthesising ideas. Similarly, students could be asked to engage in the practice of “rubber-ducking”, a process of talking through a problem when writing/coding that is often encouraged by programmers."
+  },
+  {
+    "objectID": "notes/AIassessment.html#everything-was-going-so-well-until-ai-came-along",
+    "href": "notes/AIassessment.html#everything-was-going-so-well-until-ai-came-along",
+    "title": "AI & Assessment",
+    "section": "“Everything was going so well until AI came along…”",
+    "text": "“Everything was going so well until AI came along…”\nIt is not obvious to me that scientific writing is being taught effectively. Most students do not understand why it is important or useful. A literature review is considered a nuisance rather than a tool.\nBased on personal conversations with students, it is apparent that a lot of student writing is effectively de-plagiarism. The writer plagiarises some source material(s) and then re-arranges the syntax of the writing to ensure that it is not flagged by plagiarism software like TurnItIn.\nThis process generally results in a limited understanding of the material. A simple test is to sit with the student and ask them why they wrote a particular sentence. Often, the student may not recognise the sentence or the ideas therein, which might be made even more difficult by the garbled syntax that is characteristic of de-plagiarism.\nIf this is as common as I think it is then I welcome the disruption we are facing."
+  },
+  {
+    "objectID": "notes/AIassessment.html#histories-of-writing-opening-the-black-box",
+    "href": "notes/AIassessment.html#histories-of-writing-opening-the-black-box",
+    "title": "AI & Assessment",
+    "section": "Histories of Writing: Opening the Black Box",
+    "text": "Histories of Writing: Opening the Black Box\nChatGPT is a black box, but — in an educational context — so is the conventional writing process. It is tempting to assume that given the quality of ChatGPT’s output we should simply encourage students to use it as a tool, replacing one black box with another. Smart teachers at universities will probably develop strategies to encourage its effective use.\nThere is a risk, however, that the process is undermined. An output is only effective as a method of assessing learning if it reflects a learning process. As ChatGPT potentially displaces the process, then we might need to frame the process in a more concrete way. This is something that is probably the subject of greater attention in humanities disciplines.\nFor example, writing/authoring tools like GoogleDocs, EtherPad and Git have version control capabilities that capture the history of a writing project. These vary in their degree of automation, but all of them offer a means of capturing (perhaps imperfectly) how someone’s thinking develops as a project is built."
+  },
+  {
+    "objectID": "notes/AIassessment.html#sandboxed-writing-environments-technology-with-constraints",
+    "href": "notes/AIassessment.html#sandboxed-writing-environments-technology-with-constraints",
+    "title": "AI & Assessment",
+    "section": "Sandboxed Writing Environments: Technology with Constraints",
+    "text": "Sandboxed Writing Environments: Technology with Constraints\nJust prior to the emergence of tools like ChatGPT, I was toying with the idea of procedural generation in food research and education.\nAs an amateur programmer with limited time I produced a few things that — while shaky as software — were fun to use.\nOne is ArbitraryFashions, built using a context-free grammars that builds random text outputs from prototype sentences. The prototypes are themselves built from types of phrases that are substituted at specific points in the sentence.\nWhat I like about this — in principle — is that while it lends itself to a degree of automation it is not a complete black box. I can tweak and poke at the sets of phrases and prototypes, including and excluding what I need. It is far far weaker than ChatGPT, but it is small and customisable. The results prompt me rather than the other way around."
+  },
+  {
+    "objectID": "notes/AIassessment.html#now-with-feeling-making-scientific-writing-more-human",
+    "href": "notes/AIassessment.html#now-with-feeling-making-scientific-writing-more-human",
+    "title": "AI & Assessment",
+    "section": "Now, with Feeling: Making Scientific Writing More Human",
+    "text": "Now, with Feeling: Making Scientific Writing More Human\nThe scientific community has for a long time emphasised objectivity. This emphasis not only applies to methodology but also style. Even if a study is the outcome of objective research it might be criticised if the writing style has too much flair or narrative.\nAs a result, a great deal of scientific writing is mechanical and robotic. Perfect, one might say, for replacement by AI. Terrible, however, for motivating students to learn it.\nA broad suggestion for consideration is that academics should potentially consider putting the humanity back in scientific writing. This would not threaten the objectivity of our methodology, but may lead to writing that is more fun to read and write, and which will be less replaceable by AI."
+  },
+  {
+    "objectID": "notes/AIassessment.html#assessment-design-identify-what-technology-cant-do-then-do-it",
+    "href": "notes/AIassessment.html#assessment-design-identify-what-technology-cant-do-then-do-it",
+    "title": "AI & Assessment",
+    "section": "Assessment Design: Identify What Technology Can’t Do, Then Do It",
+    "text": "Assessment Design: Identify What Technology Can’t Do, Then Do It\nTODO"
+  },
+  {
     "objectID": "notes/foodcomp.html",
     "href": "notes/foodcomp.html",
     "title": "Protein Story",
@@ -270,7 +340,7 @@
     "href": "notes/slides.html",
     "title": "Slides",
     "section": "",
-    "text": "This page will be populated with a list of all slides used during the course.\nIntroduction\nOntology 1\nOntology 2\nOntology 3\nEpistemology 1&2\nNo slides planned for Food Structure lectures (please refer to lecture videos linked through Canvas)\nTechnology"
+    "text": "This page will be populated with a list of all slides used during the course.\nIntroduction\nOntology 1\nOntology 2\nOntology 3\nEpistemology 1&2\nNo slides planned for Food Structure lectures (please refer to lecture videos linked through Canvas)\nTechnology 1\nTechnology 2"
   },
   {
     "objectID": "notes/about.html",

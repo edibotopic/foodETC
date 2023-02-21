@@ -19,4 +19,6 @@ This page will be populated with a list of all slides used during the course.
 
 `No slides planned for Food Structure lectures (please refer to lecture videos linked through Canvas)`
 
-[Technology](../slides/seven/)
+[Technology 1](../slides/seven/)
+
+[Technology 2](../slides/AI/)
