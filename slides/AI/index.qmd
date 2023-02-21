@@ -254,11 +254,10 @@ What we **????**
 ::::
 
 ::: {.fragment .fade-up style="background-color: rgba(0,0,0,0.8); color: #f8f8f2; padding: 5px"}
-`Context` of the classroom | `Perspective` of the lecturer | `Constraints` of a technology
+`Context` | `Perspective` | `Constraints`
 :::
 
 ::: footer
-Sandboxing
 :::
 
 ## Finding Our Place?  {background-color="white"}
