@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dumb AI</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.3/js/jquery.terminal.min.js"></script>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.3/css/jquery.terminal.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .terminal {
+        --size: 2.5;
+        --color: rgba(0, 200, 0, 0.99);
+        --animation: terminal-glow, terminal-bar;
+        --glow: 10;
+
+        overflow: hidden;
+      }
+
+    </style>
+
+    <script>
+      jQuery(function ($, undefined) {
+        $('#term').terminal(
+          {
+            add: function (a, b) {
+              this.echo(a + b)
+            },
+            name: function () {
+              this.echo('\n Shane Crowley \n')
+            },
+            job: function () {
+              this.echo('\n A food scientist \n')
+            },
+            worry: function () {
+              this.echo('\n Literature reviews \n')
+            },
+            emotion: function () {
+              this.echo('\n 😟 \n')
+            },
+            ideas: function () {
+              this.echo('\n ● Self-documentated writing \n ● Sandboxed environments  \n ● Rubber-ducking the "process" \n ● Finding our place \n')
+            },
+            casein: function () {
+              this.echo(
+                '\n [[!guib;BLUE;<BACKGROUND>]What is casein?] \n Casein is the main protein in milk.\n It is surrounded by [[!guib;RED;<BACKGROUND>]a layer] of \n calcium phosphate. \n The micelle structure contains \n [[!ib;RED;<BACKGROUND>]sub-micelles].\n',
+                (wrap = true)
+              )
+            },
+            food_and_logic: function () {
+              this.echo(
+                '\n [[!guib; BLUE;<BACKGROUND>]How could food scientists and logicians collaborate?] \n Logicians could [[!guib;RED;<BACKGROUND>]write apps] for food scientists.\n ', (wrap = true)
+              )
+            },
+          },
+          {
+            greetings:
+              'Assessment in the Age of AI\n@ CIRTL Seminar, UCC 2023 \n',
+            name: 'Prompt',
+            height: 480,
+            width: 750,
+            prompt: 'prompt > ',
+          }
+        )
+      })
+    </script>
+  </head>
+  <body>
+    <div id="term"></div>
+  </body>
+</html>
