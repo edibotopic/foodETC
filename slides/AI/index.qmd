@@ -24,7 +24,7 @@ filters:
 
 <br>
 
-<iframe style="margin: auto; display: block;" width="780" height="500" data-src="./term.html"></iframe>
+<iframe style="margin: auto; display: block;" width="780" height="500" data-src="frames/term.html"></iframe>
 
 ::: footer
 **Prompting** and **being prompted back**
@@ -50,7 +50,7 @@ filters:
 
 :::{data-id="box1" style="width: 60hw; height: 70vh; background-color: rgba(0,0,0,0.2); margin: auto; display: block"}
 
-<iframe style="margin: auto; display: block;" width="780" height="500" data-src="./boxes.html"></iframe>
+<iframe style="margin: auto; display: block;" width="780" height="500" data-src="frames/boxes.html"></iframe>
 
 :::
 
@@ -267,7 +267,7 @@ Sandboxing
 
 ## Finding Our Place?  {background-color="white"}
 
-<iframe style="margin: auto; display: block; overflow: hidden;" width="780px" height="850px" data-src="./algo.html"></iframe>
+<iframe style="margin: auto; display: block; overflow: hidden;" width="780px" height="850px" src="frames/algo.html"></iframe>
 
 ::: footer
 
