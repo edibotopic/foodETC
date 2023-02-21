@@ -7,20 +7,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
     <style>
-        svg {
-            position: absolute;
-        }
+      svg {
+        position: absolute;
+      }
 
-        #txt {
-            animation: 5.5s opacity forwards;
+      #txt {
+        animation: 5.5s opacity forwards;
+      }
+      @keyframes opacity {
+        0% {
+          opacity: 0;
         }
-    @keyframes opacity {
-      0% {opacity: 0} 
-      35% {opacity: 0}
-      65% {opacity: 0.0} 
-      85% {opacity: 1}
-      100% {opacity: 1}
+        35% {
+          opacity: 0;
         }
+        65% {
+          opacity: 0;
+        }
+        85% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     </style>
   </head>
   <body>
@@ -56,7 +66,8 @@
           stroke-width="1.5541"
         />
         <g stroke-width=".965">
-          <path id="dash"
+          <path
+            id="dash"
             d="m120.23 59.693h28.858v52.971l-29.938 0.15954"
             stroke-dasharray="2.89499992,2.89499992"
             stroke="red"
@@ -180,7 +191,7 @@
           d="m263.34 209.83q-4.2969 0-6.8359 3.2031-2.5195 3.2031-2.5195 8.7305 0 5.5078 2.5195 8.7109 2.5391 3.2031 6.8359 3.2031 4.2969 0 6.7969-3.2031 2.5195-3.2031 2.5195-8.7109 0-5.5273-2.5195-8.7305-2.5-3.2031-6.7969-3.2031zm0-3.2031q6.1328 0 9.8047 4.1211 3.6719 4.1016 3.6719 11.016 0 6.8945-3.6719 11.016-3.6719 4.1016-9.8047 4.1016-6.1524 0-9.8438-4.1016-3.6719-4.1016-3.6719-11.016 0-6.9141 3.6719-11.016 3.6914-4.1211 9.8438-4.1211z"
         />
       </g>
-        </svg>
+    </svg>
     <script>
       anime({
         targets: 'svg rect',
