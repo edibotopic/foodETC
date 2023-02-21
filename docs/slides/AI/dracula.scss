@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: Courier, sans-serif;
+
+// colors
+$body-bg: #282a36;
+$body-color: #f8f8f2;
+$link-color: #8be9fd;
+$selection-bg: #26351c !default;
+
+// headings
+$presentation-heading-font: Courier, sans-serif;
+$presentation-heading-color: #ff79c6 !default;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.3em;
+}
