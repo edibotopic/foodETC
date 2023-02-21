@@ -1,7 +1,4 @@
 ---
-title: "AI"
-author: "Dr Shane Crowley"
-subtitle: "`Process`, `Rubberducks` & `Sandboxing`"
 format:
   revealjs: 
     slide-number: false
@@ -14,7 +11,6 @@ format:
     # logo: images/quarto.png
     footer: "CIRTL: Assessment in the Age of AI"
     styles: styles.css 
-    theme: [dark, dracula.scss]
 search: false
 filters:
     - roughnotation
@@ -30,7 +26,7 @@ filters:
 **Prompting** and **being prompted back**
 :::
 
-## Black Box {transition="none" background-color="gray"}
+## Black Box {transition="none" background-color="#f8f8f2"}
 
 :::{data-id="wrap" style="width: 100hw; position: relative; z-index: 0"}
 
@@ -44,7 +40,7 @@ filters:
 **LLMs** and **authoring** are black boxes 
 :::
 
-## Translucent Box {transition="none" background-color="gray"}
+## Translucent Box {transition="none" background-color="#f8f8f2"}
 
 :::{data-id="wrap" style="width: 100hw; position: relative; z-index: 0"}
 
@@ -84,7 +80,7 @@ How does **original**, **good**, **important** writing happen?
 
 :::: {.columns .fragment .fade-in} 
 
-:::{.column width="60%" style="background-color: rgba(0,0,0,0.6)"}
+:::{.column width="60%" style="background-color: rgba(0,0,0,0.6); color: #f8f8f2"}
 
 - 🎵 Live **music**
 
@@ -105,7 +101,7 @@ How does **original**, **good**, **important** writing happen?
 ::: footer
 :::
 
-## Self-documenting {transition="none" auto-animate="true"}
+## Self-documenting {background-color="#282a36" color="#f8f8f2" transition="none" auto-animate="true"}
 
 ```{.markdown code-line-numbers="3-4,6-7"}
 # My Interesting Article About `x`
@@ -122,7 +118,7 @@ first time that `x` could be applied to y.
 Embedding the **history** of a writing process
 :::
 
-## Self-documenting {auto-animate="true"}
+## Self-documenting {background-color="#282a36" color="#f8f8f2" transition="none" auto-animate="true"}
 
 ```{.markdown code-line-numbers="8-9,16"}
 # My Interesting Article About `x`
@@ -148,7 +144,7 @@ although this work did not consider `z`.
 Embedding the **history** of a writing process
 :::
 
-## Self-documenting {auto-animate="true"}
+## Self-documenting {background-color="#282a36" color="#f8f8f2" transition="none" auto-animate="true"}
 
 ```{.markdown code-line-numbers="4,12"}
 # My Interesting Article About `x`
@@ -240,10 +236,10 @@ How can the `value of the process` be demonstrated?
 :::
 
 ::: footer
-What we **don't know**
+What we **????**
 :::
 
-## {background-image="https://media.giphy.com/media/l41m5MtwsELwANple/giphy.gif"} 
+## {background-image="https://media.giphy.com/media/l41m5MtwsELwANple/giphy.gif" background-color="white"} 
 
 :::: {.columns}
 
@@ -257,7 +253,7 @@ What we **don't know**
 
 ::::
 
-::: {.fragment .fade-up style="background-color: #282a36; color: #f8f8f2; padding: 5px"}
+::: {.fragment .fade-up style="background-color: rgba(0,0,0,0.8); color: #f8f8f2; padding: 5px"}
 `Context` of the classroom | `Perspective` of the lecturer | `Constraints` of a technology
 :::
 
@@ -267,7 +263,7 @@ Sandboxing
 
 ## Finding Our Place?  {background-color="white"}
 
-<iframe style="margin: auto; display: block; overflow: hidden;" width="780px" height="850px" src="frames/algo.html"></iframe>
+<iframe style="margin: auto; display: block; overflow: hidden;" width="780px" height="850px" data-src="frames/algo.html"></iframe>
 
 ::: footer
 
