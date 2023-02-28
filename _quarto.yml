@@ -35,6 +35,7 @@ website:
       - section: "Technology"
         contents:
             - notes/foodtech.qmd
+            - notes/ai.qmd
         # - section: "Semiotics"
         # contents:
         #   - notes/talkingfood.qmd

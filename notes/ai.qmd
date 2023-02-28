@@ -1,0 +1,23 @@
+---
+title: AI [draft]
+slide-format: revealjs
+css: ../styles.css
+execute:
+  echo: false
+search: true
+---
+
+Sometimes a new technology emerges with a wide range of potential applications that has the potential to massively impact the world.
+You are currently living through an era in which extremely powerful AI-based tools
+are being created that generate text, graphics and sound based on huge
+quantities of data that is scraped from the internet.
+
+This AI technology has the potential to disrupt your college life and your future career, so it is important to explore how it works, its strengths and limitations.
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="slides/ai/"></iframe>
+```
+</div>
+
+The associated lecture will mainly involve a discussion of the ChatGPT tool.
