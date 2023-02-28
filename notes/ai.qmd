@@ -16,8 +16,10 @@ This AI technology has the potential to disrupt your college life and your futur
 
 <div>
 ```{=html}
-<iframe class="slide-deck" src="slides/ai/"></iframe>
+<iframe class="slide-deck" src="../slides/AI/"></iframe>
 ```
 </div>
+
+[Full-screens slides](../slides/AI/)
 
 The associated lecture will mainly involve a discussion of the ChatGPT tool.
