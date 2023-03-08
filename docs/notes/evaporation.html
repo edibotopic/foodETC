@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Food Technology, Culture &amp; Ethics - AI &amp; Assessment</title>
+<title>Food Technology, Culture &amp; Ethics - Evaporation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../notes/slides.html" rel="next">
+<link href="../notes/ai.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -71,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">AI &amp; Assessment</h1>
+      <h1 class="quarto-secondary-nav-title">Evaporation</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -205,7 +208,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/ai.html" class="sidebar-item-text sidebar-link">AI [draft]</a>
+  <a href="../notes/ai.html" class="sidebar-item-text sidebar-link">AI Technology</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notes/evaporation.html" class="sidebar-item-text sidebar-link active">Evaporation</a>
   </div>
 </li>
       </ul>
@@ -245,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">AI &amp; Assessment</h1>
+<h1 class="title d-none d-lg-block">Evaporation</h1>
 </div>
 
 
@@ -260,80 +268,159 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="who-am-i" class="level2">
-<h2 class="anchored" data-anchor-id="who-am-i">Who am I?</h2>
-<p>I’m a food scientist. I’ve done a small bit of exploration with AI tools like ChatGPT. The technology is really impressive and potentially very disruptive.</p>
-</section>
-<section id="the-literature-review" class="level2">
-<h2 class="anchored" data-anchor-id="the-literature-review">The Literature Review</h2>
-<p>A huge aspect of science degrees is often the <em>literature review</em>. For many science students this is their first exposure to scientific writing. The general goal is to find relevant scientific papers and review them in a coherent way.</p>
-<p>Many large scientific projects, such as those done during a PhD, start with a literature review, so that the student can become familiar with their research topic. Applications for funding usually require the applicant to write a literature review to situate what they want to achieve in the context of what has already been achieved. Scientists occasionally publish self-contained literature reviews in journals to provide reliable surveys of an area, positioning themselves in that research area in the process. Original scientific work often contains — effectively — mini literature reviews in sections like the Introduction and Discussion.</p>
-<p>The vast majority of undergraduate science students do not go into careers that involve activities like the publication of scientific articles. Nonetheless, the literature review is a common feature of a scientific education, as it is has been one of the best tools available for acquiring up-to-date knowledge of a scientific area.</p>
-<p>AI tools like ChatGPT are capable of quickly generating competent literature reviews. As it stands, the AI-generated output is probably superior to the average undergraduate student, if perhaps not comparable to the work of an exceptional student.</p>
-<p>The problem is that if student x uses AI to generate an excellent essay, and student y does not use AI and generates an average essay, it is conceivable that student y will learn more while being given a lower grade. Such a scenario is not a failure of conventional writing as a tool for learning, but it does seem to point to a failure of assessing that learning.</p>
-</section>
-<section id="input-in-something-happens-output-out" class="level2">
-<h2 class="anchored" data-anchor-id="input-in-something-happens-output-out">Input In… Something Happens… Output Out</h2>
-<p>The reason scientists write literature reviews is not necessarily to produce an impressive document, but to develop expertise through the hard work of close reading and writing.</p>
-<p>When a graduate is hired to work in Research &amp; Development one of the first tasks that they might be assigned is the writing of a literature review. The purpose of this exercise is to ensure that the graduate becomes accustomed with the area of research, is capable of participating in discussions and can potentially identify gaps to be explored.</p>
-<p>Perhaps this stage of a graduate’s transition into a new role is made obsolete by ChatGPT — the manager could simply ask for the student to generate a literature review or even do it themselves. This, of course, assumes that what the manager wants is an output (the finished literature review) and not a process (the development of competence).</p>
-</section>
-<section id="is-ai-generated-science-that-good" class="level2">
-<h2 class="anchored" data-anchor-id="is-ai-generated-science-that-good">Is AI-generated Science That Good?</h2>
-<p>In the context of scientific writing, my experience suggests that ChatGPT generates readable, high-level overviews of scientific material. It would seem capable of generating passable abstracts and introductions. Currently, however, it falters when it comes to scientific detail.</p>
-<blockquote class="blockquote">
-<p>Caseins are the most abundant proteins in milk. They are present in the form of casein micelles. The proteins are surrounded by a layer of calcium phosphate. The micelle structure consists of sub-micelles.</p>
-<p>— sample of output from ChatGPT. The sub-micelle model is generally not accepted and calcium phosphate does not form a layer around the proteins.</p>
-</blockquote>
-<p>One response scientists in education may have to the AI-revolution is to become obsessive about detail in student writing. This could amount to a raising of standards for student work, similar to our growing expectations around the quality of student slide-decks. In recent history, it might have been possible to reward a student for the care they have taken to organise the information in their slides; however, most PowerPoint users can now have their slides auto-magically “designed” by a built-in AI system. I suspect that the majority of student presentations now use this feature, resulting in a general improvement in aesthetics at the cost of diversity and creativity.</p>
-</section>
-<section id="which-aspects-of-students-writing-are-important" class="level2">
-<h2 class="anchored" data-anchor-id="which-aspects-of-students-writing-are-important">Which Aspects of Students Writing Are Important?</h2>
-<p>As I have indicated, it is the <em>process</em> more than the <em>output</em> that is important in student writing (well — in truth — it is both). The process, however, is somewhat of a <code>black box</code>. A student might be instructed to:</p>
+<hr>
+<p>Concentration refers typically to any operation where water is removed to increase the proportion of solids in a system. “<em>Solids</em>” usually refers to any components that are <em>not water</em>. For example, below is the approximate composition of whole cow milk:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Level (%)</th>
+<th>Solid?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Water</td>
+<td>87.3%</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>Lactose</td>
+<td>4.8%</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>Fat</td>
+<td>3.7%</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Protein</td>
+<td>3.4%</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>Minerals</td>
+<td>0.8%</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>Milk is 87% water with the remainder being “solids”. Concentrating milk by evaporating water results in an increase in the concentration of all of these solid components.</p>
+<p>Thus, concentration involves no fractionation of components in the solids, meaning there is not change in the relative proportion of protein and sugar, for example. There are several advantages to concentration, including:</p>
 <ul>
-<li>Only use scientific sources</li>
-<li>Cite and reference correctly</li>
-<li>Do not plagiarise</li>
+<li>Reduced weight due to water removal</li>
+<li>Decreased microbial growth due to lower water content/activity</li>
 </ul>
-<p>For the average student, most of the effort is applied in becoming familiar with referencing style, accumulating papers and avoiding plagiarism detection. If a student succeeds in these aspects they will receive an OK mark.</p>
-<p>They might also be asked to:</p>
+<p>In addition, concentration is commonly applied to liquid systems prior to operations like spray-drying, due to the energy efficiency of the concentration operations.</p>
+<div>
+<iframe class="slide-deck" src="https://edibotopic.github.io/lecture-slides/FS1005_15.html"></iframe>
+</div>
+<p><a href="https://edibotopic.github.io/lecture-slides/FS1005_15.html">📽️ Direct link to slides for this lecture</a></p>
+<section id="evaporation" class="level2">
+<h2 class="anchored" data-anchor-id="evaporation">Evaporation</h2>
+<p>Evaporation usually refers to a phase change (<span class="math inline">\(liquid \to vapour\)</span>) that occurs when the temperature of a liquid is increased above its boiling point (<span class="math inline">\(T_B\)</span>).</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Scientists often distinguish between evaporation and boiling as two distinct types of <strong>vapourisation</strong>, where evaporation can occur at temperatures below boiling temperature (think of a water puddle that dries out on a cold Irish day) and involves generation of vapour at the liquid surface, while boiling occurs at or above boiling temperature (water in a kettle) and involves generation of vapour throughout the bulk of the liquid.</p>
+<p>I am not convinced that this distinction is critical to understanding evaporation <em>as an operation</em>, so I will typically use “evaporation” to refer to the generation of vapour. You are free to explore the technical distinction further if you wish.</p>
+</div>
+</div>
+<p><span class="math inline">\(T_B = 100 °C\)</span> for water in normal atmospheric pressure. Even at room temperature, some water molecules gain sufficient energy to become vapour but they are very few in number. As temperature increases, and approaches <span class="math inline">\(T_B\)</span>, the number of water molecules entering the vapour phase increases, resulting in a progressively greater <em>vapour pressure</em>. You can imagine the vapour pressure (<span class="math inline">\(T_V\)</span>) as being opposed by the atmospheric pressure — as the vapour pressure increases from a small value (at 20 °C) to a big value (at 100 °C), evaporation is able to proceed more rapidly as the vapour more easily overcomes the atmospheric pressure. When <span class="math inline">\(T_V\)</span> exceeds (or equals) <span class="math inline">\(T_B\)</span> then boiling occurs, resulting in rapid vapourisation.</p>
+<p>An evaporator is a machine designed to promote the evaporation of a liquid with dissolved solids (i.e., dissolved substances) so that it becomes more concentrated. In food processing <strong>evaporation</strong> often refers to an <em>operation</em> in which an evaporator is used to concentrate a liquid food or beverage (<em>via</em> the mechanism of evaporation).</p>
+<p>By <em>more concentrated</em> we mean <strong>more concentrated in solids (everything that is not water)</strong>.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Technically, both evaporators and driers involve the phase change of evaporation (as does other operations such as distillation).</p>
+<p>A way to distinguish them is to remember that an evaporator does not change the form of its input. So while a spray-drier transforms a liquid into a powder, an evaporator merely changes the properties of a liquid — the liquids become more concentrated</p>
+</div>
+</div>
+<p>A simple evaporator would consist of an open tank heated to a high temperature (at or approaching boiling temperature). There are several reasons why this would be a sub-optimal approach, however, due to the high temperatures involved:</p>
+<ol type="1">
+<li><strong>Nutrients</strong> may become degraded, as some are sensitive to heat</li>
+<li><strong>Energy</strong> costs will likely be high, as generating hot water and steam requires significant energy input</li>
+<li><strong>Chemical changes</strong> may occur, as reactions like Maillard Browning are more prominent at high temperatures</li>
+</ol>
+<p>For these and other reasons, a specific evaporator design — the <em>multi-effect falling-film evaporator</em> — is commonly-used.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+The Story of How the Evaporator was Invented
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you benefit from human interest stories when learning technical material I would recommend the remarkable tale of how <a href="https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/norbertrillieux.html#multiple-effect-evaporator">Norbert Rilliuex</a> developed multi-effect evaporator technology.</p>
+<p>The principle of operation of modern evaporation technology is largely the same as Rilluex’s invention.</p>
+</div>
+</div>
+</section>
+<section id="evaporator-design" class="level2">
+<h2 class="anchored" data-anchor-id="evaporator-design">Evaporator Design</h2>
+<p>The evaporator has several important design features that allow it to work effectively. The multiple “effects” refer to <strong>stages</strong> where the evaporation will occur. Each stage consists of an enclosed chamber containing a series of tall, <strong>vertical tubes</strong>. The liquid to be concentrated falls down the inner walls of these tubes as a film. In the first stage <strong>steam</strong> is pumped into the shell that surrounds the tubes, heating the film through the walls of the tubes. A <strong>vacuum</strong> pump is used to reduce pressure in each effect (a partial vacuum is created, removing air molecules that would otherwise oppose vapour pressure), meaning that the boiling temperature of the liquid is reduced. In the first stage, the concentrate is separated from the vapour, both are then passed into the second stage, which operates at a <strong>lower pressure</strong> than the first — at this lower pressure the vapour can act as the heating medium, promoting the evaporation of more water from the concentrate. This process can be repeated across up to seven stages, with pressure decreasing at each successive stage as the liquid becomes more concentrated and the vapour is continuously recycled to use as the heating medium (instead of steam). Vapour is collected at the end of the operation and cooled into liquid water by a <strong>condenser</strong> — this water can then be used to generate steam to initiate the evaporation process again.</p>
+<p>To summarise:</p>
+<section id="vacuum" class="level3">
+<h3 class="anchored" data-anchor-id="vacuum">Vacuum</h3>
+<p>A vacuum is pulled in the evaporator to reduce the boiling point of the liquid. This means that temperatures as low as 60-70 °C can be used to generate vapour rather than the more severe 100°C.</p>
+</section>
+<section id="effects" class="level3">
+<h3 class="anchored" data-anchor-id="effects">Effects</h3>
+<p>“Effects” refer to stages in the evaporator where the liquid is concentrated, and in each stage there is some vapour removed. The liquid becomes more concentrated with each stage making it more difficult to evaporate water using hot vapour. For this reason, the pressure is reduced in each successive stage. There can be up to seven effects in a commercial evaporator — the more effects that are used the greater the efficiency because more vapour (from the product) can be used as heating medium (instead of steam). This efficiency is an investment, as more effects increase capital costs.</p>
+</section>
+<section id="films" class="level3">
+<h3 class="anchored" data-anchor-id="films">Films</h3>
+<p>Liquid is pumped to the top of the evaporator. From there, the liquid falls as a film down the inner walls of a long, vertical tube. The liquid is heated by steam circulating outside of the tube. As the liquid falls by gravity the vapour generated separates from the liquid. In most evaporators each stage consists of a large number of these tubes.</p>
+</section>
+<section id="condenser" class="level3">
+<h3 class="anchored" data-anchor-id="condenser">Condenser</h3>
+<p>Vapour can be turned back into liquid water by a condenser. This water can then be used (boiled) to generate steam that can be used in the evaporation process.</p>
+</section>
+</section>
+<section id="applications-and-issues" class="level2">
+<h2 class="anchored" data-anchor-id="applications-and-issues">Applications and Issues</h2>
+<p>Evaporators can be used to make liquid, concentrated products like evaporated juices and milk. As they are highly energy-efficient, they are often used in conjunction with more energy-intensive driers.</p>
+<p>During evaporation, the concentration of solids increases, which causes an increase in viscosity. This may also cause some molecules to be pushed passed their solubility limit. The combination of high viscosity and reduced solubility can occsionally cause fouling issues (build up of deposits in evaporator tubes). For example, in whey systems calcium phosphate may begin to precipitate, which is exacerbated by the fact that calcium phosphate is less soluble in warm temperatures.</p>
+</section>
+<section id="alternatives-to-evaporation" class="level2">
+<h2 class="anchored" data-anchor-id="alternatives-to-evaporation">Alternatives to Evaporation</h2>
+<p>There are non-thermal alternatives to evaporation that can remove water.</p>
+<p>Many of these are based on membrane filtration; for example, Reverse Osmosis involves the use of membranes that have pores that only allow the permeation of water (allowing the removal of water as solids are concentrated).</p>
+<p>The name “Reverse Osmosis” distinguishes it from the phenomenon of Osmosis. Osmosis occurs when on one side of a membrane there is a high concentration of osmotically-active substances and on the other there is a low concentration. Common dissolved solids (or “solutes”), like salts, sugars and proteins, are osmotically-active. For example, when vegetables are added to a salty brine the high concentration of salt results in water moving (via osmosis) from the inside of cell membranes to the brine, resulting in a characteristic “pickling” effect. In membrane-based concentration the opposite (or reverse) goal is pursued — water must be removed from the solution containing osmotically-active components (salts, sugars, proteins, etc.). To achieve this pumps and valves are used to increase pressure on the concentrate side, overcoming osmosis.</p>
 <ul>
-<li>Synthesise the information</li>
-<li>Identify gaps in the literature</li>
+<li>Osmosis: water flows from region of low solute concentration to high solute concentration due to natural osmotic pressure differences</li>
+<li>Reverse osmosis: water flows from region of high solute concentration to low solute concentration due to pressures induced by pumps and valves</li>
 </ul>
-<p>This is where the top student excels. Of course, the questions “how do I synthesise information?” and “what is a research gap?” are tricky and not always communicated effectively by educators outside of the humanities. While this is arguably the essence of what constitutes a good literature review, and potentially (I hesitate to say) what AI is the least capable of achieving, it is probably what is the subject of the least explicit instruction.</p>
-<p>Another response to the AI-revolution might be to place a greater emphasis on scientific <em>insight</em> and <em>creativity</em> rather than the relative drudge-work of downloading papers and referencing consistently. This, however, may require scientists to work harder to demonstrate the writing process.</p>
-<p>Most have experience live-music. There is also live-coding, where a programmer writes some code in front of an audience (and/or a camera). “Live-writing” is comparatively rare. Writing is rarely <em>performed</em> and is maintained as a private activity for the most part. The <em>performance</em> of live-writing might could help academics explicate the process of developing or synthesising ideas. Similarly, students could be asked to engage in the practice of “rubber-ducking”, a process of <em>talking through</em> a problem when writing/coding that is often encouraged by programmers.</p>
+<p>Reverse Osmosis may be favoured because it can be operated at even lower temperatures than vacuum evaporation (refrigeration to room temperature); however, membrane filtration processes are severely limited by viscosity development when concentration increases. This means that solid concentrations of 20-25% solids may be possible with reverse osmosis, but this may need to be supplemented with evaporation to achieve higher concentrations (40-60% solids).</p>
 </section>
-<section id="everything-was-going-so-well-until-ai-came-along" class="level2">
-<h2 class="anchored" data-anchor-id="everything-was-going-so-well-until-ai-came-along">“Everything was going so well until AI came along…”</h2>
-<p>It is not obvious to me that scientific writing is being taught effectively. Most students do not understand why it is important or useful. A literature review is considered a nuisance rather than a tool.</p>
-<p>Based on personal conversations with students, it is apparent that a lot of student writing is effectively <strong>de-plagiarism</strong>. The writer plagiarises some source material(s) and then re-arranges the syntax of the writing to ensure that it is not flagged by plagiarism software like TurnItIn.</p>
-<p>This process generally results in a limited understanding of the material. A simple test is to sit with the student and ask them why they wrote a particular sentence. Often, the student may not recognise the sentence or the ideas therein, which might be made even more difficult by the garbled syntax that is characteristic of de-plagiarism.</p>
-<p>If this is as common as I think it is then I welcome the disruption we are facing.</p>
+<section id="evaporation-ultraprocessing" class="level2">
+<h2 class="anchored" data-anchor-id="evaporation-ultraprocessing">Evaporation = Ultraprocessing?</h2>
+<p>Some authors have recently suggested that process technologies used in industrial food manufacture result in “ultraprocessed” foods that are nutritionally poor. The industrial evaporator is an interesting case study in this respect. Intuitively, the phrase “falling-film, multi-effect evaporator” will be off-putting to someone who is unfamiliar with science and technology. We cannot simply defend evaporation as making food “more safe” as it is not strictly designed to achieve this goal.</p>
+<p>In principle, what industrial evaporation achieves is similar to what is described as a “reduction” in cooking. To reduce a sauce or soup usually means to simmer or boil a liquid until water evaporates, resulting in some set of positive effects (e.g., increased thickness and flavour intensity). “Reduction” simply translates to a reduction in volume (due to water loss). So the first thing to note is that industrial evaporation and kitchen reductions have the same <em>shared goal</em>.</p>
+<p>Now, <strong>how</strong> the goal is achieved is slightly different. A kitchen reduction is done in an open pot, heated by a burner, with no vacuum applied. For this reason, high temperatures of 100°C or greater are required. This means that a kitchen reduction is very likely to result in the loss or degradation of heat-sensitive components, including nutrients but also flavour compounds (which is usually not measured, of course). An industrial evaporator — which <em>does</em> apply a vacuum — typically uses less intense heating, meaning there is less heat-induced degradation. So the two processes — industrial evaporation and kitchen reduction — have the <strong>same goal</strong> (enhance thickness/flavour), are based on the <strong>same principle</strong> (evaporate water and decrease volume) but the industrial evaporator is specifically designed to reduce heat-damage and wasted energy.</p>
+<p>The intuition that the “multi-effect falling-film evaporator” must be worse than a kitchen reduction because it less familiar or because we do not see the equipment in our homes must be overcome by developing an understanding of the goal and mechanism of its operation.</p>
 </section>
-<section id="histories-of-writing-opening-the-black-box" class="level2">
-<h2 class="anchored" data-anchor-id="histories-of-writing-opening-the-black-box">Histories of Writing: Opening the Black Box</h2>
-<p>ChatGPT is a black box, but — in an educational context — so is the conventional writing process. It is tempting to assume that given the quality of ChatGPT’s output we should simply encourage students to use it as a tool, replacing one black box with another. Smart teachers at universities will probably develop strategies to encourage its effective use.</p>
-<p>There is a risk, however, that the process is undermined. An output is only effective as a method of assessing learning if it reflects a learning process. As ChatGPT potentially displaces the process, then we might need to frame the process in a more concrete way. This is something that is probably the subject of greater attention in humanities disciplines.</p>
-<p>For example, writing/authoring tools like GoogleDocs, EtherPad and Git have version control capabilities that capture the history of a writing project. These vary in their degree of automation, but all of them offer a means of capturing (perhaps imperfectly) how someone’s thinking develops as a project is built.</p>
-</section>
-<section id="sandboxed-writing-environments-technology-with-constraints" class="level2">
-<h2 class="anchored" data-anchor-id="sandboxed-writing-environments-technology-with-constraints">Sandboxed Writing Environments: Technology with Constraints</h2>
-<p>Just prior to the emergence of tools like ChatGPT, I was toying with the idea of <em>procedural generation</em> in food research and education.</p>
-<p>As an amateur programmer with limited time I produced a few things that — while shaky as software — were fun to use.</p>
-<p>One is ArbitraryFashions, built using a context-free grammars that builds random text outputs from prototype sentences. The prototypes are themselves built from types of phrases that are substituted at specific points in the sentence.</p>
-<p>What I like about this — in principle — is that while it lends itself to a degree of automation it is not a complete black box. I can tweak and poke at the sets of phrases and prototypes, including and excluding what I need. It is far far weaker than ChatGPT, but it is small and customisable. The results prompt me rather than the other way around.</p>
-</section>
-<section id="now-with-feeling-making-scientific-writing-more-human" class="level2">
-<h2 class="anchored" data-anchor-id="now-with-feeling-making-scientific-writing-more-human">Now, with Feeling: Making Scientific Writing More Human</h2>
-<p>The scientific community has for a long time emphasised objectivity. This emphasis not only applies to methodology but also style. Even if a study is the outcome of objective research it might be criticised if the writing style has too much flair or narrative.</p>
-<p>As a result, a great deal of scientific writing is mechanical and robotic. Perfect, one might say, for replacement by AI. Terrible, however, for motivating students to learn it.</p>
-<p>A broad suggestion for consideration is that academics should potentially consider putting the humanity back in scientific writing. This would not threaten the objectivity of our methodology, but may lead to writing that is more fun to read and write, and which will be less replaceable by AI.</p>
-</section>
-<section id="assessment-design-identify-what-technology-cant-do-then-do-it" class="level2">
-<h2 class="anchored" data-anchor-id="assessment-design-identify-what-technology-cant-do-then-do-it">Assessment Design: Identify What Technology Can’t Do, Then Do It</h2>
-<p>TODO</p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Weaver, C. M., Dwyer, J., Fulgoni, V. L., King, J. C., Leveille, G. A., MacDonald, R. S., Ordovas, J., Schnakenberg, D. (2014). Processed foods: contributions to nutrition. <em>The American Journal of Clinical Nutrition</em>, 99, 1525–1542, <a href="https://doi.org/10.3945/ajcn.114.089284">available online</a></p>
+<p><a href="https://www.acs.org/education/whatischemistry/landmarks/norbertrillieux.html">American Chemical Society (ACS) article on Norbert Rillieux</a></p>
 
 
 </section>
@@ -587,6 +674,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../notes/ai.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">AI Technology</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../notes/slides.html" class="pagination-link">
+        <span class="nav-page-text">Slides</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
