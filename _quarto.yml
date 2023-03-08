@@ -36,6 +36,7 @@ website:
         contents:
             - notes/foodtech.qmd
             - notes/ai.qmd
+            - notes/evaporation.qmd
         # - section: "Semiotics"
         # contents:
         #   - notes/talkingfood.qmd

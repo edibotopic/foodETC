@@ -21,4 +21,4 @@ This page will be populated with a list of all slides used during the course.
 
 [Technology 1](../slides/seven/)
 
-[Technology 2](../slides/AI/)
+[Technology 2](https://edibotopic.github.io/lecture-slides/FS1005_15.html)
