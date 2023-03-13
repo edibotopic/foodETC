@@ -18,16 +18,11 @@ website:
         contents:
           - notes/definingfood.qmd 
           - notes/fourcauses.qmd
-        #   - notes/isandisnot.qmd
           - notes/replacingfood.qmd
       - section: "Epistemology"
         contents:
           - notes/knowingfood.qmd
           - notes/thinkingfood.qmd
-        #   - notes/waysofknowing.qmd
-        #   - notes/scienceandtechnology.qmd
-        #   - notes/fooddisciplines.qmd
-        #   - notes/toolsforknowing.qmd
       - section: "Structure & Composition"
         contents:
             - notes/foodstructure.qmd
@@ -37,6 +32,10 @@ website:
             - notes/foodtech.qmd
             - notes/ai.qmd
             - notes/evaporation.qmd
+      - section: "Techno-ethics"
+        contents:
+            - notes/goodfood.qmd
+        # - notes/sustainability.qmd
         # - section: "Semiotics"
         # contents:
         #   - notes/talkingfood.qmd

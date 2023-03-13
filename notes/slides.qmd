@@ -6,6 +6,7 @@ execute:
 ---
 
 This page will be populated with a list of all slides used during the course.
+If lectures do not have accompanying slides it is because the lectures were delivered in hand-drawn/video format.
 
 [Introduction](../slides/one/)
 
@@ -17,8 +18,8 @@ This page will be populated with a list of all slides used during the course.
 
 [Epistemology 1&2](../slides/five/)
 
-`No slides planned for Food Structure lectures (please refer to lecture videos linked through Canvas)`
-
 [Technology 1](../slides/seven/)
 
 [Technology 2](https://edibotopic.github.io/lecture-slides/FS1005_15.html)
+
+[Techno-ethics](https://edibotopic.github.io/lecture-slides/FS1005_16.html)

@@ -1,0 +1,192 @@
+---
+title: Good Food [draft]
+slide-format: revealjs
+css: ../styles.css
+execute:
+  echo: false
+search: false
+---
+---
+
+The point was made early in this module that science and technology are two different activities.
+In its purest form, the goal of science is to develop a more clear understanding of the world.
+A scientist can study a problem in chemistry — for example — without necessarily thinking about why it might be important "in the real world".
+Technology concerns the creation of materials that are useful or that provide some *good* to the world.
+Making technology is therefore always **normative**, as it reflects some idea of *making the world better*.
+
+The scientists and philosopher made some important remarks about the ethics of technology.
+One of his main observations was that technologists seem to claim credit for the societal goods
+provided by technology while rejecting any blame for any harms that are caused by technology.
+For example, when defending food processing many scientists point to the success of technologies like pasteurisation.
+However, other technologies like hydrogenation have been found to be potentially harmful.
+To be consistent we must accept that a technology can help but also harm.
+An awareness of both possibilities makes it more likely that we can work on technologies that are helpful.
+
+::: {.callout-note}
+
+## Ethics of Social Media and Food Manufacture
+
+Consider social media platforms like Instagram and Facebook.
+It has been shown that compulsive use of these platforms is associated with mental health issues in some groups.
+This has led to calls for the creators of these technologies to be "more ethical".
+These companies now often hire ethics advisors to help steer how they design their products.
+
+If we expect the designers of software to be guided by some ethical principles why would we not expect the same of those who design our food?
+Is it reasonable to suggest that there are ethical problems affecting software development but not food manufacture?
+
+:::
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="https://edibotopic.github.io/lecture-slides/FS1005_16.html"></iframe>
+```
+</div>
+
+[📽️ Direct link to slides for this lecture](https://edibotopic.github.io/lecture-slides/FS1005_16.html)
+
+## Ethical Issues Are Many and Varied
+
+When we think of ethical issues it is often tempting to think of obvious examples.
+For example, most of us would agree that animals should not be tortured before being slaughtered.
+Most people agree on this issue and there are laws and regulations in place to stop such practices.
+Some, however, argue that no animals should be slaughtered for meat because it inflicts needless harm.
+Others suggest that we must reduce our consumption of animal products to prevent environmental issues that will harm other people.
+These issues are **contested**, in that there is not universal agreement on the course of action we should take as a society.
+These kinds of contested issues often arise when problems are complex, meaning they have multiple interacting components.
+For example, in this case we might consider:
+
+- The nutritional needs of people
+- The rights and dignity of animals
+- Cultural traditions around meat-eating
+- Economic motivations to maintain meat production
+- Environmental problems due to meat production
+
+Someone might be convinced that there are environmental issues associated with meat production, while finding it difficult to change dietary habits that they have developed since childhood.
+Another person might agree that killing animals is morally wrong but find it difficult to identify adequate nutritional replacements.
+A government might wish to encourage companies to develop more sustainable alternatives to meat but be afraid of job losses that might occur if the meat industry is negatively affected.
+
+## Less Obvious Ethical Issues in Food
+
+The case of meat production is therefore more complex than preventing the torture of animals.
+It involves a complex set of questions relating to (at least) the nutritional needs of people, cultural norms around diet, the welfare of animals and the environmental effects of our manufacturing technologies.
+By looking more closely at some of these cases we can begin to find where food scientists can have a role in these developments.
+
+### Milk Alternatives: Not All Created Equal
+
+The answer to such problems are rarely "easy".
+Take a similar question, which relates to milk alternatives.
+It is recognised that there are problems associated with water use and methane emissions in dairy production.
+This has led many to assume that milk alternatives are "more sustainable".
+Representatives from the dairy industry, who have a vested interest in the outcome of this debate, suggest that they are inferior.
+
+Rather than "taking sides" here, we need to consider the facts.
+There is a problem with the environment that is partly due to methane emissions.
+There is an existing issue with water scarcity, which will be made worse by climate change.
+Given that dairying is associated with both high levels of water use and methane emissions it is worthwhile considering methods to either solve these problems or find alternatives.
+
+In the case of alternatives they are not all created equal.
+For example, almond milk can be considered to be sub-optimal in some respects.
+It is associated with high levels of water use and it has a poor nutritional profile.
+
+If you are motivated by ethical concerns for finding environmentally-friendly and nutritionally-healthy alternatives to animal-based products then you might need to look beyond your immediate instinct that "plant-based is better".
+Instead, you might weigh up what specifically cow's milk offers to society in its current form and what issues it presents.
+Looking at the alternatives, which ones are more likely to offer an alternative that is good for the environment, nutritionally strong but also palatable to those who are familiar with the taste of cow milk?
+
+### Cheese Alternatives: Not Good Enough (Yet?)
+
+To successfully replace something it is often not sufficient to convince someone of the ethics.
+For example, it could be argued that a vegan cheese product is a more ethical choice than Cheddar cheese, from the perspective of environmental sustainability and animal welfare.
+However, as it stands, many vegan cheese products suffer from major sensory issues (i.e., they do not taste very good).
+This is a major impediment to their widespread uptake in society.
+
+Food scientists must therefore consider what functionality a traditional cheese product has.
+Most vegan cheese on the market today contain significant levels of starch and coconut oil.
+For this reason, they tend to have much lower protein levels than traditional cheese products.
+Some cheeses like Mozzarella also have a melting behaviour that is expected for specific meals (e.g., pizza).
+Vegan cheeses containing starch and coconut oil do not melt like Mozzarella, meaning that they are inadequate replacements in this particular case.
+Food scientists must therefore consider how to alter the composition of vegan cheese so as to improve their nutritional properties as well as their melting behaviour.
+
+::: {.callout-important}
+
+## Turning an Ethical Problem into a Practical Problem
+
+Discussions about the ethics of the problems that we face as a society are important and enriching.
+However, it can sometimes be important to transform an ethical problem into a practical one that can be solved in a tangible way.
+
+A really good example of this is the question of speeding.
+There is a moral argument as to why people should not speed in their cars: it increases the risk of causing harm to people.
+However, it is unfortunately the case that many people are not convinced by this argument, especially when short-term motivations (enjoying speed, getting somewhere on time) override the ethical concerns.
+
+How can this be transformed into a practical problem? **Speed bumps**.
+When confronted with a speed bump the driver must think "If I go too fast I will damage my chassis".
+
+When thinking about ethical issues in food, it can be fruitful to identify convincing ethical arguments (we need to reduce our reliance on animal products) and then transform them into practical problems (we need to make this vegan cheese melt properly).
+
+:::
+
+### Personalised Nutrition: A Question of Autonomy?
+
+Future technologies, which are yet to be developed or are under active development, may present new ethical issues.
+Consider personalised nutrition, a general set of technologies that aims to design our nutritional intake based on biomimetic and genomic data gathered from smart devices and genetic testing.
+It could be argued that this deprives of us of our autonomy as individuals, in that it limits our capacity to make choices about what we want to eat.
+There is also a question of how these data might be used against us; for example, if companies have access to data that suggests we have not been disciplined enough in our diet might this impact our ability to access insurance and healthcare?
+
+These and many other questions of this kind are beginning to be asked and we need to be aware of them so that we can engage with them intelligently (rather than assuming the technology is simply evil or simply magic).
+
+## Ethical Frameworks
+
+For centuries, philosophers have debated how we should approach ethical problems.
+The field of ethics is vast and intricate — it is not possible for us to cover it in detail.
+However, we will try to introduce the topic so that we are better prepared to explore it in our own time.
+
+Consider the (in)famous trolley problem.
+Remember: this thought experiment is not designed to teach you how to react when there is an immediate threat to life.
+Its purpose is to help us reveal inconsistencies in our thinking so that we can identify potential gaps in our ethical reasoning.
+
+An interesting fact (from experience) is that most people would pull a lever to kill one person instead of five.
+However, the same people would refuse to push a person to their death to save five lives.
+In the first case people often appeal to a moral principle that is known as utilitarianism,
+which basically states that we should aim to minimise harm (in this case by sacrificing the one for the many).
+However, their reaction to the second case violates this principle (they let the one live and the many die).
+When prompted to explain their reasoning in the second case people struggle and appeal to the vague idea of "not playing a direct role" when pulling a lever.
+
+What can be learned from this inconsistency?
+Well, we seem to absolve ourselves of moral responsibility when our actions and their consequences are **mediated** (when there is some spatial or temporal distance between our actions and the effect of our actions).
+We might feel responsible for avoiding food poisoning when making dinner for our friends, but we may feel less responsible when designing a manufacturing process that provides food that could harm many more people — it is critical that we avoid this instinct, if we wish to provide a net good to the world.
+
+In the context of business, an ethical framework that is commonly proposed is the idea of self-interest (egoism).
+For example, we might be worried that a local baker could try to make more profits by replacing a portion of their flour with cheaper sawdust.
+The argument is that it is useless to tell this baker to stop this activity for ethical reasons; instead, the baker should consider that if people find out, perhaps due to a perceived loss of quality in his goods, then it will affect his business negatively.
+For this reason, the baker maintains high-standards purely due to his interest in ensuring the survival of his business.
+It is unclear how such reasoning plays out in the modern context of industrial manufacture, where people are less familiar with how products are made and less likely to detect issues with their production, especially if the consequences are long-term (health).
+
+A more explicit ethical framework, which aims to maximise benefits and minimise harm for the greatest number of people is called utilitarianism.
+Like egoism, it focuses on the consequences of our actions.
+Utilitarians, however, consider the consequences for other people and not merely themselves.
+One issue relating to utilitarianism is challenge in deciding who is considered in the calculation, which things count as harms and which things count as benefits.
+For example, when some food manufacturing practices are criticised (convenience food, for example) food scientists often argue that it is good that people are given a large choice of options.
+Here, the critics and the scientists seem to place a different weighting on specific benefits when doing their calculation, with the scientists perhaps emphasising choice and the critics emphasising health in all cases.
+In discussions around sustainability, the beings we are potentially harming are often somewhat abstract, which presents another challenge to utilitarian thinking; for example, people today may need to make personal sacrifices (foregoing benefits to themselves) in an effort to improve the situation for future generations. 
+
+Some ethical frameworks do not directly consider consequences at all, but rather a respect for duties and rights.
+This type of ethics is called deontology, and its theoretical underpinnings can be quite difficult to work through in a short amount of time.
+For now, consider the famous oath taken by young doctors entering the profession, which establishes their ethical duties as involving four principles:
+
+1. Beneficence: you should actively seek to improve welfare
+2. Non-maleficence: you should actively seek to avoid inflicting harm
+3. Autonomy: you should respect the patient's right to choose a treatment in an informed manner
+4. Justice: you should aim to provide and distribute help in a fair way
+
+These *duties* that apply in all circumstances.
+Few of us would argue that we would like doctors to throwaway their ethical code when they are responsible for our treatment.
+It is useful to keep this code in mind when considering ethical issues around food production — should a similar code be adopted?
+The inter-locking nature of the list is especially interesting.
+Consider that there is a distinction between improving welfare and avoiding harm; for example, it is not sufficient to merely ensure that a product does not kill or poison, it should also actively improve the lives of those who use it.
+People should be able to make a free, informed choice between a product and its alternatives, preferably in an informed way.
+Whatever products that are produced should not only benefit the most privileged in society, but should be distributed fairly and to those who need them most.
+
+::: {.callout}
+This is a very brief overview of this area and is designed to get you started thinking about them.
+
+Readings are provided on Canvas for those of you who wish to read further.
+:::
