@@ -1,10 +1,10 @@
 ---
-title: Good Food [draft]
+title: Good Food
 slide-format: revealjs
 css: ../styles.css
 execute:
   echo: false
-search: false
+search: true
 ---
 ---
 
@@ -28,7 +28,7 @@ An awareness of both possibilities makes it more likely that we can work on tech
 
 Consider social media platforms like Instagram and Facebook.
 It has been shown that compulsive use of these platforms is associated with mental health issues in some groups.
-This has led to calls for the creators of these technologies to be "more ethical".
+This has led to calls for the creators to be "more ethical" in the design of these technologies.
 These companies now often hire ethics advisors to help steer how they design their products.
 
 If we expect the designers of software to be guided by some ethical principles why would we not expect the same of those who design our food?
@@ -133,6 +133,29 @@ There is also a question of how these data might be used against us; for example
 
 These and many other questions of this kind are beginning to be asked and we need to be aware of them so that we can engage with them intelligently (rather than assuming the technology is simply evil or simply magic).
 
+### Ultraprocessed Foods: Ethics follows Evidence?
+
+In class we discussed an executive from the food industry who acted as a "whistle-blower".
+This executive felt strongly that the manner in which his company manufactured foods was harmful to society.
+He called for the food industry to be required to take a more ethical approach to food production.
+These views are shared by those who advocate for a decreased emphasis on "ultra-processed" foods in the diet.
+Some argue that the *more ethical* stance is to manufacture more "minimally-processed" foods.
+
+However, the categories that are used to distinguish these broad classes of food are vague.
+They are based on notions such as something being "recognisable as whole food", which are highly subjective.
+These critics also seem to ignore the *context* in which foods are consumed.
+For example, infant formula, Irish whiskey and a meal-replacer might all be defined philosophically as "ultra-processed";
+however, whether or not they should be rejected is dependent on the context in which they are used.
+It might be dificult to justify whiskey consumption by appeals to enjoyment and tradition, given the social and medical consequences of alcohol consumption.
+However, a meal-replacer — which necessarily requires multiple ingredients and processing steps — is often the only feasible nutrient source for a sick individual.
+
+A further issue is related to the question of whether there is evidence to support the claim that ultra-processed foods are harmful.
+If this claim cannot be justified then it is impossible to argue whether there is an ethical "right choice" when it comes to ultra-processing (assuming this is a real category).
+For example, let's consider infant formula, whiskey and meal replacers to all be ultra-processed foods.
+There are many studies that demonstrate that excess consumption of products like whiskey are harmful.
+Do these studies demonstrate a truth about the problem associated with excess alcohol intake or a problem with ultra-processing in general?
+The obvious answer seems to be that they tell us something about excess alcohol intake, a fact that generalises to the category of alcoholic drinks in general, but not necessarily ultra-processed foods because this category contains many foods that are not alcoholic in nature.
+
 ## Ethical Frameworks
 
 For centuries, philosophers have debated how we should approach ethical problems.
@@ -150,6 +173,20 @@ which basically states that we should aim to minimise harm (in this case by sacr
 However, their reaction to the second case violates this principle (they let the one live and the many die).
 When prompted to explain their reasoning in the second case people struggle and appeal to the vague idea of "not playing a direct role" when pulling a lever.
 
+::: {.callout-important}
+
+## Utilitarianism
+
+An ethical framework in which the ethical act is always the one that improves the well-being of the majority, even if some harm is cause to the minority.
+
+The word "utility" generally means the *good* or *pleasure*, so utilitarians argue for "maximising utility".
+
+Some issues associated with this framework include questions over who (or what) is considered in the moral calculation — for example: should non-human beings and/or future generations be considered?
+In addition, there are concerns that utilitarian thinking can be used to justify mistreatment of individuals or small groups if it benefits a majority, which many find objectionable.
+Utilitarians have offered more nuanced versions of this framework in attempts to rectify some of these problems.
+
+:::
+
 What can be learned from this inconsistency?
 Well, we seem to absolve ourselves of moral responsibility when our actions and their consequences are **mediated** (when there is some spatial or temporal distance between our actions and the effect of our actions).
 We might feel responsible for avoiding food poisoning when making dinner for our friends, but we may feel less responsible when designing a manufacturing process that provides food that could harm many more people — it is critical that we avoid this instinct, if we wish to provide a net good to the world.
@@ -160,6 +197,23 @@ The argument is that it is useless to tell this baker to stop this activity for 
 For this reason, the baker maintains high-standards purely due to his interest in ensuring the survival of his business.
 It is unclear how such reasoning plays out in the modern context of industrial manufacture, where people are less familiar with how products are made and less likely to detect issues with their production, especially if the consequences are long-term (health).
 
+::: {.callout-important}
+
+## Egoism
+
+Like utilitarianism, egoism is a *consequentialist* theory, in that it is justifies its moral arguments on the basis of consequences (usually for people).
+While utilitiarism is immediately concerned with consequences for the majority, egoism is only concerned with consequences for the individual.
+Egoists argue that if everyone seeks to maximise the good for themselves (their own "self-interest") that this will (indirectly) lead to better outcomes for society.
+
+An example from Adam Smith — a famous Scottish economist writing in the 1700s – relates to food producers like bakers, butchers and brewers.
+Smith suggested that a baker might have unethical instincts, such as mixing their flour with sawdust in order to reduce costs and increase profits.
+However, what can prevent such unethical actions is the baker recognising that in the event that this behaviour was discovered (they are observed or a customer gets sick) then his business (self-interest) would suffer.
+Smith was writing at a time when a lot of food was purchased from small producers, where — arguably — most consumers were closer to the production of food than they are today.
+Given that most people do not see what happens in modern food factories and health problems associated with diet are not necessarily immediate, egoism as a guiding ethical principle does not seem fit for purpose.
+Indeed, the existence of laws and regulations governing the production of food suggest that external controls are often necessary to prevent bad actors seeking to take shortcuts for profit.
+
+:::
+
 A more explicit ethical framework, which aims to maximise benefits and minimise harm for the greatest number of people is called utilitarianism.
 Like egoism, it focuses on the consequences of our actions.
 Utilitarians, however, consider the consequences for other people and not merely themselves.
@@ -167,6 +221,24 @@ One issue relating to utilitarianism is challenge in deciding who is considered 
 For example, when some food manufacturing practices are criticised (convenience food, for example) food scientists often argue that it is good that people are given a large choice of options.
 Here, the critics and the scientists seem to place a different weighting on specific benefits when doing their calculation, with the scientists perhaps emphasising choice and the critics emphasising health in all cases.
 In discussions around sustainability, the beings we are potentially harming are often somewhat abstract, which presents another challenge to utilitarian thinking; for example, people today may need to make personal sacrifices (foregoing benefits to themselves) in an effort to improve the situation for future generations. 
+
+::: {.callout-tip}
+
+## Deontology
+
+From the Greek *deon* meaning duty, deontology suggests that we should not directly consider consequences when evaluating ethical decisions.
+Duty-based ethics often appeal to principles or rules that we should *always* follow in *all* circumstances (universal laws).
+The famous thinker associated with this line of thinking is the German philosopher Immanuel Kant.
+Kant is famous for his "categorical imperative", which he proposed in different forms.
+For example, he argued that we should always act so as to treat other people as ends in themselves rather than mere means.
+In other words, people should be treated with dignity and not just as instruments to improve our own lives.
+He also argued that when we decide to behave in a specific manner we should at the same time be able to will that everyone else would act in the same way.
+In other words, if you are about to do something but think in general that it would be bad for others to do the same thing then you should not do it.
+
+When creating technologies we should be cautious about thinking of consumers as mere profit-generating devices.
+When making a decision to modify a product in some way we should ask whether we can do this while being comfortable with the idea that others would do the same.
+
+:::
 
 Some ethical frameworks do not directly consider consequences at all, but rather a respect for duties and rights.
 This type of ethics is called deontology, and its theoretical underpinnings can be quite difficult to work through in a short amount of time.
@@ -190,3 +262,23 @@ This is a very brief overview of this area and is designed to get you started th
 
 Readings are provided on Canvas for those of you who wish to read further.
 :::
+
+## Sustainability
+
+The concept of sustainability is deeply ethical, in that it concerns how we *should* act in order to improve the well-being in the face of potentially catastrophic dangers.
+
+All concepts of sustainability attempt to tackle these complex challenges by balancing considerations of different interacting sub-systems in the complex system of Earth.
+
+Typically, this involves a balance of *economic*, *social* and *environmental* factors.
+
+For example, when considering the question "is almond milk more sustainable than cow milk?" we might need to consider the impact of a transition to almond milk for — say — the Irish population on the livelihood of dairy farmers (social), the competitiveness of Irish food companies (economic) and the water use and emissions associated with production.
+
+Taking a balance approach to sustainability, which considers the economic, social and environmental is often represented diagrammatically, which was demonstrated in lectures.
+For example, sustainability can be defined as the center (union) of their Venn diagram.
+A nested set of circles can be used to illustrate their strong inter-dependence.
+They can be depicted as three pillars that together support sustainability, and so on.
+
+
+## References
+
+**Please refer to recent readings uploaded no Canvas.**
