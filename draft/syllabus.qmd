@@ -1,8 +1,0 @@
----
-title: Syllabus 
-slide-format: revealjs
-css: styles.css
-execute:
-  echo: false
-search: false
----

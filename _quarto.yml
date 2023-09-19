@@ -4,9 +4,8 @@ project:
 
 website:
   title: "Food Technology, Culture & Ethics"
-  page-footer: "Copyright 2022, Shane Crowley" 
+  page-footer: "Copyright 2023, Shane Crowley" 
   reader-mode: false
-  page-navigation: true
   sidebar:
     style: 'floating'
     search: true
@@ -16,25 +15,25 @@ website:
           - index.qmd
       - section: "Ontology"
         contents:
-          - notes/definingfood.qmd 
-          - notes/fourcauses.qmd
-          - notes/replacingfood.qmd
+          # - notes/definingfood.qmd 
+          # - notes/fourcauses.qmd
+          # - notes/replacingfood.qmd
       - section: "Epistemology"
         contents:
-          - notes/knowingfood.qmd
-          - notes/thinkingfood.qmd
-      - section: "Structure & Composition"
+          # - notes/knowingfood.qmd
+          # - notes/thinkingfood.qmd
+      - section: "Structure"
         contents:
-            - notes/foodstructure.qmd
-            - notes/foodcomp.qmd
+            # - notes/foodstructure.qmd
+            # - notes/foodcomp.qmd
       - section: "Technology"
         contents:
-            - notes/foodtech.qmd
-            - notes/ai.qmd
-            - notes/evaporation.qmd
+            # - notes/foodtech.qmd
+            # - notes/ai.qmd
+            # - notes/evaporation.qmd
       - section: "Techno-ethics"
         contents:
-            - notes/goodfood.qmd
+            # - notes/goodfood.qmd
         # - notes/sustainability.qmd
         # - section: "Semiotics"
         # contents:
@@ -45,7 +44,7 @@ website:
       - section: "Appendix"
         contents:
           - notes/slides.qmd
-          - notes/review.qmd
+          # - notes/review.qmd
           # - notes/reflections.qmd
           # - notes/interactions.qmd
           # - notes/syllabus.qmd
@@ -57,8 +56,6 @@ website:
             url: https://github.com/edibotopic/foodETC
           - text: Report a Bug
             url: https://github.com/edibotopic/foodETC/issues
-
-
 format:
   html:
     theme: 
