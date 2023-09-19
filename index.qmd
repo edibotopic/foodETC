@@ -4,7 +4,14 @@ slide-format: revealjs
 css: styles.css
 execute:
   echo: false
+format:
+  html:
+    toc: true
+  pdf: default
+format-links: [pdf]
 ---
+
+## Introduction
 
 These notes are an *exploration* of topics relating to the design of food products, beverages and nutritional solutions.
 They are associated with a module taught to BSc Food Science students at University College Cork, Ireland, which is named **Food Technology, Culture & Ethics** (or *FoodETC* for short).
@@ -12,30 +19,38 @@ The course is being developed and taught with the aim of providing a more *syste
 By design, the material does not assume a significant background in science, as most students will have not studied chemistry or physics when taking the course.
 
 This module is spread across _two semesters_.
-Details on lectures venues are included below.
+More detail can be found below.
 
-## Lectures (S2)
+::: {.callout-tip}
+## Where's the rest of the course?
+No. The website will be populated with content as the course progresses.
+:::
 
-In **semester 2**, lectures will be at **4 pm each Tuesday**.
-
-The lectures will take place in **FSB-322**.
-
-<iframe title="3D image of S2 classroom" src="https://kuula.co/share/7lRfY?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;info=1&amp;logo=1" allowfullscreen="" width="100%" height="540"></iframe>
 
 ## Lectures (S1)
 
-In **semester 1**, lectures were at **4 pm each Wednesday**.
+In **semester 1**, lectures take place at **4 pm each Wednesday**.
 
-The lectures took place in **CONN-S2**.
+The lectures take place in **CONN-S2** on Western Road.
+
+<iframe title="3D image of S1 classroom" src="https://kuula.co/share/7PLMc?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;alpha=0.02&amp;info=1&amp;logo=0" width="100%" height="540"></iframe>
 
 ::: {.callout-note}
 New notes and slides will be made available before each weekly lecture.
 :::
 
+## Lectures (S2)
+
+In **semester 2**, lectures will be at **4 pm each Tuesday**.
+
+The lectures will take place in **FSB-322** in the Food Science Building.
+
+<!-- <iframe title="3D image of S2 classroom" src="https://kuula.co/share/7lRfY?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;info=1&amp;logo=0" allowfullscreen="" width="100%" height="540"></iframe> -->
+
 ## Notes and Slides
 
-The first set of slides are embedded below — you can interact with them easily on your phone, tablet or computer.
-Note that in the final slide clicking (computer) or swiping (phone) will zoom you into specific sections of the slide.
+The first set of slides are embedded in the [online version of these notes](https://edibotopic.github.io/foodETC/) — you can interact with them easily on your phone, tablet or computer.
+Note that in slide 5/8 clicking (computer) or swiping (phone) will zoom you into specific regions of the slide.
 
 <div>
 ```{=html}
@@ -43,19 +58,28 @@ Note that in the final slide clicking (computer) or swiping (phone) will zoom yo
 ```
 </div>
 
-The notes are presented as `html` webpages and accompanying slides are embedded in an interactive format.
-Notes and slides are designed <u>as a framework only</u> and are developed in greater depth during in-person sessions.
+Notes and slides are <u>a framework</u>, which are developed in greater depth during lectures.
+To get the most out of the course you need to attend, do the assessments and read assigned material.
 
 :::{.callout-tip}
 ## Slides
 
-All notes and slides in this course are web-pages that can be easily accessed on phone, tablet or laptop.
-The slides associated with this first lecture can be accessed below:
+The slides associated with this first lecture can be accessed directly below:
 
 [📽️ Direct link to slides for this lecture](slides/one/)
 
-📃 Pressing <kbd>e</kbd> on the slides will convert them into a printable format.
-Note: this does not always work well and `pdf` versions will be made available on Canvas where possible.
+📃 Pressing <kbd>e</kbd> on a set of slides will convert them into a printable format.
+
+:::
+
+:::{.callout-warning}
+
+Some classes will have no associated slides and will mostly involve
+hand-drawn notes and/or class discussion.
+
+It is your responsibility to take appropriate notes (or learn 
+how to do so).
+
 :::
 
 The content of the course has the following general themes:
@@ -83,8 +107,8 @@ Enrolled students are expected to participate fully in the course and write thei
 
 The module involves 100% **Continuous Assessment**:
 
-- ✅ Lecture attendance/participation (10 marks)
-- ✅ Semester 1 class exam (20 marks)
+- Lecture attendance/participation (10 marks)
+- Semester 1 class exam (20 marks)
 - Semester 2 class exam (20 marks)
 - Group presentation (20 marks)
 - Critical Essay (30 marks)
@@ -125,7 +149,7 @@ However, to appreciate these topics fully one has to master more foundational ma
 - Sensory science (year 3)
 
 Then in year 4 a student is considered ready to approach the full complexity of food product
-to the point that they can develop their own in a systematic fashion
+to the point that they can develop their own in a systematic fashion:
 
 - Product development (year 4)
 
@@ -136,3 +160,5 @@ The challenge with this approach is that the students have not studied the pre-r
 For this reason, a somewhat philosophical approach is adopted, focusing on general concepts, case studies and critical thinking.
 
 :::
+
+I hope you enjoy the module.

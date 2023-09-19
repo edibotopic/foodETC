@@ -1,18 +1,15 @@
 ---
 title: About
-number-sections: false
 about:
  template: jolla
  image: ../img/about_pic.jpg
  links:
   - icon: github
     text: github
-    href:
-     https://github.com/edibotopic
+    href: https://github.com/edibotopic
   - icon: pencil-square
     text: website
-    href:
-     https://edibotopic.com
+    href: https://edibotopic.com
 ---
 
 Shane is a food scientist and technologist from Cork, Ireland.
@@ -42,4 +39,4 @@ design, food philosophy and food digitilisation.
 
 ## Office Hours
 
-2-4 pm every Thursday
+Send an email to `shane.crowley@ucc.ie` to arrange an appointment.

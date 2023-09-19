@@ -10,16 +10,10 @@ If lectures do not have accompanying slides it is because the lectures were deli
 
 [Introduction](../slides/one/)
 
-[Ontology 1](../slides/two/)
-
-[Ontology 2](../slides/three/)
-
-[Ontology 3](../slides/four/)
-
-[Epistemology 1&2](../slides/five/)
-
-[Technology 1](../slides/seven/)
-
-[Technology 2](https://edibotopic.github.io/lecture-slides/FS1005_15.html)
-
-[Techno-ethics](https://edibotopic.github.io/lecture-slides/FS1005_16.html)
+<!-- [Ontology 1](../slides/two/) -->
+<!-- [Ontology 2](../slides/three/) -->
+<!-- [Ontology 3](../slides/four/) -->
+<!-- [Epistemology 1&2](../slides/five/) -->
+<!-- [Technology 1](../slides/seven/) -->
+<!-- [Technology 2](https://edibotopic.github.io/lecture-slides/FS1005_15.html) -->
+<!-- [Techno-ethics](https://edibotopic.github.io/lecture-slides/FS1005_16.html) -->

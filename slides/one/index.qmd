@@ -5,12 +5,10 @@ subtitle: "Introduction"
 format:
   revealjs: 
     slide-number: true
-    chalkboard:
-        theme: "whiteboard"
-        grid: { color: 'rgb(50,50,10,0.1)', distance: 30, width: 1}
     buttons: true
     controls: true
     preview-links: true
+    chalkboard: true
     # logo: images/quarto.png
     footer: Food Technology, Culture & Ethics 
 search: false
@@ -36,37 +34,46 @@ What are the **building blocks** of food?
 How should we **design food** for people?
 </span>
 
+---
+
+<iframe title="review: click or swipe to progress" src="sozi/pre-cognition-1.sozi.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+
+<div class="footer"></div>
+
 ## Main Topics in Semester 1
 
-::: {.incremental}
 1. Food **Ontology** (`what food is and could be`)
-2. Food **Epistemology** (`ways to know about food`)
+2. Food **Epistemology** (`how to know about food`)
 3. Food **Semiotics** (`how food communicates with us`)
 4. Food **Structure** (`why food is not just its parts`)
-:::
 
 ::: {.fragment}
 :::{.callout-tip collapse="true"}
 ## Don't Worry 😟
 
-The initial topics are selected based on the assumption that you
-do not have a huge `science background`. We want to first get a sense
-`how we understand and interact with food` in our daily lives, what our
-intuitions are and how they might be wrong in some cases.
+These topics are selected on the assumption that you
+do not have a huge `science background`.
 :::
 :::
 
-## Readings, Reflections & Videos
+## Assessment (Module Description)
 
-> There is **one week** between class (readings❗)
+- **In-class Test #1** (20 Marks)
+- **Reflective reports** (10 Marks)
+- **In-class Test #2** (20 Marks)
+- **Group Presentation** (20 Marks)
+- **Essay** (30 Marks)
 
-> Some **exercises** will be assigned in class
+::: {.fragment}
+:::{.callout-warning collapse="true"}
+## 100% Continuous Assessment
 
-> Note: there is a **participation** grade (10%)
+You need to be consistent — don't let things drift.
 
-> Assessments include **2 exams**, **1 presentation** and **1 essay**
+:::
+:::
 
-## Next Week: What is Food?
+## Is this (good) Food?
 
 :::{.panel-tabset}
 
@@ -83,8 +90,3 @@ Scroll to read or open to [full-screen](https://www.chicagomag.com/chicago-magaz
 
 :::
 
----
-
-<iframe title="review: click or swipe to progress" src="sozi/pre-cognition-1.sozi.html" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-
-<div class="footer"></div>
