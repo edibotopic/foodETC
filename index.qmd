@@ -23,7 +23,7 @@ More detail can be found below.
 
 ::: {.callout-tip}
 ## Where's the rest of the course?
-No. The website will be populated with content as the course progresses.
+The website will be populated with content as the course progresses.
 :::
 
 
