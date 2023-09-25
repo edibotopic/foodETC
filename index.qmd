@@ -31,9 +31,9 @@ The website will be populated with content as the course progresses.
 
 In **semester 1**, lectures take place at **4 pm each Wednesday**.
 
-The lectures take place in **CONN-S2** on Western Road.
+The lectures take place in **CONN-S3** on Western Road.
 
-<iframe title="3D image of S1 classroom" src="https://kuula.co/share/7PLMc?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;alpha=0.02&amp;info=1&amp;logo=0" width="100%" height="540"></iframe>
+<iframe title="3D image of S1 classroom" src="https://kuula.co/share/7PLMb?fs=1&amp;vr=0&amp;sd=1&amp;autorotate=0.1&amp;thumbs=1&amp;alpha=0.02&amp;info=1&amp;logo=1" width="100%" height="540"></iframe>
 
 ::: {.callout-note}
 New notes and slides will be made available before each weekly lecture.
@@ -97,7 +97,7 @@ It is understood that not all students have studied chemistry, biology or physic
 For this reason, we start with the everyday experience of food (what foods do we prefer? how do we define food? what ways are we convinced to buy food?).
 What *is required* — above all — is a willingness to learn new things, engage in the class and think critically.
 
-:::{.callout-warning}
+:::{.callout-important}
 These notes and slides do not provide full coverage of the course content.
 `Lectures`, `videos`, `readings`, `discussions`, `drawings` and `assessments` are just as important.
 Enrolled students are expected to participate fully in the course and write their own notes.
@@ -134,9 +134,7 @@ personalised data to prevent diet-related disease?
 A university education will not give you the answers to all of these questions, but it
 will prepare you to begin finding the answers (or better questions).
 
-I hope you enjoy the module.
-
-::: {.callout-important}
+::: {.callout-note}
 
 ## Vertical Slice
 
