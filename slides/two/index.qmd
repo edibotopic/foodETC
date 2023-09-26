@@ -26,7 +26,7 @@ search: false
 
 ---
 
-## {background-video="vids/whiskey_glass_2_comp.mp4"}
+## {background-video="vids/whiskey_glass_2_comp.mp4" transition="fade-in slide-out"}
 
 <span style="color: white">
 Would a food scientist work on something like this?
@@ -34,9 +34,11 @@ Would a food scientist work on something like this?
 
 ---
 
-What about this?
+## {background-color="#000000" transition="slide-in fade-out"}
 
-![](../../img/kidney_pills.jpg){fig-align="center" width="70%" height="70%"}
+What about these?
+
+![](./img/tablets.png){fig-align="center" width="80%" height="80%"}
 
 ## Consider the Distinction
 
@@ -53,44 +55,49 @@ What about this?
 
 ## Utopian Food
 
-![](    img/menulator.gif){fig-align="center"}
+![](    img/menulator.jpg){fig-align="center"}
 
-[The Jetsons](https://en.wikipedia.org/wiki/The_Jetsons)
+[The Jetsons: 1960s cartoon](https://en.wikipedia.org/wiki/The_Jetsons)
 
 ## Dystopian Food
 
 ![](https://i.makeagif.com/media/9-26-2016/-3yf43.gif){fig-align="center" width="80%" height="80%"}
 
-[Snowpiercer](https://en.wikipedia.org/wiki/Snowpiercer)
+[Snowpiercer: 2013 movie](https://en.wikipedia.org/wiki/Snowpiercer)
 
 ## Dystopian Food
 
 ![](img/soylentgreen.gif){fig-align="center"}
 
-[Soylent Green](https://en.wikipedia.org/wiki/Soylent_Green)
+[Soylent Green: 1973 movie](https://en.wikipedia.org/wiki/Soylent_Green)
 
-## Food Visions
+## Food Visions {background-image="./img/nature.jpg" transition="fade-in slide-out" background-color="black"}
 
 :::{.r-fit-text}
 
 - **Utopian**: in the future important food problems will be solved through science and technology
 
-- **Dystopian**: in the future our incorrect techno-scientific ideas and devestation of the environment will force us to eat terrible foods
+- **Dystopian**: in the future over-population and environmental devastation will lead to food scarcity
 
-- **Romanticism**: in the past everything was better, presumably because of a lack of technology
+- **Romanticism**: in the past a low-tech society led to healthier lives and we should return to this life
 
-::: {.callout-note}
-These are all *visions*, imaginings of what the past was or future will be.
+::: {.fragment}
+::: {.callout}
+
+## Worldviews
+
+These are all *worldviews*, imaginings of what the past was or future will be.
 There are no guarantees that a given *technology* will be used for bad or good.
-There are also no guarantees that unknown natural things will help or harm us.
+There are also no guarantees that unknown *natural* things will help or harm us.
 
 Ideally, whatever is adopted will be *freely-chosen* by *informed* (not confused or coerced) individuals.
 The insects in Snowpiercer, the people in Soylent Green and the nutraloaf in prisons are not freely chosen.
 :::
+:::
 
 :::
 
-## The Argument From Nature
+## The Appeal to Nature
 
 **P1.** All natural things are good for me
 
@@ -98,11 +105,18 @@ The insects in Snowpiercer, the people in Soylent Green and the nutraloaf in pri
 
 **C.** This thing is good for me 
 
+::: {.fragment}
 ::: {.callout-warning}
-Logically, this argument is **valid** but not **sound**.
+
+## Why is this a Bad Argument?
 
 The conclusion *follows* from the premisses but
-it is not obvious that P1 and P2 are **true**.
+it is not obvious that the premisses are **true**.
+
+*Are all natural things good for you?*
+
+*Is it easy to identify natural things?*
+:::
 :::
 
 ---
@@ -121,92 +135,21 @@ What things are natural❓ Are all of those things good ⁉️
 
 
 :::{.fragment .fade-up .r-fit-text}
-We must be careful when using vague concepts, 
+We must be careful and precise if using vague concepts, 
 but widely-used notions like 'natural' may still be useful.
-Consider the example of 'nature-inspired design'.
+Consider the example of 'nature-inspired design' in biomimetics.
 :::
 
 ---
 
-## Questions to Consider
+## Foods of the Future (From History)
 
-1. Is it ever useful to use the term 'natural'?
-2. Food preservation stops a 'natural' process — is this bad?
-3. Are other vague terms like 'purity' useful?
-4. Do you think insects will ever be considered food?
+![](./img/victory_meat.jpg "Victory Meat WW2 Propaganda"){fig-align="center" width="60%" height="60%"}
 
-## Foods of the Future
-
-![](img/lobster.jpg){fig-align="center"}
-
-## Foods of the Future {auto-animate=true}
-
-```{.text code-line-numbers="1-5"}
-Programs intending to improve nutrition often fall short of expectations.
-
-One exception, however, occurred during the rationing years 
-of World War II when American citizens were encouraged to incorporate 
-protein-rich organ meats into their protein deficient diets.
-
-```
-
-## Foods of the Future {auto-animate=true}
-
-```{.text code-line-numbers="10-13"}
-Programs intending to improve nutrition often fall short of expectations.
-
-One exception, however, occurred during the rationing years 
-of World War II when American citizens were encouraged to incorporate 
-protein-rich organ meats into their protein deficient diets.
-
-Unfortunately, most of the insights resulting from these 
-efforts remained unpublished or in limited distribution.
-
-For the first time, selected studies from this era are 
-synthesized according to how they restructured social norms, 
-changed perceptions of taste, and helped assimilate variety 
-into their diets.
-```
-
-## Foods of the Future {auto-animate=true}
-
-```{.text code-line-numbers="17"}
-Programs intending to improve nutrition often fall short of expectations.
-
-One exception, however, occurred during the rationing years 
-of World War II when American citizens were encouraged to incorporate 
-protein-rich organ meats into their protein deficient diets.
-
-Unfortunately, most of the insights resulting from these 
-efforts remained unpublished or in limited distribution.
-
-For the first time, selected studies from this era are 
-synthesized according to how they restructured social norms, 
-changed perceptions of taste, and helped assimilate variety 
-into their diets.
-
-Behaviorally-driven implications from these “lost lessons” are
-discussed in the context of the empirical contributions they made in
-defining what makes an unfavorable food acceptable.
-```
-
-[Link to original paper](https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614)
+[Link to paper on changing food perceptions in WW2](https://journals.sagepub.com/doi/10.1509/jppm.21.1.90.17614)
 
 ---
 
-## Review Video(s)
+## General Explanations (next week)
 
-::: {.callout-tip}
-
-This video is a quick and convenient way of reviewing some concepts from the slides and lectures.
-
-:::
-
-<div style="text-align: center">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g8a8V6ipJdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
----
-
-## {background-iframe="https://edibotopic.github.io/stokes-law/" background-interactive="true"}
-
+<div class="sketchfab-embed-wrapper"> <iframe width="90%" height="500px" title="Busto de Augusto" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen" execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d6e1c254eb99457bbf16b5e7c9f8ddd0/embed?autospin=1&autostart=1&ui_hint=0"> </iframe> </div>
