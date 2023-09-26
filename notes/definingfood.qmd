@@ -35,7 +35,7 @@ This story is a tale of *progress* but some have argued that current societal pr
 ```
 </div>
 
-[📽️ Direct link to slides for this lecture](../slides/two/)
+[Direct link to slides for this lecture](../slides/two/)
 
 
 ## Product Types
