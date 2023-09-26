@@ -15,7 +15,7 @@ website:
           - index.qmd
       - section: "Ontology"
         contents:
-          # - notes/definingfood.qmd 
+          - notes/definingfood.qmd 
           # - notes/fourcauses.qmd
           # - notes/replacingfood.qmd
       - section: "Epistemology"
@@ -48,6 +48,7 @@ website:
           # - notes/reflections.qmd
           # - notes/interactions.qmd
           # - notes/syllabus.qmd
+          # - notes/partsandwholes.qmd 
       - notes/about.qmd
     tools:
       - icon: github
