@@ -51,23 +51,33 @@ They must be processed in a very controlled way using operations like distillati
 A bottle of whiskey and a protein supplement are both studied by food scientists while having completely different **functions**.
 While the supplement has a greater nutritional value it is itself difficult to characterise as "food" given that it is by definition *supplementary* to a diet consisting of a variety of foods.
 
+::: {.callout-tip}
+
+## Food as Multi-functional
+
+One of the things that makes food special is that it can have multiple functions.
+
+Can you list some?
+
+:::
+
 If we put aside whether these materials are food and just consider that food scientists are interested in "things that are consumed" we run into the problem of distinguishing foods from drugs.
 Indeed, while the food and pharmaceutical industries are distinct there is increasing overlap in some of their products, especially considering the emphasis now placed on biological functions of food products that are beyond basis nutrition.
 
 Few would argue that a calcium tablet is a "food" despite the fact that it contains a nutrient.
 Pharmaceuticals are traditionally associated with the treatment, control or prevention of disease.
-Yet newer "functional foods" often carry similar promises.
+Yet newer "functional foods" often carry similar promises of treating diseases, blurring the lines between food and drug.
 
 ## Our Idea of Food Changes
 
-One of the things that makes food difficult to define is that our idea of what consistutes food tends to evolve.
+One of the things that makes food difficult to define is that our idea of what constitutes food tends to evolve.
 With the introduction of new technologies — like 3D printing — our concept of food can be is challenged and updated.
 
 Scientists and engineers tend to be `utopian` in their attitude and imagine that all technological development will result in societal progress — they are optimistic about the future.
 Others are `dystopian` in their outlook, imagining a future in which technology has damaged society and the planet — they are pessimistic about the future.
 Still others have a `romantic` vision of the past, a better time when we were closer to nature — they wish for a future that is more like the past.
 
-All of these worldviews have their blindspots.
+All of these worldviews have their blind-spots.
 New technologies with promise can succeed but they can also fail.
 Traditional customs may be demonstrated to be helpful or harmful.
 Assuming that everything new is good (neophilia) or that everything natural is good (naturalistic fallacy) are both dangerous.
@@ -75,6 +85,8 @@ Assuming that everything new is good (neophilia) or that everything natural is g
 We must always look for reasons and evidence, while being careful about totalising worldviews.
 
 ## What Food Is
+
+For a short, helpul overview of some of the topics covered in initial lectures in this module you can [watch this video](https://youtu.be/g8a8V6ipJdo).
 
 ### Parts and Wholes
 
@@ -147,7 +159,7 @@ when making the statement that *all natural foods/medicines* are good.
 
 ::: {.callout-tip}
 
-## Be Precise
+## Being Precise About the Natural and Artificial
 
 Many of the things that we value are artificial (furniture, houses, clothing, careers, education, meals).
 Most people use words like 'natural' and 'artificial' to describe the world.
@@ -277,11 +289,26 @@ Ontologically, this material seems to meet the necessary conditions for being a 
 
 ### Factors to Consider
 
-- A food can only be successful in supplying nutrients if is deemed edible and can be eaten
-- The phenomenon of 'taste fatigue' is a recognised problem with meal-replacers and is known to cause nutritional deficiencies in other people in society
-- The idea that a single nutritionally complete food can be prepared for all adults is dubious given the complexity of food and individual dietary needs
-- Perceived risk is a major factor determining the decision of individuals to consume substances and a lack of trust can negatively affect consumption
-- One of the aspects of a diet that is valued by people is our ability to freely choose what should be in our diet
+- A food can only be successful in supplying nutrients if is deemed edible and
+can be eaten. Given Nutraloaf's poor sensory properties its nutritional
+function may not be expressed.
+- The phenomenon of 'taste fatigue' is a recognised problem with meal-replacers
+and is known to cause nutritional deficiencies in other people in society. If
+consider this to be a dangerous problem affecting people on restricted diets
+due to health issues why would we not consider it an issue with Nutraloaf.
+- The idea that a single nutritionally complete food can be prepared for all
+adults is dubious given the complexity of food and individual dietary needs.
+While Nutraloaf and other products may be described as "nutritionally complete"
+this claim should be interpreted with caution.
+- Perceived risk is a major factor determining the decision of individuals to
+consume substances and a lack of trust can negatively affect consumption. There
+is a legitimate question as to whether the procedure by which Nutraloaf is
+prepared is trusted by those who must eat it, especially if the ingredients
+used have mysterious origins.
+- One of the aspects of a diet that is valued by people is our ability to
+freely choose what should be in our diet. There are meal-replacers that can be
+purchased in supermarkets but people choose them for specific reasons, ideally
+in an informed manner.
 
 ### Questions to Consider
 
