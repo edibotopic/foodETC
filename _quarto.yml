@@ -44,7 +44,7 @@ website:
       - section: "Appendix"
         contents:
           - notes/slides.qmd
-          # - notes/review.qmd
+          - notes/review.qmd
           # - notes/reflections.qmd
           # - notes/interactions.qmd
           # - notes/syllabus.qmd
