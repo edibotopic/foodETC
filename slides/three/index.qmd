@@ -1,6 +1,6 @@
 ---
 title: "Food ETC"
-subtitle: "Four Causes"
+subtitle: "Four Causes (draft)"
 format:
   revealjs: 
     slide-number: true
@@ -135,18 +135,3 @@ This is less important in products like burgers and nuggets,
 which have a a more uniform structure due to processing.
 :::
 
-## Biomimetics: Other Examples
-
-- Infant formula
-- Fat substitutes
-- Milk replacement
-
-::: {.callout-note}
-
-The idea is not simply that "nature is better".
-
-`There are cases when natural structures can inform design`.
-
-A vegan beverage designer may have as much to learn from cow milk as a dairy scientist.
-
-:::
