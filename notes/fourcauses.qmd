@@ -1,5 +1,5 @@
 ---
-title: Four Causes 
+title: Four Causes (draft)
 slide-format: revealjs
 css: ../styles.css
 execute:
@@ -11,6 +11,10 @@ format:
   pdf: default
 format-links: [pdf]
 ---
+
+:::{.callout-warning}
+The notes and slides below are in a `draft` state and may be changed.
+:::
 
 In food science we are interested in *how to describe food*.
 We want to develop *models* for understanding the different kinds of food we might encounter.
