@@ -130,7 +130,7 @@ This is one way of defining what a *good food* is: a food that fulfils a well-de
 A food can also be multi-functional.
 For example, a protein bar is design to be 1. convenient and 2. nutritional.
 When evaluating whether a protein bar "works" we would need to evaluate it on at least these two criteria.
-It is not sufficient for a beverage that must be consumed through in hospital setting to have the right nutrients, as the liquid must also *function* such that it can flow reliably through a tube.
+It is not sufficient for a beverage that must be consumed through a tube-feeding apparatus in a hospital to have the right nutrients, as the liquid must also *function* such that it can flow reliably through that tube.
 
 :::{.callout-note}
 ## Functional food
