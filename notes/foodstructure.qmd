@@ -263,18 +263,6 @@ $$D_1S/D_1S^3$$
 
 Repeating bundles of one-dimensional ($D_1$) solid fibres, each dispersed in the other, the structure repeating approximately three times.
 
-::: {.callout-note}
-
-## Meat Structure as Repeating Fibres (click-through animation)
-
-To progress through the animation **click** on the image or **swipe left**.
-
-<iframe width="100%" height="280px" src="../slides/six/sozi/meat.sozi.html"></iframe>
-
-[🥩 Click here for full-screen version of animation of meat structure](../slides/six/sozi/meat.sozi.html)
-
-:::
-
 ::: {.callout-important}
 
 ## Expanding the Language
