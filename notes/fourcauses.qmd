@@ -1,24 +1,23 @@
 ---
-title: Four (be)Causes 
+title: Four Causes 
 slide-format: revealjs
 css: ../styles.css
 execute:
   echo: false
-search: false
+search: true
+format:
+  html:
+    toc: true
+  pdf: default
+format-links: [pdf]
 ---
 
-In food science we are of course interested in *how to describe food*.
+In food science we are interested in *how to describe food*.
 We want to develop *models* for understanding the different kinds of food we might encounter.
-If possible, we would also like to categorise foods with similar characteristics.
-An immediate challenge is that food is diverse and the abundance of scientific information about food is difficult to penetrate.
+Food is diverse and today there is an abundance of scientific information about food, making it difficult for people (including students) to know where to start.
 
 In this lecture we will discuss a simple *ontological* model from ancient times that is useful for framing our thinking about food research and design.
 The model comes from *Aristotle*, a natural philosopher and polymath from ancient Greece.
-Aristotle was skeptical of theories like atomism that were emerging in his time, which suggested that reality could be described by reference to fundamental part(icle)s.
-He did not think that such theories were sufficient to describe simple everyday objects like tables and statues.
-As an alternative method of explanation he developed the **Four Causes**, which he outlined in detail in lectures that were recorded by his students and compiled into a book called *Metaphysics*.
-
-> *meta* directly translates as *after* and here referred to the fact that Aristotle's lectures on these topics came literally *after* those he delivered on *Physics*. In modern usage metaphysics (and the related field of ontology) has come to mean the study of physical concepts that are beyond the scope of physics. The philosopher of science [Karl Popper](https://plato.stanford.edu/entries/popper/) considered that the ancient atomists who proposed the existence of atoms were doing metaphysics because they could not investigate atoms in a way that we would now consider scientific. While metaphysical questions ("Is the world made of atoms?", "What causes must be considered to describe an object?") may be impossible to study scientifically at one point they may later stimulate scientific research, at which point people cease to refer to them as metaphysical questions and consider them science (as was the case with atoms).
 
 <div>
 ```{=html}
@@ -26,52 +25,18 @@ As an alternative method of explanation he developed the **Four Causes**, which 
 ```
 </div>
 
-[📽️ Direct link to slides for this lecture](../slides/three/)
-
-## Science of the Artificial
-
-Broadly speaking, in the history of Western civilisation there have been two approaches to understanding the world:
-
-- **Rationalism**: the use of mental reasoning to discover truths about the world
-- **Empiricism**: the use of sense experience to understand truths about the world
-
-Aristotle's teacher Plato is thought of as a rationalist.
-Plato's *Theory of Forms* suggested that there were ideal forms, such as the circle, which we only experienced imperfect representations of in daily life.
-For Plato, studies like mathematics (which relied on mental reasoning rather than physical observation) allowed us to glimpse these ideal forms.
-Aristotle was more grounded and in several ways resembled what we understand today as a scientist.
-For example, Aristotle did extensive studies on animals and plants that are collected in his biological works.
-
-::: {.callout-note}
-
-Being *empirical* does not necessarily mean being *scientific*.
-Empiricism places a value on sense experience of reality (what can be observed through sight, smell, sound, etc.).
-
-While scientific studies are often sparked by these experiences, scientists typically design experiments to develop an understanding of their **causes**, which may not be observable (at least not without sophisticated equipment).
-
-In general, scientists value sense experience as a guide but also understand that it can and does mislead us.
-:::
-
-By placing a value on what can be studied through direct observation, Aristotle was more *empirical* than someone like Plato.
-Another important thing to realise about Aristotle is that many of the examples he cites are *artificial* objects.
-Up until the 19th century works like those of Aristotle were referred to as "natural philosophy".
-Modern "natural science", with its specialised disciplines, rigorous conventions and emphasis on experiments largely displaced natural philosophy.
-The presence of "natural" in natural philosophy and natural science reflects that they are both generally concerned with understanding the nature of physical reality rather than human concerns, such as art and politics.
-However, even when doing natural philosophy, Aristotle used many examples from crafts and technology (things that people made for a purpose).
-Some of the models Aristotle developed have an obvious and uncontroversial application to objects like tables and cars but are more problematic when applied to science *per se*.
-Keep in mind then that the *Four Causes* is being treated here as a model for understanding **technology (artificial systems)** rather than a philosophy of science.
-
----
+[Direct link to slides for this lecture](../slides/three/)
 
 ## The Four Causes
 
 Aristotle existed at a time when thinkers first began to imagine that the world was constructed from simple building blocks (atoms).
-To Aristotle, this was a *reductive* explanation.
+To Aristotle, this was a *reductive* explanation that neglected other aspects that were required to explain the world.
 In his writings he considered everyday objects like statues and asked:
 
 > How can we fully describe what makes this thing called a "statue" a statue?
 
 He suggested that such questions are usually answered with an appeal to four causes.
-We can think of these as four (be)causes, as in *this object is what it is **because** of these four things*.
+We can think of these as four (be)causes, *this object is what it is **because** of these four aspects*.
 The four causes were: **the material cause**, **the formal cause**, **the efficient cause** and **the final cause**.
 To simplify this terminology we will use the following scheme:
 
@@ -80,32 +45,8 @@ To simplify this terminology we will use the following scheme:
 - *Process*: referring to the efficient cause
 - *Function*: referring to the functional cause
 
-When thinking about any food product, food processing device or technology in general our description of it should account for these four causes (at a minimum) if we want to give a *complete explanation*.
-They are briefly described in the following.
+When thinking about any food product *in general* our description of it should account for these four causes (at a minimum) if we want to give a *complete explanation*.
 
-::: {.callout-tip}
-
-## Food Architecture
-
-In his recent book *Future Foods*, Prof. Julian McClements — a well-known food scientist — draws a comparison between the work of food technologists and the work of architects (extracts are from page 30 of the 2019 edition):
-
-> The creation of foods in home, restaurant, and research kitchens has many similarities to the design and fabrication of buildings.
-> [...] food architects must choose the most appropriate building materials (ingredients) and assembly procedures (recipes) to construct the final product
-
-It is worth noting that when an architect designs a bridge they are not merely thinking of how much cement and iron is needed, the associated costs and time required for manufacture (pragmatic aspects).
-The most famous architects are also highly imaginative and design structures that people enjoy, that are considered beautiful and that become cultural icons.
-
-> [...] mass-produced homes and foods allowed many people to experience a level of luxury and convenience they had not been able afford before. What they lacked in novelty and refinement, they made up for in greater social inclusiveness.
-> The challenge in the future is to create mass-produced houses and foods that also speak to our souls.
-
-Many architects are comfortable with the idea that the aesthetics of a building are important, but this type of thinking makes many food technologists uncomfortable ("We are scientists, not artists!").
-The comparison made by McClements might suggest that we should consider our role a little differently and consider the variety of ways in which food can be meanginful to people in their daily lives.
-
-There is also a strong tradition in architecture of developing theories of how architects should approach their work.
-A famous example is the principle that **form follows function**, which basically means that how something that we design looks should reflect what it is supposed to do.
-*This principle emphasis two of Aristotle's four causes and places the emphasis on function.*
-
-:::
 
 ### Matter
 
@@ -130,6 +71,28 @@ For example, the pulp, seeds, stem and skin of the apple all exist in a specific
 Form is perhaps the broadest of Aristotle's concepts and is often suggested to be the *essence* of a thing (what makes it what it is).
 For example, a table can be made from plastic, steel or wood as long is has a structure that allows you to place objects on its elevated, flat surface.
 This is known as *multiple realisability*, which here means that tables can be made of multiple different materials but need to have the same underlying structure in order to work. 
+
+::: {.content-visible when-format="html"}
+::: {.callout-note}
+
+## Meat Structure as Repeating Fibres (click-through animation)
+
+To progress through the animation **click** on the image or **swipe left**.
+
+<iframe width="100%" height="280px" src="../slides/three/sozi/meat.sozi.html"></iframe>
+
+[Click here for full-screen version of animation of meat structure](../slides/six/sozi/meat.sozi.html)
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+::: {.callout-note}
+
+## Meat Structure as Repeating Fibres (click-through animation)
+
+[Click here for a link to a simple animation (opens in browser)](../slides/six/sozi/meat.sozi.html)
+:::
+:::
 
 ### Process
 
@@ -206,29 +169,6 @@ Consider a vitamin D-enriched nutrition beverage:
 To design a functioning product we need knowledge of what the product will do (its function), what ingredients we need (the matter),
 what structure and qualities the ingredients generate (the form) and what operations will be necessary to produce it (the process).
 
-## Structure and Reality
-
-What I just described in the previous section is basically a restatement of an ancient model for understanding the world attributed to Aristotle.
-
-:::{.callout-note}
-## Aristotle
-
-Aristotle is one of the most famous ancient philosophers and is considered the most influential *natural philosopher*, which was the precursor to the modern concept of the scientist.
-
-He is known for the writing influential books on most topics you can imagine, including physics, politics, biology, psychology and astronomy.
-:::
-
-One of the general problems that interested Aristotle was:
-
-> how can we provide good explanations?
-
-He grew frustrated at the explanations that were being provided around him.
-When asked "What is a statue?" someone might say it was a lump of stone or marble (matter), another that it was a person-shaped object (form) and another that it was the product of sculpting (process).
-
-Aristotle suggested that an *exhaustive* account of a statue would have to include at least these three aspects. He also thought that the object's function or *telos* (Greek for "end" or "function") is also essential to any description.
-
-Some statues were crafted to pay homage to a great citizen, others in praise of a God and others to ridicule a defeated enemy. These different functions would have to be considered when evaluating whether a given statue was a good one.
-
 ::: {.callout-note}
 
 ## The Four Causes in Design Thinking
@@ -272,6 +212,89 @@ For example, consider the second case:
 We now have a more full description of this material.
 Each aspect could be described in more detail, depending on your knowledge of the product and the context in which you are working.
 
+::: {.callout-tip}
+
+## Food Architecture?
+
+In his recent book *Future Foods*, Prof. Julian McClements — a well-known food scientist — draws a comparison between the work of food technologists and the work of architects (extracts are from page 30 of the 2019 edition):
+
+> The creation of foods in home, restaurant, and research kitchens has many similarities to the design and fabrication of buildings.
+> [...] food architects must choose the most appropriate building materials (ingredients) and assembly procedures (recipes) to construct the final product
+
+It is worth noting that when an architect designs a bridge they are not merely thinking of how much cement and iron is needed (`material`).
+They must also consider the cost and time required for building (`process`).
+The most famous architects are also highly imaginative, designining structures with interesting shapes, patterns and textures (`form`).
+People using and viewing these creations, they might come to be considered beautiful and may even become cultural icons (`function`).
+
+> [...] mass-produced homes and foods allowed many people to experience a level of luxury and convenience they had not been able afford before. What they lacked in novelty and refinement, they made up for in greater social inclusiveness.
+> The challenge in the future is to create mass-produced houses and foods that also speak to our souls.
+
+Many architects are comfortable with the idea that the aesthetics of a building are important, but this type of thinking makes many food technologists uncomfortable ("We are scientists, not artists!").
+The comparison made by McClements might suggest that we should consider our role a little differently and consider the variety of ways in which food can be meanginful to people in their daily lives.
+
+There is a strong tradition in architecture of developing theories of how architects should approach their work.
+A famous example is the principle that **form follows function**, which suggests that how something looks (form) should reflect what it is supposed to do (function).
+Could similar principles be followed in food design?
+:::
+
+## Background
+
+Aristotle is one of the most famous ancient philosophers and is considered the most influential *natural philosopher*, which was the precursor to the modern concept of the scientist.
+
+He is known for the writing influential books on most topics you can imagine, including physics, politics, biology, psychology and astronomy.
+
+One of the general problems that interested Aristotle was:
+
+> how can we provide good explanations?
+
+He grew frustrated at the explanations that were being provided around him.
+When asked "What is a statue?" someone might say it was a lump of stone or marble (matter), another that it was a person-shaped object (form) and another that it was the product of sculpting (process).
+
+Aristotle suggested that an *exhaustive* account of a statue would have to include at least these three aspects. He also thought that the object's function or *telos* (Greek for "end" or "function") is also essential to any description.
+
+Some statues were crafted to pay homage to a great citizen, others in praise of a God and others to ridicule a defeated enemy. These different functions would have to be considered when evaluating whether a given statue was a good one.
+
+Aristotle was skeptical of theories like atomism that were emerging in his time, which suggested that reality could be described by reference to fundamental part(icle)s.
+He did not think that such theories were sufficient to describe simple everyday objects like tables and statues.
+As an alternative method of explanation he developed the **Four Causes**, which he outlined in detail in lectures that were recorded by his students and compiled into a book called *Metaphysics*.
+
+> *meta* directly translates as *after* and here referred to the fact that Aristotle's lectures on these topics came literally *after* those he delivered on *Physics*. In modern usage metaphysics (and the related field of ontology) has come to mean the study of physical concepts that are beyond the scope of physics. The philosopher of science [Karl Popper](https://plato.stanford.edu/entries/popper/) considered that the ancient atomists who proposed the existence of atoms were doing metaphysics because they could not investigate atoms in a way that we would now consider scientific. While metaphysical questions ("Is the world made of atoms?", "What causes must be considered to describe an object?") may be impossible to study scientifically at one point they may later stimulate scientific research, at which point people cease to refer to them as metaphysical questions and consider them science (as was the case with atoms).
+
+
+## Science of the Artificial
+
+Broadly speaking, in the history of Western civilisation there have been two approaches to understanding the world:
+
+- **Rationalism**: the use of mental reasoning to discover truths about the world
+- **Empiricism**: the use of sense experience to understand truths about the world
+
+Aristotle's teacher Plato is thought of as a rationalist.
+Plato's *Theory of Forms* suggested that there were ideal forms, such as the circle, which we only experienced imperfect representations of in daily life.
+For Plato, studies like mathematics (which relied on mental reasoning rather than physical observation) allowed us to glimpse these ideal forms.
+Aristotle was more grounded and in several ways resembled what we understand today as a scientist.
+For example, Aristotle did extensive studies on animals and plants that are collected in his biological works.
+
+::: {.callout-note}
+
+Being *empirical* does not necessarily mean being *scientific*.
+Empiricism places a value on sense experience of reality (what can be observed through sight, smell, sound, etc.).
+
+While scientific studies are often sparked by these experiences, scientists typically design experiments to develop an understanding of their **causes**, which may not be observable (at least not without sophisticated equipment).
+
+In general, scientists value sense experience as a guide but also understand that it can and does mislead us.
+:::
+
+By placing a value on what can be studied through direct observation, Aristotle was more *empirical* than someone like Plato.
+Another important thing to realise about Aristotle is that many of the examples he cites are *artificial* objects.
+Up until the 19th century works like those of Aristotle were referred to as "natural philosophy".
+Modern "natural science", with its specialised disciplines, rigorous conventions and emphasis on experiments largely displaced natural philosophy.
+The presence of "natural" in natural philosophy and natural science reflects that they are both generally concerned with understanding the nature of physical reality rather than human concerns, such as art and politics.
+However, even when doing natural philosophy, Aristotle used many examples from crafts and technology (things that people made for a purpose).
+Some of the models Aristotle developed have an obvious and uncontroversial application to objects like tables and cars but are more problematic when applied to science *per se*.
+Keep in mind then that the *Four Causes* is being treated here as a model for understanding **technology (artificial systems)** rather than a philosophy of science.
+
+---
+
 :::{.callout-warning}
 Aristotle was a great thinker and continues to influence scientists, philosophers and mathematicians today. However, there have always been those that disagree with his ideas and we must be careful not to extend them to areas where they do not work well.
 
@@ -286,10 +309,6 @@ Versions of the four causes are most commonly found among **designers** who are 
 
 When using the four causes as a heuristic, it is important to keep in mind that it is most appropriate when guiding how we approach questions concerning technology (making things for people) rather than science (understanding nature).
 :::
-
-Consider some different foods or ingredients and how they might be defined according to the Four Causes?
-Are there some cases where you can only adequately describe a fraction of the four – what does this suggest?
-Should there be fifth, sixth or seventh causes to account for other important factors — what could they be?
 
 ## References
 
