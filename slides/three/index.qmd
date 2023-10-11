@@ -1,6 +1,6 @@
 ---
 title: "Food ETC"
-subtitle: "Four Causes (draft)"
+subtitle: "Four Causes"
 format:
   revealjs: 
     slide-number: true
@@ -17,22 +17,51 @@ css: "../anim.css"
 ---
 
 ## Giving Explanations {transition="zoom"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<div class="sketchfab-embed-wrapper"> <iframe width="100%" height="400px" title="Busto de Augusto" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen" execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d6e1c254eb99457bbf16b5e7c9f8ddd0/embed?autospin=1&autostart=1&ui_hint=0"> </iframe> </div>
+:::
  
+::: {.column width="40%" .r-fit-text}
 **Question:** what is a statue?
 
 **Answer**: ❓❓❓
 
-<div class="sketchfab-embed-wrapper"> <iframe width="60%" height="400px" title="Busto de Augusto" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen" execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d6e1c254eb99457bbf16b5e7c9f8ddd0/embed?autospin=1&autostart=1&ui_hint=0"> </iframe> </div>
+*Not just what it's made of (materialism)*
 
-##  {background-image="img/museum_lobby.png" background-transition="zoom"}
+*Not just what it looks like (formalism)*
 
-##  {background-image="img/museum_block.png" background-transition="fade" background-transition-speed="slow"}
+*Not just what it does (functionalism)*
 
-##  {background-image="img/museum_tool.png" background-transition="fade" background-transition-speed="slow"}
+---
 
-##  {background-image="img/museum_head.png" background-transition="fade" background-transition-speed="slow"}
+Some combination of the above?
+:::
+::::
 
-##  {background-video="vids/museum_fetti.mp4" background-transition="fade" background-transition-speed="slow"}
+
+## Architecture
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<iframe loading="lazy" style="border: 0;" tabindex="0" src="https://www.google.com/maps/embed?pb=!4v1591475049841!6m8!1m7!1sVssiHdlg30e-gYLTQB7VwA!2m2!1d51.89217951890343!2d-8.494068922710587!3f363.02755383612714!4f3.335793680010596!5f0.4000000000000002" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe>
+:::
+
+::: {.column width="40%" .r-fit-text}
+> The creation of foods in home, restaurant, and research kitchens has many similarities to the design and fabrication of buildings.
+> [...] food architects must choose the most appropriate building materials and assembly procedures to construct the final product.
+> 
+> from *Future Foods* (McClements)
+:::
+
+::::
+
+::: {.r-fit-text}
+[Cork’s ugliest building is University College Cork’s Kane Science Building](https://www.thecork.ie/2020/06/06/corks-ugliest-building-is-university-college-corks-science-kane-building/)
+:::
 
 ##  {background-color=black}
 
@@ -94,13 +123,20 @@ style="float: right;">
 </div>
 ```
 
+:::{.r-fit-text .fragment}
+These aspects may be inter-dependent, e.g., for nutrients 
+to serve their nutritional function we may need to trust
+the manufacture of the product and find the product attractive.
+*Consider Nutraloaf for example.*.
+:::
+
 ---
 
-## Structure of Food Science ... {background-color=black}
+## Where Food Science is Written {background-color=black}
 
 ![](img/FS_CAUSES.jpg)
 
-## Biomimetics
+## Meat-replacement Example
 
 > The mimicking of natural biological structures in the design of functional materials
 
@@ -128,10 +164,14 @@ style="float: right;">
 :::
 
 ::: {.callout}
-There are specific reasons we might want to replace meat (`sustainability`).
-By studying real meat closely we can determine how to replace it effectively.
-An important aspect is recreating the fibrous structure of meat.
-This is less important in products like burgers and nuggets,
-which have a a more uniform structure due to processing.
+There are specific reasons we might want to replace meat (*sustainability*).
+By studying meat closely we can determine how to replace it effectively.
+An important aspect is recreating its fibrous `structure`. 
+There is a need to find plant-based `materials` high in protein and a
+`process` to form them into that structure.
+If successful the product will `function` as expected.
 :::
 
+::: footer
+
+:::
