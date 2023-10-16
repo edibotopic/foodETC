@@ -12,7 +12,8 @@ If lectures do not have accompanying slides it is because the lectures were deli
 
 [Ontology 1](../slides/two/)
 
-<!-- [Ontology 2](../slides/three/) -->
+[Ontology 2](../slides/three/)
+
 <!-- [Ontology 3](../slides/four/) -->
 <!-- [Epistemology 1&2](../slides/five/) -->
 <!-- [Technology 1](../slides/seven/) -->
