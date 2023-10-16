@@ -85,7 +85,7 @@ To progress through the animation **click** on the image or **swipe left**.
 
 <iframe width="100%" height="280px" src="../slides/three/sozi/meat.sozi.html"></iframe>
 
-[Click here for full-screen version of animation of meat structure](../slides/six/sozi/meat.sozi.html)
+[Click here for full-screen version of animation of meat structure](../slides/three/sozi/meat.sozi.html)
 :::
 :::
 
