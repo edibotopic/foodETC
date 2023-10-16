@@ -8,11 +8,13 @@ execute:
 This section will be updated with short videos, animations and links explaining some concepts from the class.
 These might be especially helpful if you want to quickly review a difficult concept or area.
 
-## Ontology & Epistemology
+## Semester 1
 
-[Short video explaining general approaches to studying complex food systems](https://youtu.be/g8a8V6ipJdo)
+1. [Short video explaining general approaches to studying complex food systems](https://youtu.be/g8a8V6ipJdo)
 
-[Interactive simulation of floating/sedimentation behaviour in a dispersed system](https://edibotopic.github.io/stokes-law/)
+2. [Interactive simulation of floating/sedimentation behaviour in a dispersed system](https://edibotopic.github.io/stokes-law/)
+
+3. [Short video on food science in the context of sustainability](https://youtu.be/DGg9rAQY2h0?feature=shared)
 
 <!-- [Short video on 3D printing, biomimetics and the four causes](https://youtu.be/ABfOkQWphog) -->
 
