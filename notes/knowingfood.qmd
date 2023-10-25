@@ -1,11 +1,15 @@
 ---
-title: Knowing Food
+title: Knowing Food (draft)
 slide-format: revealjs
 css: ../styles.css
 execute:
   echo: false
 search: false
 ---
+
+:::{.callout-warning}
+The notes and slides below are in a `draft` state and may be changed.
+:::
 
 How do we obtain *knowledge* about food?
 What makes information about food and diet reliable?
@@ -18,7 +22,7 @@ Approaching food like a scientist, a designer or a chef may involve different wa
 
 <div>
 ```{=html}
-<iframe class="slide-deck" src="../slides/five/"></iframe>
+<iframe class="slide-deck" src="../slides/four/"></iframe>
 ```
 </div>
 
@@ -283,7 +287,7 @@ His test, on the other hand, was tractable:
 
 > Can a machine convince someone that it is a person?
 
-Today, with modern advances in AI it is arguably the case that machines can pass the Turing test; however, the question of whether machines can think is prhaps still beyond us.
+Today, with modern advances in AI it is arguably the case that machines can pass the Turing test; however, the question of whether machines can think is perhaps still beyond us.
 
 :::
 
