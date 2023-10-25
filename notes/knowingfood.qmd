@@ -5,6 +5,11 @@ css: ../styles.css
 execute:
   echo: false
 search: false
+format:
+  html:
+    toc: true
+  pdf: default
+format-links: [pdf]
 ---
 
 :::{.callout-warning}
@@ -26,12 +31,27 @@ Approaching food like a scientist, a designer or a chef may involve different wa
 ```
 </div>
 
-[📽️ Direct link to slides for this lecture](../slides/five/)
+[Direct link to slides for this lecture](../slides/five/)
 
 In earlier lectures we saw how while the nutritional properties of food are critical,
 food is *more than* a collection of nutrients.
 Consider the factors that consumers deem important when purchasing a food product (from [McClement's *Future Foods*](https://link.springer.com/book/10.1007/978-3-030-12995-8)):
 
+::: {.content-visible when-format="pdf"}
+
+::: {.callout-warning}
+
+A figure is shown here in the online version.
+
+The figure will be added to a later version of the `.pdf` but is currently unavailable.
+
+For now, please refer to the web version as needed.
+
+:::
+
+:::
+
+::: {.content-visible when-format="html"}
 <div style="display: table margin-right: auto; margin-left: auto"> <!-- TODO: add to CSS -->
 
 ```{ojs}
@@ -57,6 +77,7 @@ Plot.plot({
 
 ```
 </div>
+:::
 
 Health is but one aspect of this picture, and nutrition is just one aspect of health.
 When choosing any food it is important to *know* firstly that it is safe.
@@ -79,7 +100,7 @@ It should be possible to determine if these statements are true/false or probabl
 
 Science excels at providing us with facts that allow us to declare things about the world; in turn, this can allow us to understand recipes better, potentially improve them and possibly invent new ones.
 
-::: {.callout-warning}
+::: {.callout-note}
 
 Both types of knowledge have their weaknesses.
 
