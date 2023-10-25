@@ -1,6 +1,7 @@
 ---
-title: "Epistemology"
-subtitle: "Knowing Food"
+title: "Replacing Food"
+author: "Dr Shane Crowley"
+subtitle: "Possible, Desirable?"
 format:
   revealjs: 
     slide-number: true
@@ -15,175 +16,120 @@ format:
 search: false
 ---
 
-## Omnivore's Dilemma (nature)
+## {background-video="vids/bottled_food_c.mp4"}
 
-![](img/koala.jpg){fig-align="center" width="70%" height="70%"}
+## {background-iframe="http://web.archive.org/web/20170316060410/http://robrhinehart.com/?p=298"}
 
-:::{.aside}
-Potential diversity of human diet creates tension between **neophilia** 🍍 and **neopobia** 💀.
+---
+
+![](img/soylent_end.png)
+
+---
+
+![](img/soylent_wired.png)
+
+---
+
+![](img/soylent_ft.png)
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+<iframe style="padding-top: 130px" title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" align="center" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000002907606"></iframe>
+:::
+
+::: {.column width="60%"}
+![](img/soylent_newproduct.png)
+
+:::
+
+::::
+
+---
+
+![](img/soylent_changes.png)
+
+## Web Search Trends
+
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3045_RC01/embed_loader.js"></script>
+<script type="text/javascript">
+trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"soylent","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"huel","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"meal replacement","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"slimfast","geo":"","time":"2010-07-25 2022-08-25"}],"category":0,"property":""}, {"exploreQuery":"date=2010-07-25%202022-08-25&q=soylent,huel,meal%20replacement,slimfast","guestPath":"https://trends.google.com:443/trends/embed/"});
+</script>
+
+## Interest by Region
+
+<script type="text/javascript">
+trends.embed.renderExploreWidget("GEO_MAP_0", {"comparisonItem":[{"keyword":"soylent","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"huel","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"meal replacement","geo":"","time":"2010-07-25 2022-08-25"},{"keyword":"slimfast","geo":"","time":"2010-07-25 2022-08-25"}],"category":0,"property":""}, {"exploreQuery":"date=2010-07-25%202022-08-25&q=soylent,huel,meal%20replacement,slimfast","guestPath":"https://trends.google.com:443/trends/embed/"});
+</script>
+
+---
+
+![](img/soylent_reddit.png)
+
+---
+
+![](img/soylent_diy.png)
+
+---
+
+::: {.fragment .fade-down}
+::: {.callout-important}
+
+## Universal Versus Niche Technologies
+
+Soylent was initially marketed as a complete meal-replacement.
+Much of its notoriety arises from the perceived *universality* of this claim.
+However, such technologies can be undeniably useful in specific contexts.
+:::
+:::
+
+::: {.fragment .fade-right}
+::: {.callout-tip}
+
+## Techno-optimism and Romanticism
+
+In a Soylent future people have more time to be productive, but not everyone places the same value on *productivity*.
+Critics argued that Soylent was "strange" but often appealed to nature or vague concepts (wholeness).
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.callout-note}
+
+## Legitimate Issues with the Technology
+
+It is unwise to suggest that the the nutritional complexity of a diverse diet can be replicated in a beverage.
+There are also known problems with successfully incorporating nutrients into processed food products.
+These are major challenges with obvious trade-offs.
+:::
 :::
 
 ---
 
-## Omnivore's Dilemma (culture)
-
-![](img/supermarket.jpg){fig-align="center" width="70%" height="70%"}
-
-:::{.aside}
-Critics argue that it has become difficult to *know* what food to choose (because of science)
-:::
+![](img/soylent_ensure.png)
 
 ---
 
-## Doctrine of Signatures (a device)
-
-![](img/eye.jpg){ fig-align="center" width="60%" height="60%"}
-
-:::{.aside}
-Argument that we can get sufficient *knowledge* about food through senses and tradition
-:::
-
----
-
-## Scientists Doing Philosophy? 
-
-:::{.r-fit-text}
-> More fundamentally, one finds the origin of reductionism in René Descartes (a French scholar of the sixteenth century) who viewed reality as the sum of components that could be divided into isolated entities, applying a mechanistic vision of the world. According to him, this decomposition and the resulting simplification would lead to the most appropriate explanation 
-> [...] Contrary to reductionism, holism is defined broadly by the view that a phenomenon is an indivisible whole and that the sum of its parts is not sufficient to define it. In other words, the whole is more than the sum of its parts, i.e., 1 + 1 > 2
->
-> — Anthony Fardet & Edmond Rock
-:::
-
-:::{aside}
-[From a Reductionist to a Holistic Approach in Preventive Nutrition to Define New and More Ethical Paradigms](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4934630/)
-:::
-
----
-
-![](img/duck.jpg "Reductionist depiction of a duck"){fig-align="center"}
-
----
-
-## Appeal to Naturalness/Wholeness
-
-![](img/chobini.png){ fig-align="center" width="40%" height="40%"}
-
-:::{.aside}
-Company that *employs scientists* using marketing that downplays science
-:::
+<iframe width="100%" height="100%" class="slide-deck" src="soylent_bot.pdf"></iframe>
 
 ---
 
 
-## Scientific Cooking
 
-:::{.r-fit-text}
-> Take, for example, an eighteenth century book that advises us to cover the pan when beef is cooked with water to produce stock (Albert, 1838). If this recommendation is correct, why? And if it is not, why did someone write this sentence more than 150 years ago? To answer this question, we can use tools from physics, chemistry and biology—for example, the microscope, the thermometer and the gas chromatograph—to investigate the processes that take place during cooking. If we can answer the question, we can correct a mistake, use this knowledge to improve the cooking process or even invent new dishes or ways to prepare food.
->
-> — Hervé This  
-:::
+## Links {.smaller}
 
-:::{.aside}
-[Food for tomorrow? How the scientific discipline of molecular gastronomy could change the way we eat](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1679779/)
-:::
+- [New Yorker article on the "end of food"](https://www.newyorker.com/magazine/2014/05/12/the-end-of-food)
+- [NYT article on Soylent's shift in focus](https://www.nytimes.com/2019/04/18/style/soylent-squared-food-bars.html)
+- [NYT article on the taste of Soylent](https://www.nytimes.com/2014/05/29/technology/personaltech/the-soylent-revolution-will-not-be-pleasurable.html)
+- [Wired article describing use of Huel and Soylent](https://www.wired.co.uk/article/huel-soylent-meal-replacement-drinks)
+- [Food Navigator article on Soylent's rollercoaster business](https://www.foodnavigator-usa.com/Article/2021/07/28/Soylent-now-profitable-firing-on-all-cylinders-says-CEO-after-rollercoaster-year-We-had-to-make-dramatic-changes-or-we-would-have-run-out-of-cash)
+- [Forbes article on Soylent's business troubles](https://www.forbes.com/sites/christinatroitino/2020/02/18/is-soylent-down-to-its-last-drop/?sh=5f5fca1b6e23)
+- [Discover article on Soylent's nutritional claims](https://www.discovermagazine.com/health/can-we-move-beyond-food)
+- [FT article on Silicon Valley and meal repalcement](https://www.ft.com/content/14faf26a-2680-4c02-a3aa-acaf69e415f7)
+- [UCC study on nutritional supplements](https://www.itjfs.com/index.php/ijfs/article/view/1825)
 
----
-
-## Recipe Linter (experimental)
-
-![](img/recipe_errors.png)
-
----
-
-:::{.r-stack}
-![](img/cautery.jpg)
-![](img/gaston.jpg)
-:::
-
-:::{.aside}
-Recipes often include vague instructions, rules-of-thumb and inaccuracies
-:::
-
----
-
-:::{.r-stack}
-![](img/Maillard.jpg)
-![](img/maillard_health.png){.fragment width="30%" height="30%"}
-![](img/maillard_bread.jpg){.fragment width="25%"}
-:::
-
-:::{.aside}
-A feature of **scientific knowledge** is that it can be generalised
-:::
-
----
-
-## Applying Knowledge
-
-<p style="text-align: center">
-<iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/rhrQT_9OpC0" frameborder="0" allowfullscreen></iframe>
-</p>
-
-:::{.aside}
-Knowing underlying mechanistic causes can empower decision-making
-:::
-
----
-
-## Traditional Knowledge
-
-![](img/boneOrMoon.png){fig-align="center" width="65%" height="65%"}
-
-:::{.aside}
-There is a lot of knowledge in the world, science often *rediscovers* old ideas
-:::
-
----
-
-## "New-trition"
-
-![](img/starch.png){fig-align="center"}
-
-## Food Fortification
-
-<div style="display: table; margin-right: auto; margin-left: auto"> <!-- TODO: add to CSS -->
-
-```{ojs}
-
-years = [
-  {deaths: 3250, year: "'38"},
-  {deaths: 2480, year: "'39"},
-  {deaths: 2250, year: "'40"},
-  {deaths: 1800, year: "'41"},
-  {deaths: 1510, year: "'42"},
-  {deaths: 1500, year: "'43"},
-  {deaths: 1490, year: "'44"},
-  {deaths: 1005, year: "'45"},
-  {deaths: 800, year: "'46"},
-  {deaths: 750, year: "'47"},
-  {deaths: 650, year: "'48"},
-  {deaths: 600, year: "'49"},
-  {deaths: 250, year: "'50"},
-  {deaths: 240, year: "'51"},
-  {deaths: 250, year: "'52"},
-  {deaths: 220, year: "'53"},
-  {deaths: 80, year: "'54"}
-]
-
-Plot.plot({
-  y: {domain: [0,3300], label: "deaths (%)"},
-  x: {label: "year (1900+)"},
-
-  marks: [
-    Plot.barY(years, {y: "deaths", x: "year", fill: d => d.deaths}),
-    Plot.ruleY([0])
-  ]
-
-})
-
-```
-</div>
-
-:::{.aside}
-Not always an obvious solution, but perhaps it was a *simple* problem (single cause)?
+::: {.callout-warning}
+Many of the reports defending Soylent or attacking Soylent are based on anecdotal evidence or $n=1$ studies.
 :::
