@@ -17,15 +17,15 @@ website:
         contents:
           - notes/definingfood.qmd 
           - notes/fourcauses.qmd
-          # - notes/replacingfood.qmd
       - section: "Epistemology"
         contents:
-          # - notes/knowingfood.qmd
+          - notes/knowingfood.qmd
           # - notes/thinkingfood.qmd
       - section: "Structure"
         contents:
             # - notes/foodstructure.qmd
             # - notes/foodcomp.qmd
+            # - notes/replacingfood.qmd
       - section: "Technology"
         contents:
             # - notes/foodtech.qmd
