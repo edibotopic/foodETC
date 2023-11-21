@@ -4,7 +4,7 @@ slide-format: revealjs
 css: ../styles.css
 execute:
   echo: false
-search: false
+search: true
 format:
   html:
     toc: true
