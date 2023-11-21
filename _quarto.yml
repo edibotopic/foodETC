@@ -20,10 +20,10 @@ website:
       - section: "Epistemology"
         contents:
           - notes/knowingfood.qmd
+          - notes/foodstructure.qmd
           # - notes/thinkingfood.qmd
-      - section: "Structure"
+      - section: "Food Science"
         contents:
-            # - notes/foodstructure.qmd
             # - notes/foodcomp.qmd
             # - notes/replacingfood.qmd
       - section: "Technology"

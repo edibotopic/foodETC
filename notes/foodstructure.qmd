@@ -1,5 +1,5 @@
 ---
-title: Parts & Relations
+title: Structure
 slide-format: revealjs
 css: ../styles.css
 execute:
@@ -7,9 +7,16 @@ execute:
 search: true
 ---
 
+::: {.callout-warning}
+
+These notes are in a draft state and may be subject to
+some minor changes in the future.
+
+:::
+
 ::: {.callout-note}
 
-There are no slides associated with this set of notes, which themselves contain a variety of interactive elements.
+There are no slides associated with this lecture.
 
 :::
 
