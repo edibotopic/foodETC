@@ -5,6 +5,11 @@ css: ../styles.css
 execute:
   echo: false
 search: true
+format:
+  html:
+    toc: true
+  pdf: default
+format-links: [pdf]
 ---
 
 ::: {.callout-warning}
@@ -31,6 +36,15 @@ mean the *microstructure* of food.
 A particle of 1 µm is 1000 times smaller than 1 mm.
 Many bacteria are approximately 1 µm in size.
 
+::: {.content-visible when-format="pdf"}
+::: {.callout-warning}
+
+An interactive animation is shown here in the online version.
+
+:::
+:::
+
+::: {.content-visible when-format="html"}
 ::: {.callout-note}
 
 ## Milk Structure as an Emulsion
@@ -41,6 +55,7 @@ To progress through the animation **click** on the image or **swipe left**.
 
 [🥛 Full-screen version of animation of milk structure](../slides/six/sozi/emulsion.sozi.html)
 
+:::
 :::
 
 Microstructural features are often used to explain
@@ -54,7 +69,7 @@ Here are some examples:
 - Foams become unstable due to drainage of water through microscopic channels between bubbles
 - Gels generate pools of surface water due to the contraction of gelled regions
 
-::: {.callout-warning}
+::: {.callout-note}
 
 ## Micro → Macro
 
@@ -92,11 +107,25 @@ Intuitively, you might expect that the system that contains the most water would
 However, this neglects to consider how that water might be structured in the food matrix.
 For most it is surprising that milk has less water than a tomato, yet behaves more like a liquid, but this is not paradoxical if we have an appreciation for how water is structured differently in different foods. 
 
+::: {.content-visible when-format="html"}
+
 |***Food***|***Water***|***Protein***|***Lipids***|***Carbohydrates***|
 |:---------|:---------:|:-----------:|:----------:|:-----------------:|
 |<stretch>🥛</stretch> |87.6         |3.2         |3.9		  |4.8	  |
 |<stretch>🍅</stretch> |93.1         |0.7         |0.3		  |3.1    |
 |<stretch>🥑</stretch> |72.5         |1.9         |19.5		  |1.9    |
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+|***Food***|***Water***|***Protein***|***Lipids***|***Carbohydrates***|
+|:---------|:---------:|:-----------:|:----------:|:-----------------:|
+|Milk |87.6         |3.2         |3.9		  |4.8	  |
+|Tomato |93.1         |0.7         |0.3		  |3.1    |
+|Avocado |72.5         |1.9         |19.5		  |1.9    |
+
+:::
 
 ::: {.callout-tip}
 
@@ -191,7 +220,7 @@ Similarly, when using DSF we are only concerned with the fact that yogurt is a g
 Not all food products can be described using the notion of dispersion.
 For this reason, DSF includes a range of symbols that describe relations between phases:
 
-- Superposition (σ): one thing externally touching another (icing on a cake)
+- Superposition ($\sigma$): one thing externally touching another (icing on a cake)
 - Inclusion (@): one thing inside of another (egg yolk in egg white)
 - Disconnection (+): one thing disconnected to another (ice crystals and gas bubbles in icecream)
 - Bicontinuous (×): two things that are continuous with each other (strands of gelatine and water in a gelatine-based gel)
@@ -222,9 +251,19 @@ In Computer-generated Imagery (CGI) used in movies and videogames it is common t
 This means that instead of manually building mountains when we need to create a world, we simply define a set of rules that can be followed to build the structure (i.e., a mountain-building algorithm).
 DSF seems to create similar possibilities for food.
 
+::: {.content-visible when-format="pdf"}
+::: {.callout-warning}
+
+An interactive animation is shown here in the online version.
+
+:::
+:::
+
+::: {.content-visible when-format="html"}
 <div> 
 <iframe class="slide-deck" src="https://edibotopic.github.io/disperse/"></iframe>
 </div>
+:::
 
 Below is another app (`WriteHeight`) that leverages digital technology to generate geometrical structures.
 The algorithm behind the app takes a black and white image then renders black regions as low and white regions as high.
@@ -237,9 +276,11 @@ Imagine designing a topological structure with DSF and then 3D-printing it into 
 This would be a digitally-generated food structure.
 :::
 
+::: {.content-visible when-format="html"}
 <div>
 <iframe class="slide-deck" src="https://edibotopic.github.io/write-height/"></iframe>
 </div>
+:::
 
 ## Complex Structures
 
