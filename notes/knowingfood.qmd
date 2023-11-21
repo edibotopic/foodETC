@@ -1,5 +1,5 @@
 ---
-title: Knowing Food (draft)
+title: Knowing Food
 slide-format: revealjs
 css: ../styles.css
 execute:
@@ -11,10 +11,6 @@ format:
   pdf: default
 format-links: [pdf]
 ---
-
-:::{.callout-warning}
-The notes and slides below are in a `draft` state and may be changed.
-:::
 
 How do we obtain *knowledge* about food?
 What makes information about food and diet reliable?
@@ -31,7 +27,7 @@ Approaching food like a scientist, a designer or a chef may involve different wa
 ```
 </div>
 
-[Direct link to slides for this lecture](../slides/five/)
+[Direct link to slides for this lecture](../slides/four/)
 
 In earlier lectures we saw how while the nutritional properties of food are critical,
 food is *more than* a collection of nutrients.
