@@ -21,16 +21,16 @@ website:
         contents:
           - notes/knowingfood.qmd
           - notes/foodstructure.qmd
-          # - notes/thinkingfood.qmd
+          - notes/thinkingfood.qmd
       - section: "Food Science"
         contents:
-            # - notes/foodcomp.qmd
-            # - notes/replacingfood.qmd
+          - notes/replacingfood.qmd
+          - notes/foodcomp.qmd
       - section: "Technology"
         contents:
-            # - notes/foodtech.qmd
-            # - notes/ai.qmd
-            # - notes/evaporation.qmd
+          - notes/foodtech.qmd
+          - notes/evaporation.qmd
+          # - notes/ai.qmd
       - section: "Techno-ethics"
         contents:
             # - notes/goodfood.qmd
