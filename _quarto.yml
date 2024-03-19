@@ -33,7 +33,7 @@ website:
           # - notes/ai.qmd
       - section: "Techno-ethics"
         contents:
-            # - notes/goodfood.qmd
+          - notes/goodfood.qmd
         # - notes/sustainability.qmd
         # - section: "Semiotics"
         # contents:
