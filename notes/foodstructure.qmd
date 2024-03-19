@@ -12,13 +12,6 @@ format:
 format-links: [pdf]
 ---
 
-::: {.callout-warning}
-
-These notes are in a draft state and may be subject to
-some minor changes in the future.
-
-:::
-
 ::: {.callout-note}
 
 There are no slides associated with this lecture.
